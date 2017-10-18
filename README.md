@@ -5,8 +5,7 @@
 **精美企业官网：**
 
 **[01.](http://htmlpreview.github.io/?https://github.com/icegeeker/effective-succotash/blob/master/index.html)**
-
-<img src="https://github.com/icegeeker/effective-succotash/blob/master/img/0.png" height="500px" width="500px">
+![01.](https://github.com/icegeeker/effective-succotash/blob/master/img/0.png)
 
 **[02.](http://htmlpreview.github.io/?https://github.com/icegeeker/effective-succotash/blob/icegeeker-patch-1/index.html)**
 ![02.](https://github.com/icegeeker/effective-succotash/blob/master/img/0.png)
