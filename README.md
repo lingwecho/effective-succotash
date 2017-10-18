@@ -11,6 +11,6 @@
 ![02.](https://github.com/icegeeker/effective-succotash/blob/icegeeker-patch-1/img/1.png)
 
 **[03.](http://htmlpreview.github.io/?https://github.com/icegeeker/effective-succotash/blob/icegeeker-patch-2/index.html)**
-![03.](https://github.com/icegeeker/effective-succotash/blob/master/img/0.png)
+![03.](https://github.com/icegeeker/effective-succotash/blob/icegeeker-patch-2/img/2.png)
 
 
