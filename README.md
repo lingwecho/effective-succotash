@@ -16,7 +16,7 @@
 **[04.](https://icegeeker.github.io/effective-succotash/3.hunshasheying/)**
 ![04](https://github.com/icegeeker/effective-succotash/blob/master/3.hunshasheying/images/3.png)
 
-**[05.](https://icegeeker.github.io/effective-succotash/3.canting/)**
-![05](https://github.com/icegeeker/effective-succotash/blob/master/images/4.png)
+**[05.](https://icegeeker.github.io/effective-succotash/4.canting/)**
+![05](https://github.com/icegeeker/effective-succotash/blob/master/4.canting/images/4.png)
 
 
