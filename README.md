@@ -32,6 +32,6 @@
 ![09](https://github.com/icegeeker/effective-succotash/blob/master/8/img/8.png)
 
 **[10.](https://icegeeker.github.io/effective-succotash/9/)**
-![10](https://github.com/icegeeker/effective-succotash/blob/master/9/img/9.png)
+![10](https://github.com/icegeeker/effective-succotash/blob/master/9/images/9.png)
 
 
