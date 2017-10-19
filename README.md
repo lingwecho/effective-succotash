@@ -43,3 +43,6 @@
 **[13.](https://icegeeker.github.io/effective-succotash/12/)**
 ![13](https://github.com/icegeeker/effective-succotash/blob/master/12/img/12.png)
 
+**[14.](https://icegeeker.github.io/effective-succotash/13/)**
+![14](https://github.com/icegeeker/effective-succotash/blob/master/13/images/13.png)
+
