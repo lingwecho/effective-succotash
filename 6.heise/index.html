@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>清水岩化妆品模板 </title>
+<link href="style/css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<link href="style/style2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="content">
+<div class="head">
+<div class="logo"><img src="images/logo.jpg" /></div>
+<div class="nav">
+<ul>
+<li><a href="index.html"><span>清水岩</span></a></li>
+<li><a href="gongsi.html">公司简介</a></li>
+<li><a href="cp.html">产品一览</a></li>
+<li><a href="liebiao.html">新闻中心</a></li>
+<li><a href="lianxi.html">联系我们</a></li>
+<li><a href="liuyan.html">在线留言</a></li>
+<li><a href="wenzhang.html">招商加盟</a></li>
+</ul>
+</div>
+<div class="banner" id="banner">
+        <a id="prevbt"></a>
+        <a id="nextbt"></a>
+        <ul>
+                <li>
+                <a href="#">
+                    <img src="images/banner.jpg" />
+            </a>
+        </li>
+                <li>
+                <a href="#">
+                    <img src="images/banner2.jpg"/>
+            </a>
+        </li>
+        <li>
+                <a href="#">
+                    <img src="images/banner3.jpg" />
+            </a>
+        </li>
+       
+        </ul>
+        
+        <script>
+var li_Width=1024;
+var banner_Li_Num=$('#banner li').length;
+$('#banner ul').css({'width':li_Width*banner_Li_Num,'marginLeft':-li_Width});
+
+function prevbt(){
+        $('#prevbt').unbind('click');
+        $('#banner li:last').detach().insertBefore('#banner li:first').parents('ul').css('marginLeft',-li_Width*2).stop(true).animate({marginLeft:-li_Width},800,'easeInOutBack',function(){
+                $('#prevbt').bind('click',prevbt);
+                });
+        }
+function nextbt(){
+        $('#nextbt').unbind();
+        $('#banner ul').stop(true).animate({marginLeft:-li_Width*2},800,'easeInOutBack',function(){
+                $('#banner ul').css('marginLeft',-li_Width).find('li:first').insertAfter('#banner li:last');
+                $('#nextbt').bind('click',nextbt);
+                })
+        }
+
+$('#prevbt').click(function(){
+        prevbt();
+        })
+$('#nextbt').click(function(){
+        nextbt();
+        })
+
+banner_T=setInterval(banner_Auto,5000)
+        function banner_Auto(){
+                nextbt();
+                }
+$('#banner').hover(function(){
+        clearInterval(banner_T);
+        },function(){
+                banner_T=setInterval(banner_Auto,5000);
+                })
+</script>
+</div>
+
+
+</div>
+<div class="main">
+<div class="cp">
+<div class="cp_1">
+<div  class="cp_title"></div>
+<div class="cp_list">
+<div class="cp_list1">
+<a href="#"><img src="images/cp_t1.jpg" /></a>
+<p><a href="#">活细胞精华系列</a></p>
+<span>活细胞精华有着显著的效果，让你体验一种意想不到的神奇效果。</span>
+<h>于美白事业的追求，我们永远都在路上
+我们的态度永远都追崇一丝不苟</h>
+</div>
+<div class="cp_list2">
+<a href="#"><img src="images/cp_t2.jpg" /></a>
+<p><a href="#">逆时空面膜系列</a></p>
+<span>活细胞精华有着显著的效果，让你体验一种意想不到的神奇效果。</span>
+<h>于美白事业的追求，我们永远都在路上
+我们的态度永远都追崇一丝不苟</h>
+</div>
+</div>
+</div>
+<div class="cp_2">
+<div class="cp_title2"></div>
+<div class="cp_2_list">
+<div class="cp_2_list1"><a href="#"><img src="images/cp_t3.jpg" /></a>
+<p><a href="#">逆时空面膜系列</a></p>
+<span>活细胞精华有着显著的效果，让你体验一种意想不到的神奇效果。</span>
+<h>于美白事业的追求，我们永远都在路上
+我们的态度永远都追崇一丝不苟</h></div>
+<div class="cp_2_list2"><a href="#"><img src="images/cp_t4.jpg" /></a>
+<p><a href="#">逆时空面膜系列</a></p>
+<span>活细胞精华有着显著的效果，让你体验一种意想不到的神奇效果。</span>
+<h>于美白事业的追求，我们永远都在路上
+我们的态度永远都追崇一丝不苟</h></div>
+</div>
+
+</div>
+</div>
+<div class="aut">
+<div class="aut_title"></div>
+<div class="aut_list">
+<ul>
+<li><a href="#"><img src="images/aut_t1.jpg" /></a></li>
+<li><a href="#"><img src="images/aut_t2.jpg" /></a></li>
+<li><a href="#"><img src="images/aut_t3.jpg" /></a></li>
+<li><a href="#"><img src="images/aut_t4.jpg" /></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="foot">
+<div class="foot_1">
+<div class="a"><img src="images/foot_logo.jpg" /></div>
+<div class="b">
+<ul>
+<li>地址：山东省济南市历下区诚基中心</li>
+<li>电话：12345678911</li>
+<li>手机：11111111111</li>
+<li>邮箱：</li>
+</ul>
+</div>
+<div class="c">
+<a href="#"><img src="images/weix.jpg" /></a>
+<a href="#"><img src="images/xinl.jpg" /></a>
+</div>
+<div class="d"><img src="images/erweim.jpg" /></div>
+</div>
+<div class="foot_2">
+<p>版权信息：济南闻遥商贸有限公司</p>
+<p>更多模板：<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>
+</div>
+
+</div>
+</div>
+</div>
+</body>
+</html>
