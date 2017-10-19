@@ -25,4 +25,10 @@
 **[07.](https://icegeeker.github.io/effective-succotash/6.heise/)**
 ![07](https://github.com/icegeeker/effective-succotash/blob/master/6.heise/images/6.png)
 
+**[08.](https://icegeeker.github.io/effective-succotash/7.zhuangshi/)**
+![08](https://github.com/icegeeker/effective-succotash/blob/master/7.zhuangshi/images/7.png)
+
+**[09.](https://icegeeker.github.io/effective-succotash/8/)**
+![09](https://github.com/icegeeker/effective-succotash/blob/master/8/img/8.png)
+
 
