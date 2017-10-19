@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+<link rel="shortcut icon" href="images/favicon.ico" />
+<meta charset="utf-8" />
+<title>关于我们</title>
+<link href="styles/reset.css" type="text/css" rel="stylesheet" />
+<link href="styles/style.css" type="text/css" rel="stylesheet" />
+<link href="styles/inner.css" rel="stylesheet" type="text/css" />
+<!--[if IE]> <script src="js/html5.js"></script>
+<![endif]-->
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="js/hoverIntent.js"></script> 
+<script type="text/javascript" src="js/superfish.js"></script> 
+<script type="text/javascript" src="js/supersubs.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	//=================================== MAIN MENU ===================================//
+	jQuery("ul.sf-menu").supersubs({ 
+	minWidth		: 12,		// requires em unit.
+	maxWidth		: 14,		// requires em unit.
+	extraWidth		: 3	// extra width can ensure lines don't sometimes turn over due to slight browser differences in how they round-off values
+						   // due to slight rounding differences and font-family 
+	}).superfish();  // call supersubs first, then superfish, so that subs are 
+					 // not display:none when measuring. Call before initialising 
+					 // containing tabs for same reason.
+					 
+	//=================================== TABS ===================================//
+	//jQuery tab
+	jQuery(".tab-content").hide(); //Hide all content
+	jQuery("ul.tabs li:first").addClass("active").show(); //Activate first tab
+	jQuery(".tab-content:first").show(); //Show first tab content
+	//On Click Event
+	jQuery("ul.tabs li").click(function() {
+		jQuery("ul.tabs li").removeClass("active"); //Remove any "active" class
+		jQuery(this).addClass("active"); //Add "active" class to selected tab
+		jQuery(".tab-content").hide(); //Hide all tab content
+		var activeTab = jQuery(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+		jQuery(activeTab).fadeIn(200); //Fade in the active content
+		return false;
+	});
+	
+});
+</script>
+</head>
+
+<body>
+<div id="bodychild">
+	<div id="outercontainer">
+    	
+        <!-- HEADER -->
+        <div id="outerheader">
+            <header id="top">
+            	<div id="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                <section id="navigation">
+                    <nav>
+                        <ul id="topnav" class="sf-menu">
+                            <li class="current"><a href="index.html">主页</a></li>
+                            <li><a href="about.html">关于我们</a>
+                        <li><a href="service.html">服务</a></li>
+                            <li><a href="portfolio.html">案例展示</a></li>
+                            <li><a href="contact.html">联系我们</a></li>
+                            <li><a href="#">官方博客</a></li>
+                        </ul><!-- topnav -->
+                    </nav><!-- nav -->	
+                    <div class="clear"></div>
+                </section>
+                <div class="clear"></div>
+            </header>
+        </div>
+        <!-- END HEADER -->
+                
+
+        
+        <!-- BEFORE CONTENT -->
+        <div id="outerbeforecontent" class="inner">
+        	<div id="beforecontent">
+            	<section id="beforethecontent">
+                	<h1 class="pagetitle">想要深入的了解 <span class="colortext">BlueSEO?</span></h1>
+                    <div class="pagedesc">自2009年以来，帮助数十家企业累计开发了20余万个客户订单，创造了数亿人民币的销售业绩。这其中，大多企业是从零起步，成为了行业瞩目的快品牌！</div>
+                </section>
+            </div>
+        </div>
+        <!-- END BEFORE CONTENT -->
+        
+        <!-- MAIN CONTENT -->
+        <div id="outermain">
+        	<section id="maincontent">
+            	<div class="two_third firstcols">
+                	<h2>为什么选择BlueSEO</h2>
+                    <p>这很简单，我们所有的服务只为客户实现商业梦想</p>
+                    <div class="tabcontainer">
+                        <ul class="tabs">
+                            <li><a href="#tab0">实力</a><span class="tab-arrow"></span></li>
+                            <li><a href="#tab1">专业</a><span class="tab-arrow"></span></li>
+                            <li><a href="#tab2">服务</a><span class="tab-arrow"></span></li>
+                        </ul>
+                        <div id="tab-body">
+                            <div id="tab0" class="tab-content">
+                            <p>13年品牌推广经验，与专业调研机构合作，独家数据分析，科学部署企业推广方向。成功服务奢侈品、汽车、政府机构、地产、日化、服装、出口贸易、食品等超20个不同行业客户，平均每2个小时，就有一位客户选择我们的服务！ </p>
+                            </div>
+                            <div id="tab1" class="tab-content">
+                            公司独创《罗盘6+1》方法论，搜索营销价值最大化为导向，将搜索营销过程切割成六大环节，结合高效的搜索营销管理、监测、优化工具，采取全程专家协同的工作模式，进行科学精细化运作的搜索营销模型。
+                            </div>
+                            <div id="tab2" class="tab-content">
+                            <p>驻点办公、培训、专家回访、自助工具等多种多样服务，帮助企业培养自己的营销团队。</p>
+                            </div>
+                        </div>
+                    </div><!-- end tab container -->
+                </div>
+                <div class="one_third lastcols"><br/><br/><br/><img src="images/content/pic1.jpg" alt="" /></div>
+                
+                
+                <div class="separator line"><div></div></div>
+                
+                <div class="one_third firstcols">
+                	<h2>服务项目</h2>
+                    <p> 我们一直坚持自己的核心价值，把这样的内涵融入到员工日常思想和行为当中，成为工作的指导思想，行动的标杆。我们坚信，成功需要我们坚持，需要我们努力。</p>
+                    <ul class="checklist">
+                    	<li>网页设计</li>
+                        <li>程序定制开发</li>
+                        <li>电子商务运维</li>
+                        <li>搜索引擎优化/SEO</li>
+                        <li>搜索引擎营销/SEM</li>
+                    </ul>
+                </div>
+                <div class="one_third">
+                	<h2>实力团队</h2>
+                    <ul class="nolist">
+                    	<li>
+                            <img src="images/content/people.jpg" alt="" class="imgborder alignleft" />
+                            <span class="smalltitle colortext">周杰伦</span>
+                            <span>PHP开发工程师,曾在阿里巴巴、腾讯、网易等公司负责产品的运维。</span>
+                        </li>
+                    	<li>
+                            <img src="images/content/people.jpg" alt="" class="imgborder alignleft" />
+                            <span class="smalltitle colortext">奥巴马</span>
+                            <span>曾经就任米国总统，为世界和平做出了突出贡献。</span>
+                        </li>
+                    	<li>
+                            <img src="images/content/people.jpg" alt="" class="imgborder alignleft" />
+                            <span class="smalltitle colortext">安倍晋三</span>
+                            <span>能成为一个被众人唾弃的鬼子也不容易。</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="one_third lastcols">
+                	<h2>联系我们</h2>
+                    济南市历城区二环东路6388号<br/>
+                    龙奥大厦B座3910<br/>
+                    山东省-济南市<br/>
+                    
+                    <hr class="small"/>
+                    
+                    <div class="one_half firstcols">
+                    	<ul class="social">
+                        	<li><img src="images/social/blogger-small.png" alt="" class="valignmiddle" /><a href="#">Blogger</a></li>
+                            <li><img src="images/social/dribble-small.png" alt="" class="valignmiddle" /><a href="#">Dribble</a></li>
+                            <li><img src="images/social/facebook-small.png" alt="" class="valignmiddle" /><a href="#">Facebook</a></li>
+                            <li><img src="images/social/flickr-small.png" alt="" class="valignmiddle" /><a href="#">Flickr</a></li>
+                        </ul>
+                    </div>
+                    <div class="one_half lastcols">
+                    	<ul class="social">
+                        	<li><img src="images/social/google-small.png" alt="" class="valignmiddle" /><a href="#">Google</a></li>
+                            <li><img src="images/social/lastfm-small.png" alt="" class="valignmiddle" /><a href="#">Last.fm</a></li>
+                            <li><img src="images/social/twitter-small.png" alt="" class="valignmiddle" /><a href="#">Twitter</a></li>
+                            <li><img src="images/social/yahoo-small.png" alt="" class="valignmiddle" /><a href="#">Yahoo</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+                
+                <div class="clear"></div>
+            </section>
+        </div>
+        <!-- END MAIN CONTENT -->
+        
+        
+        <!-- FOOTER SIDEBAR -->
+        <div id="outerfootersidebar">
+        	<div id="footersidebarcontainer">
+            	<footer id="footersidebar">
+                
+            	<div id="footcol1" class="footcol">
+				<ul>
+					<li class="widget-container">
+                        <h2 class="widget-title">品牌实力</h2>
+                        <div class="textwidget">
+                        	<p>发觉更多潜在客户，提升站点用户访问量，更多挖掘潜在客户，促成合作和消费。</p>
+                            <span>节约网络营销费用，提升企业ROI
+网站排名自然靠前，增加网站浏览量，促进网站宣传和业务发展。</span>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+            	<div id="footcol2"  class="footcol">
+                	<ul>
+                    	<li class="widget-container">
+                        	<h2 class="widget-title">走进我们</h2>                            <ul>
+                                 <li><a href="about.html">关于我们</a></li>
+                                <li><a href="portfolio.html">最新作品</a></li>
+                                <li><a href="service.html">服务内容</a></li>
+                                <li><a href="contact.html">联系方式</a></li>
+                                <li><a href="#">官方博客</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            	<div id="footcol3"  class="footcol">
+                	<ul>
+                    	<li class="widget-container">
+                        	<h2 class="widget-title">最新发布</h2>                            <ul>
+                                <li><a href="#">此处建议调用博客内容</a></li>
+                                <li><a href="#">此处建议调用博客内容</a></li>
+                                <li><a href="#">此处建议调用博客内容</a></li>
+                                <li><a href="#">此处建议调用博客内容</a></li>
+                                <li><a href="#">此处建议调用博客内容</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            	<div id="footcol4" class="footcol">
+				<ul>
+					<li class="widget-container">
+                        <h2 class="widget-title">联系方式</h2>
+                        <p>山东省济南市二环东路<br/>
+                        Telp: +800 123 456<br/>
+                        <br/>
+                        </p>
+                        <div id="sn">
+                        </p>
+                        <div id="sn">
+                        	<ul>
+                         		<li><a><span class="icon-img" style="background:url(images/social/facebook.png)"></span></a></li>
+                                <li><a><span class="icon-img" style="background:url(images/social/twitter.png)"></span></a></li>
+                                <li><a><span class="icon-img" style="background:url(images/social/linkedin.png)"></span></a></li>
+                                <li><a><span class="icon-img" style="background:url(images/social/youtube.png)"></span></a></li>
+                                <li><a><span class="icon-img" style="background:url(images/social/flickr.png)"></span></a></li>
+                            </ul>
+                        </div> 
+                    </li>
+                </ul>
+                </div>
+                <div class="clear"></div>
+                
+                </footer>
+            </div>
+        </div>
+        <!-- END FOOTER SIDEBAR -->
+        
+        <!-- FOOTER -->
+        <div id="outerfooter">
+        	<div id="footercontainer">
+            	<footer id="footer">Copyright &copy; 2014. All Rights Reserved 更多模板：<a href="http://www.mycodes.net/" target="_blank">源码之家</a></footer>
+            </div>
+        </div>
+        <!-- END FOOTER -->
+        
+        
+    </div>
+</div>
+
+
+</body>
+</html>

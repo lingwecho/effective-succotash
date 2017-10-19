@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+<link rel="shortcut icon" href="images/favicon.ico" />
+<meta charset="utf-8" />
+<title>案例</title>
+<link href="styles/reset.css" type="text/css" rel="stylesheet" />
+<link href="styles/style.css" type="text/css" rel="stylesheet" />
+<link href="styles/inner.css" rel="stylesheet" type="text/css" />
+<link href="styles/prettyPhoto.css" rel="stylesheet"  type="text/css" media="screen" title="prettyPhoto" />
+
+<!--[if IE]> <script src="js/html5.js"></script>
+<![endif]-->
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="js/hoverIntent.js"></script> 
+<script type="text/javascript" src="js/superfish.js"></script> 
+<script type="text/javascript" src="js/supersubs.js"></script>
+<script type="text/javascript" src="js/fade.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	//=================================== MAIN MENU ===================================//
+	jQuery("ul.sf-menu").supersubs({ 
+	minWidth		: 12,		// requires em unit.
+	maxWidth		: 14,		// requires em unit.
+	extraWidth		: 3	// extra width can ensure lines don't sometimes turn over due to slight browser differences in how they round-off values
+						   // due to slight rounding differences and font-family 
+	}).superfish();  // call supersubs first, then superfish, so that subs are 
+					 // not display:none when measuring. Call before initialising 
+					 // containing tabs for same reason.
+					 
+	//=================================== PRETTYPHOTO ===================================//
+	jQuery('a[data-rel]').each(function() {jQuery(this).attr('rel', jQuery(this).data('rel'));});
+	jQuery("a[rel^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',theme:'facebook',slideshow:2000});
+					 
+});
+</script>
+</head>
+
+<body>
+<div id="bodychild">
+	<div id="outercontainer">
+    	
+        <!-- HEADER -->
+        <div id="outerheader">
+            <header id="top">
+           	  <div id="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                <section id="navigation">
+                    <nav>
+                        <ul id="topnav" class="sf-menu">
+<li class="current"><a href="index.html">主页</a></li>
+                            <li><a href="about.html">关于我们</a>
+                            <li><a href="service.html">服务</a></li>
+                            <li><a href="portfolio.html">案例展示</a></li>
+                            <li><a href="contact.html">联系我们</a></li>
+                            <li><a href="#">官方博客</a></li>
+                        </ul><!-- topnav -->
+                    </nav><!-- nav -->	
+                    <div class="clear"></div>
+                </section>
+                <div class="clear"></div>
+            </header>
+        </div>
+        <!-- END HEADER -->
+                
+
+        
+        <!-- BEFORE CONTENT -->
+        <div id="outerbeforecontent" class="inner">
+        	<div id="beforecontent">
+            	<section id="beforethecontent">
+                	<h1 class="pagetitle">可以参考的<span class="colortext">最新</span> 案例！</h1>
+                    <div class="pagedesc">公司成立以来服务众多各行业客户，每一个网站都倾注我们设计师大量心血。根据客户反馈意见我们整理部分客户案例，放在本栏目供大家预览；客户可以根据行业来选择想要看的效果。这里我们着重说明，案例只供参考，请不要抄袭模仿；我们坚信自己的团队一直都在进步，虽被追赶，但从未被超越。</div>
+                </section>
+            </div>
+        </div>
+        <!-- END BEFORE CONTENT -->
+        
+        <!-- MAIN CONTENT -->
+        <div id="outermain">
+        	<section id="maincontent">
+            
+                <div id="ts-display-portfolio">
+                <ul id="ts-display-pf-col-4">
+                    <li>
+                        <div class="ts-display-pf-img">
+                            <a class="image" href="images/content/pf/pf4_1.jpg" data-rel="prettyPhoto[mixed]" >
+                            <span class="rollover"></span>
+                            <img src="images/content/pf/pf4_1.jpg" alt="" /></a>
+                        </div>
+                        <div class="ts-display-pf-text">
+                            <h2 class="posttitle"><a href="#">网站优化</a></h2>
+                            <p>在这里填写一些简单的介绍。</p>
+                        </div>
+                        <div class="ts-display-clear"></div>
+                    </li>
+                    <li>
+                        <div class="ts-display-pf-img">
+                            <a class="image" href="images/content/pf/pf4_2.jpg" data-rel="prettyPhoto[mixed]" >
+                            <span class="rollover"></span>
+                            <img src="images/content/pf/pf4_2.jpg" alt="" /></a>
+                        </div>
+                        <div class="ts-display-pf-text">
+                            <h2 class="posttitle"><a href="#">图像处理</a></h2>
+                            <p>在这里填写一些简单的介绍。</p>	
+                        </div>
+                        <div class="ts-display-clear"></div>
+                    </li>
+                    <li>
+                        <div class="ts-display-pf-img">
+                            <a class="image" href="images/content/pf/pf4_3.jpg" data-rel="prettyPhoto[mixed]" >
+                            <span class="rollover"></span>
+                            <img src="images/content/pf/pf4_3.jpg" alt="" /></a>
+                        </div>
+                        <div class="ts-display-pf-text">
+                            <h2 class="posttitle"><a href="#">网页设计</a></h2>
+                            <p>在这里填写一些简单的介绍。</p>	
+                        </div>
+                        <div class="ts-display-clear"></div>
+                    </li>
+                    <li class="nomargin">
+                        <div class="ts-display-pf-img">
+                            <a class="image" href="images/content/pf/pf4_4.jpg" data-rel="prettyPhoto[mixed]" >
+                            <span class="rollover"></span>
+                            <img src="images/content/pf/pf4_4.jpg" alt="" /></a>
+                        </div>
+                        <div class="ts-display-pf-text">
+                            <h2 class="posttitle"><a href="#">其他业务</a></h2>
+                            <p>在这里填写一些简单的介绍。</p>
+                        </div>
+                        <div class="ts-display-clear"></div>
+                    </li>
+                    <li>
+                        <div class="ts-display-pf-img">
+                            <a class="image" href="images/content/pf/pf4_5.jpg" data-rel="prettyPhoto[mixed]" >
+                            <span class="rollover"></span>
+                            <img src="images/content/pf/pf4_5.jpg" alt="" /></a>
+                        </div>
+                        <div class="ts-display-pf-text">
+                            <h2 class="posttitle"><a href="#">网站优化</a></h2>
+                            <p>在这里填写一些简单的介绍。</p>
+                        </div>
+                        <div class="ts-display-clear"></div>
+                    </li>
+                    <li>
+                        <div class="ts-display-pf-img">
+                            <a class="image" href="images/content/pf/pf4_6.jpg" data-rel="prettyPhoto[mixed]" >
+                            <span class="rollover"></span>
+                            <img src="images/content/pf/pf4_6.jpg" alt="" /></a>
+                        </div>
+                        <div class="ts-display-pf-text">
+                            <h2 class="posttitle"><a href="#">图像处理</a></h2>
+                            <p>在这里填写一些简单的介绍。</p>	
+                        </div>
+                        <div class="ts-display-clear"></div>
+                    </li>
+                    <li>
+                        <div class="ts-display-pf-img">
+                            <a class="image" href="images/content/pf/pf4_7.jpg" data-rel="prettyPhoto[mixed]" >
+                            <span class="rollover"></span>
+                            <img src="images/content/pf/pf4_7.jpg" alt="" /></a>
+                        </div>
+                        <div class="ts-display-pf-text">
+                            <h2 class="posttitle"><a href="#">网页设计</a></h2>
+                            <p>在这里填写一些简单的介绍。</p>	
+                        </div>
+                        <div class="ts-display-clear"></div>
+                    </li>
+                    <li class="nomargin">
+                        <div class="ts-display-pf-img">
+                            <a class="image" href="images/content/pf/pf4_8.jpg" data-rel="prettyPhoto[mixed]" >
+                            <span class="rollover"></span>
+                            <img src="images/content/pf/pf4_8.jpg" alt="" /></a>
+                        </div>
+                        <div class="ts-display-pf-text">
+                            <h2 class="posttitle"><a href="#">其他业务</a></h2>
+                            <p>在这里填写一些简单的介绍。</p>
+                        </div>
+                        <div class="ts-display-clear"></div>
+                    </li>
+                    <li>
+                        <div class="ts-display-pf-img">
+                            <a class="image" href="images/content/pf/pf4_9.jpg" data-rel="prettyPhoto[mixed]" >
+                            <span class="rollover"></span>
+                            <img src="images/content/pf/pf4_9.jpg" alt="" /></a>
+                        </div>
+                        <div class="ts-display-pf-text">
+                            <h2 class="posttitle"><a href="#">网站优化</a></h2>
+                            <p>在这里填写一些简单的介绍。</p>
+                        </div>
+                        <div class="ts-display-clear"></div>
+                    </li>
+                    <li>
+                        <div class="ts-display-pf-img">
+                            <a class="image" href="images/content/pf/pf4_10.jpg" data-rel="prettyPhoto[mixed]" >
+                            <span class="rollover"></span>
+                            <img src="images/content/pf/pf4_10.jpg" alt="" /></a>
+                        </div>
+                        <div class="ts-display-pf-text">
+                            <h2 class="posttitle"><a href="#">图像处理</a></h2>
+                            <p>在这里填写一些简单的介绍。</p>	
+                        </div>
+                        <div class="ts-display-clear"></div>
+                    </li>
+                    <li>
+                        <div class="ts-display-pf-img">
+                            <a class="image" href="images/content/pf/pf4_11.jpg" data-rel="prettyPhoto[mixed]" >
+                            <span class="rollover"></span>
+                            <img src="images/content/pf/pf4_11.jpg" alt="" /></a>
+                        </div>
+                        <div class="ts-display-pf-text">
+                            <h2 class="posttitle"><a href="#">网页设计</a></h2>
+                            <p>在这里填写一些简单的介绍。</p>	
+                        </div>
+                        <div class="ts-display-clear"></div>
+                    </li>
+                    <li class="nomargin">
+                        <div class="ts-display-pf-img">
+                            <a class="image" href="images/content/pf/pf4_12.jpg" data-rel="prettyPhoto[mixed]" >
+                            <span class="rollover"></span>
+                            <img src="images/content/pf/pf4_12.jpg" alt="" /></a>
+                        </div>
+                        <div class="ts-display-pf-text">
+                            <h2 class="posttitle"><a href="#">其他业务</a></h2>
+                            <p>在这里填写一些简单的介绍。</p>
+                        </div>
+                        <div class="ts-display-clear"></div>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+                </div><!-- end ts-display-portfolio -->
+                
+                <div class="wp-pagenavi">
+                    <span class="pages">Page 1 of 2</span><span class="current">1</span><a href="#" class="page">2</a><a href="#" class="nextpostslink">»</a>
+                </div>
+                
+                <div class="clear"></div>
+            </section>
+        </div>
+        <!-- END MAIN CONTENT -->
+        
+        
+        <!-- FOOTER SIDEBAR -->
+        <div id="outerfootersidebar">
+        	<div id="footersidebarcontainer">
+            	<footer id="footersidebar">
+                
+            	<div id="footcol1" class="footcol">
+				<ul>
+					<li class="widget-container">
+                        <h2 class="widget-title">品牌实力</h2>
+                        <div class="textwidget">
+                        	<p>发觉更多潜在客户，提升站点用户访问量，更多挖掘潜在客户，促成合作和消费。</p>
+                            <span>节约网络营销费用，提升企业ROI
+网站排名自然靠前，增加网站浏览量，促进网站宣传和业务发展。</span>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+            	<div id="footcol2"  class="footcol">
+                	<ul>
+                    	<li class="widget-container">
+                        	<h2 class="widget-title">走进我们</h2>                            <ul>
+                                 <li><a href="about.html">关于我们</a></li>
+                                <li><a href="portfolio.html">最新作品</a></li>
+                                <li><a href="service.html">服务内容</a></li>
+                                <li><a href="contact.html">联系方式</a></li>
+                                <li><a href="#">官方博客</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            	<div id="footcol3"  class="footcol">
+                	<ul>
+                    	<li class="widget-container">
+                        	<h2 class="widget-title">最新发布</h2>                            <ul>
+                                <li><a href="#">此处建议调用博客内容</a></li>
+                                <li><a href="#">此处建议调用博客内容</a></li>
+                                <li><a href="#">此处建议调用博客内容</a></li>
+                                <li><a href="#">此处建议调用博客内容</a></li>
+                                <li><a href="#">此处建议调用博客内容</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            	<div id="footcol4" class="footcol">
+				<ul>
+					<li class="widget-container">
+                        <h2 class="widget-title">联系方式</h2>
+                        <p>山东省济南市二环东路<br/>
+                        Telp: +800 123 456<br/>
+                        <br/>
+                        </p>
+                        <div id="sn">
+                        </p>
+                        <div id="sn">
+                        	<ul>
+                         		<li><a><span class="icon-img" style="background:url(images/social/facebook.png)"></span></a></li>
+                                <li><a><span class="icon-img" style="background:url(images/social/twitter.png)"></span></a></li>
+                                <li><a><span class="icon-img" style="background:url(images/social/linkedin.png)"></span></a></li>
+                                <li><a><span class="icon-img" style="background:url(images/social/youtube.png)"></span></a></li>
+                                <li><a><span class="icon-img" style="background:url(images/social/flickr.png)"></span></a></li>
+                            </ul>
+                        </div> 
+                    </li>
+                </ul>
+                </div>
+                <div class="clear"></div>
+                
+                </footer>
+            </div>
+        </div>
+        <!-- END FOOTER SIDEBAR -->
+        
+        <!-- FOOTER -->
+        <div id="outerfooter">
+        	<div id="footercontainer">
+            	<footer id="footer">Copyright &copy; 2014. All Rights Reserved 更多模板：<a href="http://www.mycodes.net/" target="_blank">源码之家</a></footer>
+            </div>
+        </div>
+        <!-- END FOOTER -->
+        
+        
+    </div>
+</div>
+
+
+</body>
+</html>

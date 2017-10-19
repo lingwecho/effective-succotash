@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+<link rel="shortcut icon" href="images/favicon.ico" />
+<meta charset="utf-8" />
+<title>服务</title>
+<link href="styles/reset.css" type="text/css" rel="stylesheet" />
+<link href="styles/style.css" type="text/css" rel="stylesheet" />
+<link href="styles/inner.css" rel="stylesheet" type="text/css" />
+<link href="styles/prettyPhoto.css" rel="stylesheet"  type="text/css" media="screen" title="prettyPhoto" />
+<!--[if IE]> <script src="js/html5.js"></script>
+<![endif]-->
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="js/hoverIntent.js"></script> 
+<script type="text/javascript" src="js/superfish.js"></script> 
+<script type="text/javascript" src="js/supersubs.js"></script>
+<script type="text/javascript" src="js/fade.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	//=================================== MAIN MENU ===================================//
+	jQuery("ul.sf-menu").supersubs({ 
+	minWidth		: 12,		// requires em unit.
+	maxWidth		: 14,		// requires em unit.
+	extraWidth		: 3	// extra width can ensure lines don't sometimes turn over due to slight browser differences in how they round-off values
+						   // due to slight rounding differences and font-family 
+	}).superfish();  // call supersubs first, then superfish, so that subs are 
+					 // not display:none when measuring. Call before initialising 
+					 // containing tabs for same reason.
+					 
+	//=================================== TABS ===================================//
+	//jQuery tab
+	jQuery(".tab-content").hide(); //Hide all content
+	jQuery("ul.tabs li:first").addClass("active").show(); //Activate first tab
+	jQuery(".tab-content:first").show(); //Show first tab content
+	//On Click Event
+	jQuery("ul.tabs li").click(function() {
+		jQuery("ul.tabs li").removeClass("active"); //Remove any "active" class
+		jQuery(this).addClass("active"); //Add "active" class to selected tab
+		jQuery(".tab-content").hide(); //Hide all tab content
+		var activeTab = jQuery(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+		jQuery(activeTab).fadeIn(200); //Fade in the active content
+		return false;
+	});
+	
+	//=================================== PRETTYPHOTO ===================================//
+	jQuery('a[data-rel]').each(function() {jQuery(this).attr('rel', jQuery(this).data('rel'));});
+	jQuery("a[rel^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',theme:'facebook',slideshow:2000});
+	
+});
+</script>
+</head>
+
+<body>
+<div id="bodychild">
+	<div id="outercontainer">
+    	
+        <!-- HEADER -->
+        <div id="outerheader">
+            <header id="top">
+            	<div id="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                <section id="navigation">
+                    <nav>
+                        <ul id="topnav" class="sf-menu">
+                            <li class="current"><a href="index.html">主页</a></li>
+                            <li><a href="about.html">关于我们</a>
+                        <li><a href="service.html">服务</a></li>
+                            <li><a href="portfolio.html">案例展示</a></li>
+                            <li><a href="contact.html">联系我们</a></li>
+                            <li><a href="#">官方博客</a></li>
+
+                      </ul><!-- topnav -->
+                    </nav><!-- nav -->	
+                    <div class="clear"></div>
+                </section>
+                <div class="clear"></div>
+            </header>
+        </div>
+        <!-- END HEADER -->
+        
+
+        
+        <!-- BEFORE CONTENT -->
+        <div id="outerbeforecontent" class="inner">
+        	<div id="beforecontent">
+            	<section id="beforethecontent">
+                	<h1 class="pagetitle">为您提供最优质的 <span class="colortext">服务！</span></h1>
+                    <div class="pagedesc">我们专门安排工作人员处理客户网站修改工作，无论经办业务员是否离职对客户都有保障；客户把复杂繁琐的后续维护交给我们处理后，客户才有更多的时间做好自己公司的本职工作。科学安排客户回访工作，能及时把握客户动态，避免因人员变动造成工作衔接不到位而沟通不畅。</div>
+                </section>
+            </div>
+        </div>
+        <!-- END BEFORE CONTENT -->
+        
+        <!-- MAIN CONTENT -->
+        <div id="outermain">
+        	<section id="maincontent">
+            	<div class="one_half firstcols">
+                	<h2>了解我们的业务</h2>
+                    <p>BlueSEO营销咨询策划服务介绍：以新营销创造快品牌，为企业提供先进具竞争力的营销咨询策划，和项目的实战执行。</p>
+                    <ul class="inlineblock">
+                    	<li>
+                            <img src="images/icon/icon1.png" alt="" class="alignleft" />
+                            <h5 class="colortext"><strong>网页设计与制作</strong></h5>
+                            <p>满足客户对网站功能和使用的要求，初次做网站的客户因为没有建设网站成功的经验，客户对自己的需求和做出来的网站基本没有什么概念，心中的想法很难得到表达。造成上线网站和理想差距甚远，这些都是双方沟通问题，不存在谁对谁错。 </p>
+                        </li>
+                    	<li>
+                            <img src="images/icon/icon2.png" alt="" class="alignleft" />
+                            <h5 class="colortext"><strong>企业/电商网站托管</strong></h5>
+                            <p>顾名思义是帮助用户管理网站，针对目前市场需求，很多用户已经在网站建设管理方面投入很多时间和精力，由于自己不专业；按照推销员的思路去做，造成很多浪费和麻烦，特别是技术人才流动性造成客户无法顺利、顺心开展相关业务工作。 </p>
+                        </li>
+                      	<li>
+                            <img src="images/icon/icon3.png" alt="" class="alignleft" />
+                            <h5 class="colortext"><strong>1+1+1方案</strong></h5>
+                            <p>针对市场实际需求，我们推出最新移动终端全网覆盖解决方案，简称1+1+1方案。套餐包含内容：1个PC官网+1个手机版+1个微信版。
+共有栏目数据互通，维护方便，三网形象一致，信息同步，真正做到1+1+1> 3的效果。 </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="one_half lastcols"><img src="images/content/pic2.jpg" alt="" /></div>
+                
+                
+                <div class="separator line"><div></div></div>
+                
+                <h2>优秀作品展示</h2>
+                <div id="ts-display-portfolio" class="shortcode">
+                    <ul id="ts-display-pf-col-4">
+                        <li>
+                            <div class="ts-display-pf-img">
+                                <a class="image" href="images/content/pf/pf4_1.jpg" data-rel="prettyPhoto[mixed]" >
+                                <span class="rollover"></span>
+                                <img src="images/content/pf/pf4_1.jpg" alt="" /></a>
+                            </div>
+                            <div class="ts-display-pf-text">
+                                <h2 class="posttitle"><a href="#">网站建设</a></h2>
+                                <p>在这里可以填写一些简单的介绍。</p>
+                            </div>
+                            <div class="ts-display-clear"></div>
+                        </li>
+                        <li>
+                            <div class="ts-display-pf-img">
+                                <a class="image" href="images/content/pf/pf4_2.jpg" data-rel="prettyPhoto[mixed]" >
+                                <span class="rollover"></span>
+                                <img src="images/content/pf/pf4_2.jpg" alt="" /></a>
+                            </div>
+                            <div class="ts-display-pf-text">
+                                <h2 class="posttitle"><a href="#">网站建设</a></h2>
+                                <p>在这里可以填写一些简单的介绍。</p>	
+                            </div>
+                            <div class="ts-display-clear"></div>
+                        </li>
+                        <li>
+                            <div class="ts-display-pf-img">
+                                <a class="image" href="images/content/pf/pf4_3.jpg" data-rel="prettyPhoto[mixed]" >
+                                <span class="rollover"></span>
+                                <img src="images/content/pf/pf4_3.jpg" alt="" /></a>
+                            </div>
+                            <div class="ts-display-pf-text">
+                                <h2 class="posttitle"><a href="#">网站建设</a></h2>
+                                <p>在这里可以填写一些简单的介绍。</p>	
+                            </div>
+                            <div class="ts-display-clear"></div>
+                        </li>
+                        <li class="nomargin">
+                            <div class="ts-display-pf-img">
+                                <a class="image" href="images/content/pf/pf4_4.jpg" data-rel="prettyPhoto[mixed]" >
+                                <span class="rollover"></span>
+                                <img src="images/content/pf/pf4_4.jpg" alt="" /></a>
+                            </div>
+                            <div class="ts-display-pf-text">
+                                <h2 class="posttitle"><a href="#">网站建设</a></h2>
+                                <p>在这里可以填写一些简单的介绍。</p>
+                            </div>
+                            <div class="ts-display-clear"></div>
+                        </li>
+                    </ul>
+                </div><!-- end ts-display-portfolio -->
+                
+                
+                <div class="clear"></div>
+            </section>
+        </div>
+        <!-- END MAIN CONTENT -->
+        
+        
+        <!-- FOOTER SIDEBAR -->
+        <div id="outerfootersidebar">
+        	<div id="footersidebarcontainer">
+            	<footer id="footersidebar">
+                
+            	<div id="footcol1" class="footcol">
+				<ul>
+					<li class="widget-container">
+                        <h2 class="widget-title">品牌实力</h2>
+                        <div class="textwidget">
+                        	<p>发觉更多潜在客户，提升站点用户访问量，更多挖掘潜在客户，促成合作和消费。</p>
+                            <span>节约网络营销费用，提升企业ROI
+网站排名自然靠前，增加网站浏览量，促进网站宣传和业务发展。</span>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+            	<div id="footcol2"  class="footcol">
+                	<ul>
+                    	<li class="widget-container">
+                        	<h2 class="widget-title">走进我们</h2>                            <ul>
+                                <li><a href="about.html">关于我们</a></li>
+                                <li><a href="portfolio.html">最新作品</a></li>
+                                <li><a href="service.html">服务内容</a></li>
+                                <li><a href="contact.html">联系方式</a></li>
+                                <li><a href="#">官方博客</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            	<div id="footcol3"  class="footcol">
+                	<ul>
+                    	<li class="widget-container">
+                        	<h2 class="widget-title">最新发布</h2>                            <ul>
+                                <li><a href="#">此处建议调用博客内容</a></li>
+                                <li><a href="#">此处建议调用博客内容</a></li>
+                                <li><a href="#">此处建议调用博客内容</a></li>
+                                <li><a href="#">此处建议调用博客内容</a></li>
+                                <li><a href="#">此处建议调用博客内容</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            	<div id="footcol4" class="footcol">
+				<ul>
+					<li class="widget-container">
+                        <h2 class="widget-title">联系方式</h2>
+                        <p>山东省济南市二环东路<br/>
+                        Telp: +800 123 456<br/>
+                        <br/>
+                        </p>
+                        <div id="sn">
+                        </p>
+                        <div id="sn">
+                        	<ul>
+                         		<li><a><span class="icon-img" style="background:url(images/social/facebook.png)"></span></a></li>
+                                <li><a><span class="icon-img" style="background:url(images/social/twitter.png)"></span></a></li>
+                                <li><a><span class="icon-img" style="background:url(images/social/linkedin.png)"></span></a></li>
+                                <li><a><span class="icon-img" style="background:url(images/social/youtube.png)"></span></a></li>
+                                <li><a><span class="icon-img" style="background:url(images/social/flickr.png)"></span></a></li>
+                            </ul>
+                        </div> 
+                    </li>
+                </ul>
+                </div>
+                <div class="clear"></div>
+                
+                </footer>
+            </div>
+        </div>
+        <!-- END FOOTER SIDEBAR -->
+        
+        <!-- FOOTER -->
+        <div id="outerfooter">
+        	<div id="footercontainer">
+            	<footer id="footer">Copyright &copy; 2014. All Rights Reserved 更多模板：<a href="http://www.mycodes.net/" target="_blank">源码之家</a></footer>
+            </div>
+        </div>
+        <!-- END FOOTER -->
+        
+        
+    </div>
+</div>
+
+
+</body>
+</html>
