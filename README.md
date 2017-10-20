@@ -1,13 +1,12 @@
 演示方法：
-1. 点击下方数字链接直接访问 （推荐方法）
-2. 点击打开index.html，在地址前加 htmlpreview.github.io/? 即可访问 (此种方法有些问题，不推荐) 
+点击下方数字链接即可访问（图片不行）
 
 **域名购买** —— **[推荐万网](https://wanwang.aliyun.com/)**
 
 **精美企业官网：**
 
-**[01.](https://icegeeker.github.io/effective-succotash/)**
-![01.](https://github.com/icegeeker/effective-succotash/blob/master/img/0.png)
+**[01.](https://icegeeker.github.io/effective-succotash/0)**
+![01.](https://github.com/icegeeker/effective-succotash/blob/master/0/img/0.png)
 
 **[02.](https://icegeeker.github.io/effective-succotash/1.lanseitkeji/)**
 ![02.](https://github.com/icegeeker/effective-succotash/blob/icegeeker-patch-1/img/1.png)
