@@ -2,9 +2,7 @@
 1. 点击下方数字链接直接访问 （推荐方法）
 2. 点击打开index.html，在地址前加 htmlpreview.github.io/? 即可访问 (此种方法有些问题，不推荐) 
 
-**域名购买**
-
-**[推荐万网](https://wanwang.aliyun.com/)**
+**域名购买** —— **[推荐万网](https://wanwang.aliyun.com/)**
 
 **精美企业官网：**
 
