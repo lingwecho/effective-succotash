@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="jquery.js"></script>
+	<title>成功案例</title>
+	<style>
+	*{
+			margin: 0px;
+			padding: 0px;
+		}
+.header{
+width: 100%;
+z-index: 200;
+height: 100px;
+background:#3087f1;
+position: fixed;
+top: 0;
+}
+.i1{
+	position: absolute;
+	top: 2%;
+	left: 15%;
+}
+.header-menu{
+	width: 620px;
+	height: 100px;
+	margin-left: 800px;
+	/*border: 1px solid red;*/
+	padding-top: 36px;
+
+}
+.header-menu a{
+	outline: none;
+	text-decoration: none;
+	color: #f3f3f3;
+	font-size: 18px;
+	margin: 21px;
+	vertical-align: baseline;
+	background-color: transparent;
+
+
+}
+.a  {
+    color: #fff;
+    font-weight: bold;
+}
+.p1{
+	margin-top: 75px;
+	font-size: 36px;
+    color: #666666;
+    text-align: center;
+    font-weight: normal;
+    padding: 60px 0 30px 0;
+    border-bottom: 1px solid #dcdcdc;
+}
+.center{
+	width: 100%;
+	height: 908px;
+}
+.footer{
+	width: 100%;
+	height: 150px;
+	background-color: #3087f1;
+	padding-top: 100px;
+}
+.footer span{
+	font-size: 14px;
+	    font: inherit;
+	text-align: center;
+	color: #f3f3f3;
+	display: block;
+	margin:0 auto;
+}
+	</style>
+</head>
+<body>
+	<div class="header">
+			
+			<a href="纳网/html/homepage.html">
+					<img class="i1" src="img/1.png">
+				</a>
+			<div class="header-menu">
+				<a href="纳网/html/homepage.html">首页</a>
+				<a href="fw.html">服务</a>
+				<a href="jg.html">价格</a>
+				<a href="al.html">案例</a>
+				<a href="index.html">模板</a>
+				<a href="纳网/html/about.html">关于</a>
+				<a href="xw.html">新闻</a>
+			</div>
+		</div>
+		<div class="center">
+		<p class="p1">成功案例展示</p></div>
+		   <div class="footer">
+		<div class="container">
+			<span>Copyright © 2014-2017 河北纳网网络科技有限公司 版权所有 冀ICP备16030291号</span>
+		</div>
+	</div>
+	<script>
+$("a").click(function(){
+    $(this).addClass("a");
+    $(this).siblings("a").removeClass("a");
+});
+		</script>
+</body>
+</html>
