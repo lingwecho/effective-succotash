@@ -80,7 +80,7 @@ $("a").click(function(){
 				</ul>
 				<span class="title-2">行业分类：</span>
 				<ul class="title-2_content">
-					<li style="margin-top: 0px;"><a href="#main_right" title="">全部</a></li>
+					<li style="margin-top: 0px;"><a href="#main_right" title="" class="active-list">全部</a></li>
 					<li><a href="#" title="">电商</a></li>
 					<li><a href="#" title="">旅游</a></li>
 					<li><a href="#" title="">汽车</a></li>
@@ -88,7 +88,7 @@ $("a").click(function(){
 					<li><a href="#" title="">房产</a></li>
 					<li><a href="#" title="">加工制造</a></li>
 					<li><a href="#" title="">节日</a></li>
-					<li><a href="#" title="" class="active-list">IT互联网</a></li>
+					<li><a href="#" title="">IT互联网</a></li>
 					<li><a href="#" title="">餐饮</a></li>
 					<li><a href="#" title="">金融</a></li>
 					<li><a href="#" title="">服装</a></li>
@@ -130,12 +130,18 @@ $("a").click(function(){
 				 			<li v-for="num in img"><a :href="num.href"><img :src="num.src" alt=""><span>{{num.str}}</span></a></li>
 				 		   </ul>
 				 		</div>
+				 		<div>
+				 	       <ul class="item-1" id="item-5">
+				 			<li v-for="num in img"><a :href="num.href"><img :src="num.src" alt=""><span>{{num.str}}</span></a></li>
+				 		   </ul>
+				 		</div>
 				 		
 				 		<ul class="item-1_btn" id="item-1_btn">
 				 				<li><a href="#" class="active-btn">1</a></li>
 				 				<li><a href="#">2</a></li>
 				 				<li><a href="#">3</a></li>
 				 				<li><a href="#">4</a></li>
+				 				<li><a href="#">5</a></li>
 				 				<li style="width: 50px;"><a href="#" style="border-radius: 15px;font-size:12px;">下一页</a></li>
 				 	    </ul>
 				 	</li>
@@ -219,6 +225,21 @@ $("a").click(function(){
 				{href:"https://icegeeker.github.io/effective-succotash/33",src:"images/33.png",str:"PC-科技"},
 				{href:"https://icegeeker.github.io/effective-succotash/34",src:"images/34.png",str:"PC-旅游"},
 				{href:"https://icegeeker.github.io/effective-succotash/35",src:"images/35.png",str:"PC-IT"},
+				]
+						}
+		})
+		var item_4=new Vue({
+			el:"#item-5",
+			data:{
+				img:[{href:"https://icegeeker.github.io/effective-succotash/36",src:"images/36.png",str:"个人网站列表-PC",},
+				{href:"https://icegeeker.github.io/effective-succotash/37",src:"images/37.png",str:"PC-互联"},
+				{href:"https://icegeeker.github.io/effective-succotash/38",src:"images/38.png",str:"PC-科技"},
+				{href:"https://icegeeker.github.io/effective-succotash/39",src:"images/39.png",str:"PC-互联网"},
+				{href:"https://icegeeker.github.io/effective-succotash/40",src:"images/40.png",str:"PC-互联网"},
+				{href:"https://icegeeker.github.io/effective-succotash/41",src:"images/41.png",str:"V2-PC-IT互联网"},
+				{href:"https://icegeeker.github.io/effective-succotash/42",src:"images/42.png",str:"PC-科技"},
+				{href:"https://icegeeker.github.io/effective-succotash/43",src:"images/43.png",str:"PC-旅游"},
+				{href:"https://icegeeker.github.io/effective-succotash/44",src:"images/44.png",str:"PC-IT"},
 				]
 						}
 		})
