@@ -1,0 +1,47 @@
+.countdown {
+  height: 110px;
+  text-align: center;
+}
+
+
+.dev_comment {
+  font-size: 14pt
+  color: #777
+  text-align: center
+  font-style: italic
+  margin: 40px 10px
+}
+
+
+
+.dash {
+  position: relative;
+  display: inline-block;
+  margin: 0 4vw;
+  height: 6vw;
+  line-height: 1;
+}
+
+.dash .digit {
+  font-size: 6vw;
+  font-weight: 500;
+  float: left;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  line-height: 1;
+}
+
+.dash_title {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  right: -2vw;
+  font-size: .7vw;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1;
+  padding: .5vw 1vw;
+  z-index: 10;
+}
