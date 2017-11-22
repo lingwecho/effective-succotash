@@ -1,0 +1,104 @@
+/* ======= Color 1 =========== */
+
+a:hover,
+.header-info span i,
+.title h2 i,
+.finance-service > a,
+.dotted-btn,
+.awesome-image > strong span,
+.star,
+.opening-time > i,
+.pagetop-inner h1 i,
+.pagetop-inner ul li:before,
+.pagetop-inner ul li i,
+.service-detail > h5 span,
+.download-btns > a i,
+.inv-plan-detail > h4 span,
+.advisor-detail > h4 span,
+.message-box h5 i,
+.message-box > form input:focus, 
+.message-box > form textarea:focus,
+.contact-info > span i,
+.layer2,
+.layer3 span,
+.title.style3 > h2 i{
+	color:#ffc72e;
+}
+
+.topbar,
+.menu-links,
+.title h2:before,
+.awesome-text,
+.expert-member:hover .expert-detail:after, 
+.expert-member:hover .expert-detail:before,
+.expert-social > a:hover,
+.testimonials-carousel .owl-nav > div,
+.form-bottom > a,
+.make-app form button,
+.widget-title > h4:before,
+.plan-heading,
+.message-box form button,
+.post > span i.color1,
+.toggle-item h3:before,
+.post-name > h5:before,
+.menu-links > ul li ul{
+	background-color:#ffc72e;
+}
+
+
+.expert-social > a:hover,
+.testimonials,
+.message-box > form input:focus, 
+.message-box > form textarea:focus{
+	border-color:#ffc72e;
+}
+
+
+
+/* ======= Color 2 =========== */
+
+a:hover,
+.awesome-text h4 span,
+.contact > button:hover,
+.popular-tags > a:hover,
+.post-detail > h4 a:hover,
+.meta > li a:hover,
+.dotted-btn:hover{
+	color:#075ead;
+}
+
+.button:hover,
+.awesome-image > strong:before,
+.expert-detail:after, .expert-detail:before,
+.make-app,
+.testimonials-carousel .owl-nav > div:hover,
+.post-infos a:hover,
+.tagcloud > a:hover,
+.subscribe form button,
+.social-icons > a:hover,
+.contact > button,
+.footer-bottom,
+.pagetop-bg:before,
+.tab-img:before,
+.tab-detail > span,
+.side-list > li a:hover,
+.post > span i.color2,
+.toggle-item h3.active:before,
+.faq-box:before,
+.layer5:hover,
+.coloured-layer:before,
+.responsive-header,
+.header-info:before,
+.finance-service:hover > span{
+	background-color:#075ead;
+}
+
+
+.button:hover,
+.left-image,
+.review-img > img,
+.popular-tags > a:hover,
+.finance-service:hover > span{
+	border-color:#075ead;
+}
+

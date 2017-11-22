@@ -1,0 +1,149 @@
+@media (max-width:1280px){	
+.left-image{left:-50px;width:180px}
+.awesome-text{padding-bottom: 30px;padding-left: 200px;padding-top:30px}
+.awesome-text h4{font-size:30px}
+.counter-box > i{font-size:12px}
+.counter-box strong{font-size: 30px;line-height: 20px;margin-bottom:5px}
+.awesome-text > p{font-size: 12px;line-height:20px}
+.counter-box > span{height: 68px;line-height: 48px;padding: 7px;width:68px}
+.counter-box > span img{max-width:60%}
+.title h2{font-size:30px}
+.company-value-inner{padding-right:40px}
+.bar > span{height:14px}
+.creative-slider:after{right:-3%}
+.creative-slider:before{left:-3%}
+.expert-detail:before{width: 58%;
+    -webkit-transform:rotate(15deg);
+    -moz-transform:rotate(15deg);
+    -ms-transform:rotate(15deg);
+    -o-transform:rotate(15deg);
+    transform:rotate(15deg);
+}
+.expert-detail:after{width:58%;
+    -webkit-transform:rotate(-15deg);
+    -moz-transform:rotate(-15deg);
+    -ms-transform:rotate(-15deg);
+    -o-transform:rotate(-15deg);
+    transform:rotate(-15deg);
+}
+.testimonials{padding:90px}
+.testimonials-carousel .owl-nav{top:-165px}
+.make-app{padding:30px}
+.testimonials-carousel{width:400px}
+.make-app{padding:30px 70px}
+}
+
+
+@media (max-width:980px){
+header{display:none}
+.responsive-header{display:block}
+.block .container {padding: 0 15px}
+.awesome-text{display:unset;float:left;width:100%}
+.awesome-image{display: unset;float: left;width:100%}
+.counters{text-align: center}
+.counters > div{display: inline-block;margin: 0 -2px;width: 33.334%}
+.company-value-wrapper {float: left;margin-top: 40px;padding-left: 0;position: relative;width: 100%;
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+    transform: translate(0);
+}
+.bar > span:before{left:0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.expert-detail:before{width: 52%;
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+    transform: rotate(6deg);
+}
+.expert-detail:after{width:53%;
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+}
+.testimonials-carousel{width:100%}
+.testimonials{display: unset;float: left;width:100%}
+.make-app{display: unset; float: left;width:100%}
+.test-app{display: unset;float: left;width: 100%}
+.make-app form .row > div{ float:left;width:50%}
+.make-app form .row > div.form-bottom{float: left;width:100%}
+.make-app form .row > div.col-md-8{width:100%}
+.footer-widgets .row > div{ display: inline-block;margin: 0 -2px;text-align: left;vertical-align: middle;width:50%}
+.footer-widgets{text-align:center}
+.pagetop-inner{padding:130px 0}
+.pagetop-bg{margin-top:170px}
+.pagetop-inner{padding:130px 0}
+.pagetop-bg{margin-top:170px}
+.tabs .nav.nav-tabs{display:unset;float: left;width:100%}
+.tabs .tab-content{ display:unset;float:left;margin-top:30px;padding:0;width:100%}
+.tabs.style2 .tab-content{margin: 30px 15% 0;width:70%}
+.tabs.style2 .nav.nav-tabs li{width:50%}
+.inv-plan-img{display:unset;float:left;width:100%}
+.inv-plan-detail{display: unset;float: left;margin-top: 20px;padding: 0;width:100%}
+.inv-plan-img img{width:100%}
+.advisor-detail{margin:0}
+.advisor-detail > p{padding:0}
+.financial-services{text-align:center;}
+.financial-services .row > div{display:inline-block;margin:0 -2px;width:50%}
+.faqs-boxes{padding: 0;width:100%}
+.faqs-boxes .row > div{float: left;width:50%}
+.blog-post-img{display:unset;float:left;max-width:100%}
+.blog-detail{display: unset;float: left;margin-top: 40px;padding-left: 0;width:100%}
+.blog-post-img img{max-width:100%}
+.contact-widget .widget-title{padding:0}
+.bar > span:before, .bar > span{display:none!important}
+}
+
+
+
+@media (max-width:600px){
+.creative-slider:before, .creative-slider:after{display:none}
+.awesome-text{padding:20px}
+.left-image{display:none}
+.awesome-image > strong{padding: 10px;text-align: center;white-space: normal;width:80%}
+.company-value-inner:before{display:none}
+.company-value-inner{box-shadow: none;padding:20px}
+.expert-img:before{display:none}
+.expert-detail:before,
+.expert-detail:after {width:57%}
+.testimonials{padding:30px}
+.review-info{display:unset}
+.review-img{display:table}
+.review-detail{display:unset;float:left;margin-top:30px;padding-left:0;width:100%}
+.make-app form .row > div{margin-bottom:20px;width:100%}
+.make-app form .row > div.form-bottom{display: unset;margin-top:0}
+.social{display: unset;float: left;text-align: center;width: 100%}
+.social a{display: inline-block;float: none;margin: 0 1px}
+.form-bottom > span{display: unset;float: left;width: 100%}
+.form-bottom > a{display:unset;float: left;width:100%}
+.sponsor li{padding:10px;width:50%!important}
+.footer-widgets .row > div{float:left;margin:0;width:100%}
+.pagetop-inner{padding:20px 0}
+.pagetop-inner h1{font-size: 28px;margin-bottom:10px}
+.pagetop-inner span{font-size: 15px;margin-bottom: 10px;padding: 0 20px}
+.pagetop-inner ul li{font-size: 12px;padding: 0 10px}
+.pagetop-inner ul li:before{font-size: 14px;line-height:25px}
+.pagetop-bg{margin-top:-160px}
+.pagetop-bg:after{background-size:100% auto;bottom:25px;width:20px}
+.tabs .nav.nav-tabs li{width:100%}
+.testimonials-carousel .owl-nav{right: -10px;top:-130px}
+.tabs.style2 .tab-content{margin: 30px 0 0;width:100%}
+.download-btns > a{padding:10px;width:100%}
+.financial-services .row > div{margin:0;width:100%}
+.toggle-item h3:before{left:0}
+.toggle-item h3{padding-left:30px}
+.content{padding-left:30px}
+.faqs-boxes .row > div{width:100%}
+}
+
+
+
