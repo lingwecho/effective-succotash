@@ -1,463 +1,354 @@
-<!DOCTYPE html>
-<html class="no-js">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>HOME</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- CSS
-        ================================================ -->
-        <!-- Owl Carousel -->
-		<link rel="stylesheet" href="css/owl.carousel.css">
-        <!-- bootstrap.min css -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- Font-awesome.min css -->
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-        <!-- Main Stylesheet -->
-        <link rel="stylesheet" href="css/animate.min.css">
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Swim Plus Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+        manualControls: '#slider3-pager',
+      });
+    });
+  </script>   
+  
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+<!---End-smoth-scrolling---->
+</head>
+<body>
+ <div class="header-banner" id="head">
+<div class="slider">
 
-		<link rel="stylesheet" href="css/main.css">
-        <!-- Responsive Stylesheet -->
-		<link rel="stylesheet" href="css/responsive.css">
-		<!-- Js -->
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-    <script src="js/jquery.nav.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/main.js"></script>
-	</head>
-	<body>
-	<!--
-	header-img start 
-	============================== -->
-    <section id="hero-area">
-      <img class="img-responsive" src="images/header.jpg" alt="">
-    </section>
-	<!--
-    Header start 
-	============================== -->
-	<nav id="navigation">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <nav class="navbar navbar-default">
-                          <div class="container-fluid">
-                            <!-- Brand and toggle get grouped for better mobile display -->
-                            <div class="navbar-header">
-                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                              </button>
-                                  <a class="navbar-brand" href="#">
-                                    <img src="images/logo.png" alt="Logo">
-                                  </a>
+	    <!-- Slideshow 3 -->
+	    <ul class="rslides" id="slider">
+		  <li><img src="images/1.jpg" alt="">
+				<div class="caption">
+					<h1>swimming is a skill for life!</h1>
+				</div>
+	      	 </li>
+	      <li><img src="images/2.jpg" alt="">
+				<div class="caption">
+					<h1>fun and healthy activity </h1>
+				</div>
+	      	 </li>	      
+	      <li><img src="images/3.jpg" alt="">
+				<div class="caption">
+					<h1>welcome to Swimming </h1>
+				</div>
+	      	 </li>
+		  </ul>
+	    <!-- Slideshow 3 Pager -->
+		<ul id="slider3-pager">
+	      <li><a href="#"><img src="images/4.jpg" alt=""></a></li>
+	      <li><a href="#"><img src="images/5.jpg" alt=""></a></li>
+	      <li><a href="#"><img src="images/6.jpg" alt=""></a></li>
+	    </ul>    
+		</div>	
+	
+	</div>
+<div class="header-bottom">
+			<div class="fixed-header">
+			<div class="container">
+				<div class="logo">
+					<a href="index.html">Swim <span>plus</span></a>
+				</div>
+				<div class="top-menu">
+					<span class="menu"><img src="images/nav.png" alt=""/> </span>
+                     <ul>
+					 <li><a href="index.html" class="active"><i class="glyphicon glyphicon-home"></i>home</a></li>
+					 <li><a href="about.html"><i class="glyphicon glyphicon-info-sign"></i>about</a></li>
+					  <li><a href="programs.html"><i class="glyphicon glyphicon-picture"></i>programs</a></li>
+					 <li><a href="instructors.html"><i class="glyphicon glyphicon-star"></i>instructors</a></li>
+					 <li><a href="typo.html"><i class="glyphicon glyphicon-asterisk"></i>typo</a></li>
+					 <li><a href="contact.html"><i class="glyphicon glyphicon-envelope"></i>contact</a></li>
+					</ul>
+					<span class"glyphicon glyphicon-asterisk" aria-hidden="true"></span>
+				 <!-- script for menu -->
+					<!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-menu ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
 
-                            </div>
+					<!-- //script for menu -->
 
-                            <!-- Collect the nav links, forms, and other content for toggling -->
-                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                              <ul class="nav navbar-nav navbar-right" id="top-nav">
-                                <li><a href="#hero-area">Home</a></li>
-                                <li><a href="#about-us">about us</a></li>
-                                <li><a href="#blog">Blog</a></li>
-                                <li><a href="#price">menu</a></li>
-                                <li><a href="#subscribe">news</a></li>
-                                <li><a href="#contact-us">contacts</a></li>
-                              </ul>
-                            </div><!-- /.navbar-collapse -->
-                          </div><!-- /.container-fluid -->
-                        </nav>
-                    </div>
-                </div><!-- .col-md-12 close -->
-            </div><!-- .row close -->
-        </div><!-- .container close -->
-	</nav><!-- header close -->
-    <!--
-    Slider start
-    ============================== -->
-    <section id="slider">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <div class="title">
-                            <h3>Featured <span>Works</span></h3>
-                        </div>
-                        <div id="owl-example" class="owl-carousel">
-                            <div>
-                                <img class="img-responsive" src="images/slider/slider-img-1.jpg" alt="">
-                            </div>
-                            <div>
-                                <img class="img-responsive" src="images/slider/slider-img-2.jpg" alt="">
-                            </div>
-                            <div>
-                                <img class="img-responsive" src="images/slider/slider-img-3.jpg" alt="">
-                            </div>
-                            <div>
-                                <img class="img-responsive" src="images/slider/slider-img-4.jpg" alt="">
-                            </div>
-                            <div>
-                                <img class="img-responsive" src="images/slider/slider-img-1.jpg" alt="">
-                            </div>
-                            <div>
-                                <img class="img-responsive" src="images/slider/slider-img-2.jpg" alt="">
-                            </div>
-                            <div>
-                                <img class="img-responsive" src="images/slider/slider-img-3.jpg" alt="">
-                            </div>
-                            <div>
-                                <img class="img-responsive" src="images/slider/slider-img-4.jpg" alt="">
-                            </div>
-                        
-                        </div>
-                    </div>
-                </div><!-- .col-md-12 close -->
-            </div><!-- .row close -->
-        </div><!-- .container close -->
-    </section><!-- slider close -->
-    <!--
-    about-us start
-    ============================== -->
-    <section id="about-us">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <img class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms" src="images/cooker-img.png" alt="cooker-img">
-                        <h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms" >Your <span>Restaurant’s</span> </br> Website Has To Look <span>Good</span>
-                        </h1>
-                        <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
-                    </div>
-                </div><!-- .col-md-12 close -->
-            </div><!-- .row close -->
-        </div><!-- .containe close -->
-    </section><!-- #call-to-action close -->
-    <!--
-    blog start
-    ============================ -->
-    <section id="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <h1 class="heading">Latest <span>From</span> the <span>Blog</span></h1>
-                        <ul>
-                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
-                                <div class="blog-img">
-                                    <img src="images/blog/blog-img-1.jpg" alt="blog-img">
-                                </div>
-                                <div class="content-right">
-                                    <h3>Homestyle Chicken Pot Pie</h3>
-                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
-                                </div>
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="400ms">
-                                <div class="blog-img">
-                                    <img src="images/blog/blog-img-2.jpg" alt="blog-img">
-                                </div>
-                                <div class="content-right">
-                                    <h3>Homestyle Chicken Pot Pie</h3>
-                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
-                                </div>
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="500ms">
-                                <div class="content-left">
-                                    <h3>Homestyle Chicken Pot Pie</h3>
-                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
-                                </div>
-                                <div class="blog-img-2">
-                                    <img src="images/blog/blog-img-3.jpg" alt="blog-img">
-                                </div>
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="600ms">
-                                <div class="content-left">
-                                    <h3>Homestyle Chicken Pot Pie</h3>
-                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
-                                </div>
-                                <div class="blog-img-2">
-                                    <img src="images/blog/blog-img-4.jpg" alt="blog-img">
-                                </div>
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="700ms">
-                                <div class="blog-img">
-                                    <img src="images/blog/blog-img-5.jpg" alt="blog-img">
-                                </div>
-                                <div class="content-right">
-                                    <h3>Homestyle Chicken Pot Pie</h3>
-                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
-                                </div>
-                            </li>
-                            <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="800ms">
-                                <div class="blog-img">
-                                    <img src="images/blog/blog-img-6.jpg" alt="blog-img">
-                                </div>
-                                <div class="content-right">
-                                    <h3>Homestyle Chicken Pot Pie</h3>
-                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
-                                </div>
-                            </li>
-                        </ul>
-                        <a class="btn btn-default btn-more-info wow bounceIn" data-wow-duration="500ms" data-wow-delay="1200ms" href="#" role="button">More Info</a>
-                    </div>
-                </div><!-- .col-md-12 close -->
-            </div><!-- .row close -->
-        </div><!-- .containe close -->
-    </section><!-- #blog close -->
-    
-    <!--
-    price start
-    ============================ -->
-    <section id="price">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <h1 class="heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">our <span>MENU</span> the <span>PRICE</span></h1>
-                        <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
-                        <div class="pricing-list">
-                            <div class="title">
-                                <h3>Featured <span>on the week</span></h3>
-                            </div>
-                            <ul>
-                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                                    <div class="item">
-                                        <div class="item-title">
-                                            <h2>Pancakes n' Such</h2>
-                                            <div class="border-bottom"></div>
-                                            <span>$ 25.00</span>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
-                                    </div>
-                                </li>
-                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
-                                    <div class="item">
-                                        <div class="item-title">
-                                            <h2>Homestyle Chicken Pot Pie</h2>
-                                            <div class="border-bottom"></div>
-                                            <span>$ 10.00</span>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
-                                    </div>
-                                </li>
-                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
-                                    <div class="item">
-                                        <div class="item-title">
-                                            <h2>Cereal, Panecillos y Frutas </h2>
-                                            <div class="border-bottom"></div>
-                                            <span>$ 5.00</span>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
-                                    </div>
-                                </li>
-                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">
-                                    <div class="item">
-                                        <div class="item-title">
-                                            <h2>Meat of Skewers</h2>
-                                            <div class="border-bottom"></div>
-                                            <span>$ 15.00</span>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
-                                    </div>
-                               </li>
-                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="700ms">
-                                    <div class="item">
-                                        <div class="item-title">
-                                            <h2>Steak with a Garlic and Parsley Risotto</h2>
-                                            <div class="border-bottom"></div>
-                                            <span>$ 75.00</span>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
-                                    </div>
-                                </li>
-                                <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="800ms">
-                                    <div class="item">
-                                        <div class="item-title">
-                                            <h2>Caesar Salad</h2>
-                                            <div class="border-bottom"></div>
-                                            <span>$ 7.00</span>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&</p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <a class="btn btn-default pull-right wow bounceIn" data-wow-duration="500ms" data-wow-delay="1200ms" href="#" role="button">More Info</a>
-                        </div>
-                    </div>
-                </div><!-- .col-md-12 close -->
-            </div><!-- .row close -->
-        </div><!-- .containe close -->
-    </section><!-- #price close -->
-    <!--
-    subscribe start
-    ============================ -->
-    <section id="subscribe">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms"> SUBSCRIBE <span>to our</span> NEWSLETTER</h1>
-                        <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
-                        <form class="form-inline">
-                            <div class="form-group">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="Enter your email to subscribe...">
-                                    <div class="input-group-addon">
-                                        <button class="btn btn-default" type="submit">subscribe</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div><!-- .col-md-12 close -->
-            </div><!-- .row close -->
-        </div><!-- .containe close -->
-    </section><!-- #subscribe close -->
-    <!--
-    CONTACT US  start
-    ============================= -->
-    <section id="contact-us">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
-                        <h1 class="heading wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">our <span>CONTACT US</span></h1>
-                        <h3 class="title wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">Sign Up for <span>Email Alerts</span> </h3>
-                        <form>
-                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Write your full name here...">
-                            </div>
-                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="800ms">
-                                <input type="text" class="form-control" placeholder="Write your email address here...">
-                            </div>
-                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1000ms">
-                                <textarea class="form-control" rows="3" placeholder="Write your message here..."></textarea>
-                            </div>
-                        </form>
-                        <a class="btn btn-default wow bounceIn" data-wow-duration="500ms" data-wow-delay="1300ms" href="#" role="button">send your message</a>
-                    </div>
-                </div><!-- .col-md-12 close -->
-            </div><!-- .row close -->
-        </div><!-- .container close -->
-    </section><!-- #contact-us close -->
-    <!--
-    footer  start
-    ============================= -->
-    <section id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="block wow fadeInLeft"  data-wow-delay="200ms">
-                        <h3>CONTACT <span>INFO</span></h3>
-                        <div class="info">
-                            <ul>
-                                <li>
-                                  <h4><i class="fa fa-phone"></i>Telefone</h4>
-                                  <p>(000) 123 456 78- (000) 123 4567 89</p>
-                                    
-                                </li>
-                                <li>
-                                  <h4><i class="fa fa-map-marker"></i>Address</h4>
-                                  <p>2046 Blue Spruce Lane Laurel Canada</p>
-                                </li>
-                                <li>
-                                  <h4><i class="fa fa-envelope"></i>E mail</h4>
-                                  <p>rest@gmail.com - rest@mail.ru</p>
-                                  
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- .col-md-4 close -->
-                <div class="col-md-4">
-                    <div class="block wow fadeInLeft"  data-wow-delay="700ms">
-                        <h3>LATEST <span>BLOG POSTS</span></h3>
-                        <div class="blog">
-                            <ul>
-                                <li>
-                                    <h4><a href="#">Nov 9-2015</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Curabitur ut blandit sapien</p>
-                                </li>
-                                <li>
-                                    <h4><a href="#">Sep 8-2015</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Curabitur ut blandit sapien</p>
-                                </li>
-                            </ul>                
-                        </div>
-                    </div>
-                </div>
-                <!-- .col-md-4 close -->
-                <div class="col-md-4">
-                    <div class="block wow fadeInLeft"  data-wow-delay="1100ms">
-                        <div class="gallary">
-                            <h3>PHOTO <span>STREAM</span></h3>
-                            <ul>
-                                <li>
-                                    <a href="#"><img src="images/photo/photo-1.jpg" alt=""></a>
-                                </li>
-                                <li>
-                                    <a href="#"><img src="images/photo/photo-2.jpg" alt=""></a>
-                                </li>
-                                <li>
-                                    <a href="#"><img src="images/photo/photo-3.jpg" alt=""></a>
-                                </li>
-                                <li>
-                                    <a href="#"><img src="images/photo/photo-4.jpg" alt=""></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="social-media-link">
-                            <h3>Follow <span>US</span></h3>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-dribbble"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-behance"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- .col-md-4 close -->
-            </div><!-- .row close -->
-        </div><!-- .containe close -->
-    </section><!-- #footer close -->
-    <!--
-    footer-bottom  start
-    ============================= -->
-    <footer id="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="block">
-                        <p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-	</body>
-</html>
+						<!-- script-for sticky-nav -->
+						<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".header-bottom").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".header-bottom").addClass("fixed");
+				}else{
+					$(".header-bottom").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+					<!-- //script-for sticky-nav -->		
+			 </div>
+			 <div class="clearfix"></div>
+
+				</div>
+			</div>
+		</div>
+			<div class="content">
+			<div class="training">
+				<div class="container">
+					<h3>Swim lessons for adult and children</h3>
+						<div class="training-grids">
+							<div class="col-md-4 training-grid">
+								<div class="train">
+									<img src="images/p1.jpg" class="img-responsive" alt="/">
+										<h4>swim lessons for adults</h4>
+										<p>Consec tetuer adipicing it. Praesebul lorem ipsum natoque penatibus et gnis dent monteiculu.Lorem ipsum dolor sit amet, concr adipi scing.esent </p>
+										<a href="#" class="botton">more info</a>
+								</div>
+							</div>
+							<div class="col-md-4 training-grid">
+								<div class="train">
+									<img src="images/p2.jpg" class="img-responsive" alt="/">
+										<h4>swim lessons for kids </h4>
+										<p>Consec tetuer adipicing it. Praesebul lorem ipsum natoque penatibus et gnis dent monteiculu.Lorem ipsum dolor sit amet, concr adipi scing.esent </p>
+										<a href="#" class="botton">more info</a>
+								</div>
+							</div>
+							<div class="col-md-4 training-grid">
+								<div class="train">
+									<img src="images/p3.jpg" class="img-responsive" alt="/">
+										<h4>swim lessons for babies</h4>
+										<p>Consec tetuer adipicing it. Praesebul lorem ipsum natoque penatibus et gnis dent monteiculu.Lorem ipsum dolor sit amet, concr adipi scing.esent </p>
+										<a href="#" class="botton">more info</a>	
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+				</div>
+			</div>
+			<div class="services">
+				<div class="container">
+					<h3>services</h3>
+						<div class="services-grids">
+							<div class="col-md-3 services-grid">
+							<span class="glyphicon glyphicon-gift" aria-hidden="true"></span>
+								<h4>Excepteur sint</h4>
+									<p>Consec tetuer adipicing it. Praesebul lorem ipsum natoque penatibus et gnis dent.Lorem ipsum dolor sit ame. </p>
+								</div>
+							<div class="col-md-3 services-grid">
+							<span class="glyphicon glyphicon-move" aria-hidden="true"></span>
+								<h4>learn to swim</h4>
+									<p>Consec tetuer adipicing it. Praesebul lorem ipsum natoque penatibus et gnis dent.Lorem ipsum dolor sit ame. </p>
+								</div>
+							<div class="col-md-3 services-grid">
+							<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+								<h4>a skill for life!</h4>
+									<p>Consec tetuer adipicing it. Praesebul lorem ipsum natoque penatibus et gnis dent.Lorem ipsum dolor sit ame. </p>
+								</div>
+							</div>
+							<div class="col-md-3 services-grid">
+								<span class="glyphicon glyphicon-user" aria-hidden="true"></span>						
+								<h4>Fusce euismod </h4>
+									<p>Consec tetuer adipicing it. Praesebul lorem ipsum natoque penatibus et gnis dent.Lorem ipsum dolor sit ame. </p>
+								</div>
+							<div class="clearfix"></div>
+						</div>
+				</div>
+			<div id="testimonial" class="testimonials">
+		<div class="container">
+			<h3>testimonial</h3>
+			<!---- testmonials ---->
+		<div class="test-monials">
+				<!----sreen-gallery-cursual---->
+						<div class="sreen-gallery-cursual">
+							 <!-- requried-jsfiles-for owl -->
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 1,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : false,
+							        navigationText :  false,
+							        pagination : true,
+							      });
+							    });
+							    </script>
+							 <!-- //requried-jsfiles-for owl -->
+							 <!-- start content_slider -->
+						       <div id="owl-demo" class="owl-carousel">
+					                <div class="item">
+					                		<div class="col-md-2 testmonial-img">
+						                		<img src="images/t1.jpg" class="img-responsive" alt=""/>
+					                		</div>
+					                		<div class="col-md-10 testmonial-text">
+						                		<p>Lorem ipsum dolor sit amet, offendit volutpat sea ex, at omnium scripta pro, at omnium scripta pro, ei mea oratio malorum forensibus. ei mea oratio malorum forensibus. Sed ei omnes laoreet posidonium ei mea oratio malorum forensibus.</p>
+						                		<h4>John Doe</h4>
+						                		
+					                		</div>
+					                		<div class="clearfix"> </div>
+					                </div>
+					                 <div class="item">
+					                		<div class="col-md-2 testmonial-img">
+						                		<img src="images/t2.jpg" class="img-responsive" alt=""/>
+					                		</div>
+					                		<div class="col-md-10 testmonial-text">
+											<p>If I don't feel confident about my body, I'm not going to sit at home and feel sorry for myself and not do something about it. It's all about taking action and not being lazy. So you do the work, whether it's fitness or whatever.</p>
+						                		<h4>John Doe</h4>
+						                	
+					                		</div>
+					                		<div class="clearfix"> </div>
+					                </div>
+					                 <div class="item">
+					                	<div class="col-md-2 testmonial-img">
+						                		<img src="images/t3.jpg" class="img-responsive" alt=""/>
+					                		</div>
+					                		<div class="col-md-10 testmonial-text">
+											<p>If I don't feel confident about my body, I'm not going to sit at home and feel sorry for myself and not do something about it. It's all about taking action and not being lazy. So you do the work, whether it's fitness or whatever.</p>
+						                		<h4>John Doe</h4>
+						                	
+					                		</div>
+					                		<div class="clearfix"> </div>
+					                </div>
+									 <div class="item">
+					                		<div class="col-md-2 testmonial-img">
+						                		<img src="images/t2.jpg" class="img-responsive" alt=""/>
+					                		</div>
+					                		<div class="col-md-10 testmonial-text">
+											<p>If I don't feel confident about my body, I'm not going to sit at home and feel sorry for myself and not do something about it. It's all about taking action and not being lazy. So you do the work, whether it's fitness or whatever.</p>
+						                		<h4>John Doe</h4>
+						                		
+					                		</div>
+					                		<div class="clearfix"> </div>
+					                </div>
+				              </div>
+						<!--//sreen-gallery-cursual---->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!---- testmonials ---->
+		<div class="news">
+				<div class="container">
+					<h3>news</h3>
+						<div class="news-grids">
+							<div class="col-md-3 news-grid">
+									<h5><span class="glyphicon glyphicon-calendar date" aria-hidden="true"></span> : 09 feb 2014</h5>
+									<a href="#" class="mask">
+									<img src="images/n1.jpg" class="img-responsive zoom-img" alt=""></a>	
+									<h4><a href="#">Typi habent clar</a></h4>
+									<p>Consec tetuer adipicing it. Praesebul lorem ipsum natoque penatibus et gnis dent.Lorem ipsum dolor sit ame. </p>
+								</div>
+							<div class="col-md-3 news-grid">
+								<h5><span class="glyphicon glyphicon-calendar date" aria-hidden="true"></span> : 19 feb 2015</h5>
+									<a href="#" class="mask">
+									<img src="images/n2.jpg" class="img-responsive zoom-img" alt=""></a>
+									<h4><a href="#">Eodem modo typi</a></h4>
+									<p>Consec tetuer adipicing it. Praesebul lorem ipsum natoque penatibus et gnis dent.Lorem ipsum dolor sit ame. </p>
+								</div>
+							<div class="col-md-3 news-grid">
+								<h5><span class="glyphicon glyphicon-calendar date" aria-hidden="true"></span> : 29 sep 2014</h5>
+									<a href="#" class="mask">
+									<img src="images/n3.jpg" class="img-responsive zoom-img" alt=""></a>	
+									<h4><a href="#">Nam liber tempor</a></h4>
+									<p>Consec tetuer adipicing it. Praesebul lorem ipsum natoque penatibus et gnis dent.Lorem ipsum dolor sit ame. </p>
+								</div>
+							</div>
+							<div class="col-md-3 news-grid">
+								<h5><span class="glyphicon glyphicon-calendar date" aria-hidden="true"></span> : 07 jan 2013</h5>
+									<a href="#" class="mask">
+									<img src="images/n4.jpg" class="img-responsive zoom-img" alt=""></a>
+									<h4><a href="#">Fusce euismod libe</a></h4>
+									<p>Consec tetuer adipicing it. Praesebul lorem ipsum natoque penatibus et gnis dent.Lorem ipsum dolor sit ame. </p>
+								</div>
+							<div class="clearfix"></div>
+						</div>
+				</div>
+			</div>
+		<div class="specials-section">
+			<div class="container">
+				<div class="col-md-3 specials1">
+				<h3>expert</h3>
+				<ul>
+					<li><a href="#">New Listing Sign-Up</a></li>
+					<li><a href="#">Consectetur adipiscing</a></li>
+					<li><a href="#">Integer molestie lorem</a></li>
+					<li><a href="#">Facilisis in pretium nisl</a></li>
+				</ul>
+				</div>
+			<div class="col-md-3 specials1">
+			<h3>results</h3>
+			<ul>
+				<li><a href="#">Integer molestie lorem</a></li>
+				<li><a href="#">Integer molestie lorem</a></li>
+				<li><a href="#">Consectetur adipiscing</a></li>
+				<li><a href="#">Lorem ipsum dolor sit</a></li>
+			</ul>
+			</div>
+			<div class="col-md-3 specials1">
+			<h3>social</h3>
+			<ul>
+				<li><a href="#">facebook</a></li>
+				<li><a href="#">twitter</a></li>
+				<li><a href="#">google</a></li>
+				<li><a href="#">viemo</a></li>
+			</ul>
+			</div>
+			<div class="col-md-3 specials">
+				<h3>about</h3>
+				<p>Morbi pretium gravida justo nec ultrices. Ut et facilisis justo. Fusce ac turpis eros, vel molestie lectus.feugiat velit velit non turpis</p>
+				</div>
+			<div class="clearfix"></div>
+			</div>
+			</div>
+					<div class="footer-section">
+						<div class="container">
+							<div class="footer-top">
+						<!-- <p>				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212108.3106799094!2d150.90251983150853!3d-33.8331497076157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney+NSW%2C+Australia!5e0!3m2!1sen!2sin!4v1436874699812" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p> -->
+									</div>
+							<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+
+
+</body>
+</html> 

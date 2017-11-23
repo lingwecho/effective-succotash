@@ -1,549 +1,678 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
 <title>Home</title>
-<!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //for-mobile-apps -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- js -->
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-<!-- //js -->
-<!-- pop-up-box -->
-<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
-<!-- //pop-up-box -->
-<!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome icons -->
-<link href="http://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<script type="applisalonion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/iconeffects.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />	
+<link rel="stylesheet" href="css/leoslider.css">
+<link href="css/iconeffects.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/web-font-->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<!-- swipe box js -->
+	<script src="js/jquery.leoslider.js"></script> 
+	    <script src="js/main.js"></script> 
+<!-- //swipe box js -->
+
+
 </head>
-	
 <body>
-<!-- header -->
-	<div class="header">
-		<div class="container">
-			<div class="agile_header_grid">
-				<div class="w3_agile_logo">
-					<h1><a href="index.html"><span>L</span>ucrative</a></h1>
-				</div>
-				<div class="agileits_w3layouts_sign_in">
+<!--start-home-->
+<div class="main-header" id="house">
+			<div class="header-strip">
+			   <div class="container">
+				<p class="location"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>29C, Autem quibusdam debitis.</p>
+				<p class="phonenum"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+ 655 8858 54892</p>
+				<div class="social-icons">
 					<ul>
-						<li><a href="#small-dialog" class="play-icon popup-with-zoom-anim">Sign In</a></li>
-						<li>Call us : <span>(+000) 123 234</span></li>
+						<li><a href="#"><i class="facebook"> </i></a></li>
+						<li><a href="#"><i class="twitter"> </i></a></li>
+						<li><a href="#"><i class="google-plus"> </i></a></li>	
+						<li><a href="#"><i class="dribble"> </i></a></li>										
 					</ul>
 				</div>
-				<div class="clearfix"> </div>
+				<div class="clearfix"></div>
 			</div>
-			<div class="w3_agileits_nav">
-				<nav class="navbar navbar-default">
-					<div class="navbar-header navbar-left">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			</div>
+			<div class="header-top">
+			<div class="logo"><a href="index.html"><h1><span>I</span>nventive <span class="two">D</span>esign</h1></a></div>
+						<nav class="navbar navbar-default">
+					  <div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
-						</button>
-					</div>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-						<nav>
-							<ul class="nav navbar-nav">
-								<li class="active"><a href="index.html">Home</a></li>
-								<li><a href="services.html" class="hvr-sweep-to-bottom">Services</a></li>
-								<li><a href="about.html" class="hvr-sweep-to-bottom">About</a></li>
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown">Short Codes <b class="caret"></b></a>
-									<ul class="dropdown-menu agile_short_dropdown">
-										<li><a href="icons.html">Web Icons</a></li>
-										<li><a href="typography.html">Typography</a></li>
-									</ul>
-								</li>
-								<li><a href="portfolio.html" class="hvr-sweep-to-bottom">Portfolio</a></li>
-								<li><a href="contact.html" class="hvr-sweep-to-bottom">Contact</a></li>
-							</ul>
-							<div class="agileinfo_search">
-								<form action="#" method="post">
-									<input type="text" name="Search" placeholder="Type text here..." required="">
-									<input type="submit" value=" ">
-								</form>
+						  </button>
 							</div>
-						</nav>
-					</div>
-				</nav>	
-			</div>
-		</div>
-	</div>
-<!-- //header -->
-<!-- pop-up-box -->
-	<div id="small-dialog" class="mfp-hide w3ls_small_dialog wthree_pop">
-		<h3 class="agileinfo_sign">Sign In</h3>	
-		<div class="agileits_signin_form">
-			<form action="#" method="post">
-				<input type="email" name="email" placeholder="Your Email" required="">
-				<input type="password" name="password" placeholder="Password" required="">
-				<div class="agile_remember">
-					<div class="agile_remember_left">
-						<div class="check">
-							<label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>remember me</label>
-						</div>
-					</div>
-					<div class="agile_remember_right">
-						<a href="#">Forgot Password?</a>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<input type="submit" value="SIGN IN">
-				<p>Don't have an account <a href="#small-dialog1" class="play-icon popup-with-zoom-anim">Sign Up</a></p>
-				<div class="w3agile_social_icons">
-					<ul>
-						<li class="wthree_follow">Follow us on :</li>
-						<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-					</ul>	
-				</div>
-			</form>
-		</div>
-	</div>
-	<div id="small-dialog1" class="mfp-hide w3ls_small_dialog wthree_pop">
-		<h3 class="agileinfo_sign">Sign Up</h3>	
-		<div class="agileits_signin_form">
-			<form action="#" method="post">
-				<input type="text" name="name" placeholder="First Name" required="">
-				<input type="text" name="name" placeholder="Last Name" required="">
-				<input type="email" name="email" placeholder="Your Email" required="">
-				<input type="password" name="password" placeholder="Password" required="">
-				<input type="password" name="password" placeholder="Confirm Password" required="">
-				<input type="submit" value="SIGN UP">
-				<p>Already a member <a href="#small-dialog" class="play-icon popup-with-zoom-anim">Sign In</a></p>
-				<div class="w3agile_social_icons">
-					<ul>
-						<li class="wthree_follow">Follow us on :</li>
-						<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-					</ul>	
-				</div>
-			</form>
-		</div>
-	</div>
-<!-- //pop-up-box -->	
-<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
-<script>
-	$(document).ready(function() {
-	$('.popup-with-zoom-anim').magnificPopup({
-		type: 'inline',
-		fixedContentPos: false,
-		fixedBgPos: true,
-		overflowY: 'auto',
-		closeBtnInside: true,
-		preloader: false,
-		midClick: true,
-		removalDelay: 300,
-		mainClass: 'my-mfp-zoom-in'
-	});
-																	
-	});
-</script>
-<!-- banner -->	
-	<div class="banner">
-		<div class="container">
-			<h2>we generate most valuable <span>idea</span></h2>
-			<p>Creative agency for your design needs</p>
-			<div class="wthree_banner_grids">
-				<div class="col-md-3 wthree_banner_grid">
-					<i class="fa fa-desktop" aria-hidden="true"></i>
-					<h4>customized solution</h4>
-				</div>
-				<div class="col-md-3 wthree_banner_grid">
-					<i class="fa fa-money" aria-hidden="true"></i>
-					<h4>Minimal Cost</h4>
-				</div>
-				<div class="col-md-3 wthree_banner_grid">
-					<i class="fa fa-users" aria-hidden="true"></i>
-					<h4>professional team</h4>
-				</div>
-				<div class="col-md-3 wthree_banner_grid">
-					<i class="fa fa-clock-o" aria-hidden="true"></i>
-					<h4>Quick Results</h4>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="agileits_more">
-				<ul>
-					<li><a href="#" class="w3ls_banner_more hvr-icon-hang">Use it for free</a></li>
-					<li><a href="#" class="hvr-icon-hang" data-toggle="modal" data-target="#myModal">Learn More</a></li>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+				<li><a class="active" href="index.html">Home<span class="sr-only">(current)</span></a></li>
+				<li><a class="scroll" href="#about">About</a></li>
+				<li><a href="typo.html">Services</a></li>
+				<li class="dropdown">
+					<a href="gallery.html" class="dropdown-toggle" data-toggle="dropdown">Gallery<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="gallery.html">Gallery 1</a></li>
+						<li><a href="gallery1.html">Gallery 2</a></li>
+						<li><a href="gallery2.html">Gallery 3</a></li>  
+					</ul>
+				</li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="contact.html">Contact</a></li>
 				</ul>
-			</div>
-		</div>
-	</div>
-<!-- //banner -->
-<!-- bootstrap-pop-up -->
-	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					Lucrative
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-				</div>
-				<section>
-					<div class="modal-body">
-						<img src="images/banner.jpg" alt=" " class="img-responsive" />
-						<p>Ut enim ad minima veniam, quis nostrum 
-							exercitationem ullam corporis suscipit laboriosam, 
-							nisi ut aliquid ex ea commodi consequatur? Quis autem 
-							vel eum iure reprehenderit qui in ea voluptate velit 
-							esse quam nihil molestiae consequatur, vel illum qui 
-							dolorem eum fugiat quo voluptas nulla pariatur.
-							<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
-								esse quam nihil molestiae consequatur.</i></p>
-					</div>
-				</section>
-			</div>
-		</div>
-	</div>
-<!-- //bootstrap-pop-up -->
-<!-- banner-bottom -->
-	<div class="banner-bottom">
-		<div class="container">
-			<div class="col-md-8 w3l_banner_bottom_left">
-				<h3>Our Design and development</h3>
-				<p>Integer et feugiat elit. Nullam at turpis vel sapien aliquam feugiat vitae vitae mi. 
-					Donec scelerisque, justo vel blandit tempor, quam tellus blandit lectus, ut viverra leo 
-					velit et quam. Phasellus viverra et quam efficitur rhoncus sollicitudin.
-					Etiam ultricies mauris et dapibus molestie. Suspendisse bibendum ex sit amet 
-					tellus finibus ultrices. Sed velit urna, faucibus at gravida ut, aliquam ut purus.
-					<span>Donec porttitor neque sed mauris sagittis, a auctor enim porta. 
-						Sed tristique sollicitudin orci. Vivamus vulputate nunc id nulla elementum,nec vehicula ipsum ullamcorper.</span></p>
-			</div>
-			<div class="col-md-4 w3l_banner_bottom_right">
-				<img src="images/1.jpg" alt=" " class="img-responsive" />
-			</div>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
 			<div class="clearfix"></div>
-		</div>
 	</div>
-<!-- //banner-bottom -->
-<!-- two-grids -->
-	<div class="two-grids">
-		<div class="col-md-6 w3_two_grid_left">
-			<img src="images/2.jpg" alt=" " class="img-responsive" />
-		</div>
-		<div class="col-md-6 w3_two_grid_right">
-			<h3>make your business success with us</h3>
-			<p class="w3layouts_dummy_para">Phasellus viverra et quam efficitur rhoncus sollicitudin.
-				Etiam ultricies mauris et dapibus molestie.</p>
-			<div class="w3_two_grid_right1">
-				<div class="col-xs-3 w3_two_grid_right_grid">
-					<div class="w3_two_grid_right_grid1">
-						<i class="fa fa-thumbs-up" aria-hidden="true"></i>
-					</div>
-				</div>
-				<div class="col-xs-9 w3_two_grid_right_gridr">
-					<h4>Project Management</h4>
-					<p>Suspendisse bibendum ex sit amet tellus finibus ultrices.</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="w3_two_grid_right1">
-				<div class="col-xs-3 w3_two_grid_right_grid">
-					<div class="w3_two_grid_right_grid1">
-						<i class="fa fa-building" aria-hidden="true"></i>
-					</div>
-				</div>
-				<div class="col-xs-9 w3_two_grid_right_gridr">
-					<h4>Design & Development</h4>
-					<p>Suspendisse bibendum ex sit amet tellus finibus ultrices.</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="w3_two_grid_right1">
-				<div class="col-xs-3 w3_two_grid_right_grid">
-					<div class="w3_two_grid_right_grid1">
-						<i class="fa fa-wrench" aria-hidden="true"></i>
-					</div>
-				</div>
-				<div class="col-xs-9 w3_two_grid_right_gridr">
-					<h4>Business Management</h4>
-					<p>Suspendisse bibendum ex sit amet tellus finibus ultrices.</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="w3_two_grid_right1">
-				<div class="col-xs-3 w3_two_grid_right_grid">
-					<div class="w3_two_grid_right_grid1">
-						<i class="fa fa-trophy" aria-hidden="true"></i>
-					</div>
-				</div>
-				<div class="col-xs-9 w3_two_grid_right_gridr">
-					<h4>Awesome Results</h4>
-					<p>Suspendisse bibendum ex sit amet tellus finibus ultrices.</p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
+	 <section id="line-slider">
+            <div class="leoslider">
+			
+			
+              <ul class="slides">
+                <li>
+                   <img src="images/1.jpg" alt=" " />
+                </li>
+                <li>
+                   <img src="images/2.jpg" alt=" " />
+                </li>
+                <li>
+                 <img src="images/3.jpg" alt=" " />
+                </li>
+              </ul>
+            </div>
+        </section>
+        <!-- /Line Slider -->
+</div>
+			<div class="banner-bottom">
+				<!--//screen-gallery-->
+						<div class="sreen-gallery-cursual">
+							 <!-- required-js-files-->
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items :5,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation :true,
+							        navigationText :  false,
+							        pagination : true,
+							      });
+							    });
+							    </script>
+								 <!--//required-js-files-->
+						       <div id="owl-demo" class="owl-carousel">
+							      <div class="item-owl">
+					                		<div class="test-review">
+						                	  <img src="images/s5.jpg" class="img-responsive" alt=""/>
+											  <h5>Living</h5>
+					                	    </div>
+					                </div>
+					                 <div class="item-owl">
+					                	<div class="test-review">
+						                	  <img src="images/s6.jpg" class="img-responsive" alt=""/>
+											  <h5>Kitchen</h5>
+					                	    </div>
+					                </div>
+					                 <div class="item-owl">
+					                	    <div class="test-review">
+						                	  <img src="images/s2.jpg" class="img-responsive" alt=""/>
+											  <h5>Outdoor</h5>
+					                	    </div>
+					                </div>
+									 <div class="item-owl">
+					                	    <div class="test-review">
+						                	  <img src="images/s1.jpg" class="img-responsive" alt=""/>
+											  <h5>Hall</h5>
+					                	    </div>
+					                </div>
+									<div class="item-owl">
+					                	    <div class="test-review">
+						                	  <img src="images/s6.jpg" class="img-responsive" alt=""/>
+											  <h5>Kitchen</h5>
+					                	    </div>
+					                </div>
+					                 <div class="item-owl">
+					                		<div class="test-review">
+						                	  <img src="images/s4.jpg" class="img-responsive" alt=""/>
+											  <h5>Dining</h5>
+					                	    </div>
+					                </div>
+									 <div class="item-owl">
+					                		<div class="test-review">
+						                	  <img src="images/s1.jpg" class="img-responsive" alt=""/>
+											  <h5>Hall</h5>
+					                	    </div>
+					                </div>
+					                 <div class="item-owl">
+					                	<div class="test-review">
+						                	  <img src="images/s3.jpg" class="img-responsive" alt=""/>
+											  <h5>Bedroom</h5>
+					                	    </div>
+					                </div>
+					                 <div class="item-owl">
+					                	    <div class="test-review">
+						                	  <img src="images/s2.jpg" class="img-responsive" alt=""/>
+											  <h5>Outdoor</h5>
+					                	    </div>
+					                </div>
+									 <div class="item-owl">
+					                	    <div class="test-review">
+						                	  <img src="images/s1.jpg" class="img-responsive" alt=""/>
+											  <h5>Hall</h5>
+					                	    </div>
+					                </div>
+									 <div class="item-owl">
+					                	    <div class="test-review">
+						                	  <img src="images/s5.jpg" class="img-responsive" alt=""/>
+											  <h5>Living</h5>
+					                	    </div>
+					                </div>
+				              </div>
+						<!--//screen-gallery-->
+
+		  </div>
+ </div>
+ <!-- about-type-grid -->
+	<div class="about" id="about">
+					<div class="col-md-5 ab-left">
+								<div class="btm-right">
+									<a href="single.html">
+										<img src="images/c5.jpg" alt="" class="img-responsive">
+										<div class="captn">
+											<h4>Inventive Design</h4>
+															
+										</div>
+									</a>	
+							</div>
+
+							
+						</div>
+
+		<div class="col-md-7 ab-right">
+					  <div class="col-bottom two">
+					        <h2 class="tittle">Welcome to our <span>Inventive</span> Designs</h2>
+							<h4>We Build your home </h4>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem  </p>
+							<a href="single.html" class="hvr-shutter-in-horizontal">Read More</a>
+						</div>
+
 		</div>
 		<div class="clearfix"> </div>
 	</div>
-<!-- //two-grids -->
-<!-- news -->
-	<div class="news">
-		<div class="container">
-			<h3 class="agile_head">Latest News</h3>
-			<p class="w3_agile_para">Suspendisse bibendum ex sit amet tellus finibus</p>
-			<div class="agileits_w3layouts_news_grids">
-				<ul id="flexiselDemo1">	
-					<li>
-						<div class="agileits_w3layouts_news_grid">
-							<div class="w3_agileits_news_grid">
-								<img src="images/3.jpg" alt=" " class="img-responsive" />
-								<div class="w3_agileits_news_grid_pos">
-									<h4>Date : 15 November 2016</h4>
+<!-- //about-type-grid -->
+<!-- service-type-grid -->
+	<div class="service" id="services">
+			<div class="feature-grids">
+				
+				<div class="col-md-7 feature-grid">
+				<h3 class="tittle three">Our <span>Services</span></h3>
+					<div class="feature">
+						<div class="features-item sans-shadow text-center">
+							<div class="features-icon">
+								<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+									<a href="#" class="hi-icon"><img src="images/s1.png" alt=" "></a>
 								</div>
 							</div>
-							<h5><a href="#" data-toggle="modal" data-target="#myModal">bibendum ex sit amet</a></h5>
-							<p>Nunc sodales augue in felis facilisis consectetur.</p>
+							<div class="features-info">
+								<h4>INTERIOR DESIGN</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing neque porro.</p>
+							</div>
 						</div>
-					</li>
-					<li>
-						<div class="agileits_w3layouts_news_grid">
-							<div class="w3_agileits_news_grid">
-								<img src="images/4.jpg" alt=" " class="img-responsive" />
-								<div class="w3_agileits_news_grid_pos">
-									<h4>Date : 18 November 2016</h4>
+					</div>
+					<div class="feature">
+						<div class="features-item sans-shadow text-center">
+							<div class="features-icon">
+								<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+									<a href="#" class="hi-icon"><img src="images/s2.png" alt=" "></a>
 								</div>
 							</div>
-							<h5><a href="#" data-toggle="modal" data-target="#myModal">augue in felis facili</a></h5>
-							<p>Nunc sodales augue in felis facilisis consectetur.</p>
+							<div class="features-info">
+								<h4>NEUTRAL COLORS</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing neque porro.</p>
+							</div>
 						</div>
-					</li>
-					<li>
-						<div class="agileits_w3layouts_news_grid">
-							<div class="w3_agileits_news_grid">
-								<img src="images/5.jpg" alt=" " class="img-responsive" />
-								<div class="w3_agileits_news_grid_pos">
-									<h4>Date : 23 November 2016</h4>
+					</div>
+					<div class="feature">
+						<div class="features-item sans-shadow text-center">
+							<div class="features-icon">
+								<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+									<a href="#" class="hi-icon"><img src="images/s3.png" alt=" "></a>
 								</div>
 							</div>
-							<h5><a href="#" data-toggle="modal" data-target="#myModal">facilisis consecte</a></h5>
-							<p>Nunc sodales augue in felis facilisis consectetur.</p>
+							<div class="features-info">
+								<h4>ARTWORK</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing neque porro.</p>
+							</div>
 						</div>
-					</li>
-					<li>
-						<div class="agileits_w3layouts_news_grid">
-							<div class="w3_agileits_news_grid">
-								<img src="images/6.jpg" alt=" " class="img-responsive" />
-								<div class="w3_agileits_news_grid_pos">
-									<h4>Date : 28 November 2016</h4>
+					</div>
+					<div class="feature">
+						<div class="features-item sans-shadow text-center">
+							<div class="features-icon">
+								<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+									<a href="#" class="hi-icon"><img src="images/s4.png" alt=" "></a>
 								</div>
 							</div>
-							<h5><a href="#" data-toggle="modal" data-target="#myModal">sodales augue felis</a></h5>
-							<p>Nunc sodales augue in felis facilisis consectetur.</p>
-						</div>
-					</li>
-					<li>
-						<div class="agileits_w3layouts_news_grid">
-							<div class="w3_agileits_news_grid">
-								<img src="images/1.jpg" alt=" " class="img-responsive" />
-								<div class="w3_agileits_news_grid_pos">
-									<h4>Date : 30 November 2016</h4>
-								</div>
+							<div class="features-info">
+								<h4>ARTISTIC APARTMENTS</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing neque porro.</p>
 							</div>
-							<h5><a href="#" data-toggle="modal" data-target="#myModal">augue in felis felis</a></h5>
-							<p>Nunc sodales augue in felis facilisis consectetur.</p>
 						</div>
-					</li>
-				</ul>
-				<script type="text/javascript">
-						$(window).load(function() {
-							$("#flexiselDemo1").flexisel({
-								visibleItems: 4,
-								animationSpeed: 1000,
-								autoPlay: true,
-								autoPlaySpeed: 3000,    		
-								pauseOnHover: true,
-								enableResponsiveBreakpoints: true,
-								responsiveBreakpoints: { 
-									portrait: { 
-										changePoint:480,
-										visibleItems: 1
-									}, 
-									landscape: { 
-										changePoint:640,
-										visibleItems:2
-									},
-									tablet: { 
-										changePoint:768,
-										visibleItems: 3
-									}
-								}
-							});
+					</div>
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="col-md-5 feature-grid-image">
+					<div class="btm-right">
+									<a href="single.html">
+										<img src="images/serve.jpg" alt="" class="img-responsive">
+										<div class="captn">
+											<h4>Inventive Design</h4>
+															
+										</div>
+									</a>	
+							</div>
+				</div>
+				<div class="clearfix"></div>
+
+			</div>
+	</div>
+<!-- //service-type-grid -->
+<!--news-->
+		<div class="news-section" id="news">
+			<div class="container">
+				 <h3 class="tittle">Recent <span>News</span></h3>
+				<div class="news-left">			
+					<div class="col-md-6 col-news-right">
+						<div class="col-news-top">
+							<a href="single.html" class="date-in">
+								<img class="img-responsive mix-in" src="images/c4.jpg" alt="">
+								<div class="month-in">
+								  <label>
+									<span class="day">30</span>
+									<span class="month">March</span>
+									<span class="like">We Build your Dreams</span>
+								  </label>
+								</div>
+							</a>
+							<div class="clearfix"> </div>
+							<div class="col-bottom">
+							<h4>We design your home</h4>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem  </p>
+							<a href="single.html" class="hvr-shutter-in-horizontal">Read More</a>
+						</div>
+						</div>	
+						<div class="col-news-top">
+							<a href="single.html" class="date-in">
+								<img class="img-responsive mix-in" src="images/c2.jpg" alt="">
+								<div class="month-in">
+								  <label>
+									<span class="day">25</span>
+									<span class="month">May</span>
+									<span class="like">We Build your Dreams</span>
+								  </label>
+								</div>
+							</a>
+							<div class="clearfix"> </div>
+							<div class="col-bottom">
+							<h4>We Build your home</h4>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem  </p>
+							<a href="single.html" class="hvr-shutter-in-horizontal">Read More</a>
+						</div>
+						</div>	
+					</div>
+					<div class="col-md-6 col-news">
+						<div class="col-bottom two">
+							<h4>We Build your home </h4>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem  </p>
+							<a href="single.html" class="hvr-shutter-in-horizontal">Read More</a>
+						</div>
+						<div class="col-news-top">
+						
+							<a href="single.html" class="date-in">
+								<img class="img-responsive mix-in" src="images/c3.jpg" alt="">
+								<div class="month-in">
+								  <label>
+									<span class="day">30</span>
+									<span class="month">August</span>
+									<span class="like">We Build your Dreams</span>
+								  </label>
+								</div>
+							</a>
+							<div class="clearfix"> </div>
 							
-						});
-				</script>
-				<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+						</div>					
+						<div class="col-news-top">
+							<div class="col-bottom">
+							<h4>We design your home</h4>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem  </p>
+							<a href="single.html" class="hvr-shutter-in-horizontal">Read More</a>
+						</div>
+							<a href="single.html" class="date-in">
+								<img class="img-responsive mix-in" src="images/c1.jpg" alt="">
+								<div class="month-in">
+								  <label>
+									<span class="day">10</span>
+									<span class="month">December</span>
+									<span class="like">We Build your Dreams</span>
+								  </label>
+								</div>
+							</a>
+							<div class="clearfix"> </div>
+						</div>
+					
+					</div>
+					<div class="clearfix"> </div>
+				</div>
 			</div>
 		</div>
-	</div>
-<!-- //news -->
-<!-- stats -->
-	<div class="stats">
-		<div class="wthree_stat">
-			<div class="container">
-				<div class="col-md-5 wthree_stat_left">
-					<h3>Our Stats</h3>
-					<p>Nullam blandit condimentum tellus, eu sagittis leo pellentesque nec. 
-						Integer semper risus commodo neque semper.</p>
-				</div>
-				<div class="col-md-7 wthree_stat_right">
+	<!--//news-->
+
+ <!--start-services-->
+	<!--end-team-->
+
+<!--start-banner-bottom-->
+   <!--/reviews-->
+	
+<!--//reviews-->
+
+
+<!--Gallery-->
+
+<!-- //gallery -->
+
+  <!--bottom-->
+	<div class="product" id="product">
+		<div class="container">
+			<div class="product-top">
+				<div class="col-md-4 product-left heading">
+					<h3 class="tittle new">New <span>Arrivals</span></h3>
 					<ul>
-						<li>
-							<div class="wthree_stat_right1">
-								<i class="fa fa-heart" aria-hidden="true"></i>
-								<h4>People Loved</h4>
-								<p class="counter">324</p> 
-							</div>
-						</li>
-						<li>
-							<div class="wthree_stat_right1">
-								<i class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></i>
-								<h4>Save Income</h4>
-								<p class="counter">412</p> 
-							</div>
-						</li>
-						<li>
-							<div class="wthree_stat_right1">
-								<i class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></i>
-								<h4>Creative Design</h4>
-								<p class="counter">231</p> 
-							</div>
-						</li>
+						<li><i class="glyphicon glyphicon-arrow-right"></i><a href="#">Maecenas suscipit non eros vel consequat</a></li>
+						<li><i class="glyphicon glyphicon-arrow-right"></i><a href="#">Suspendisse ac nunc nec dui imperdiet</a></li>
+						<li><i class="glyphicon glyphicon-arrow-right"></i><a href="#">Fusce consectetur tellus sed commodo</a></li>
+						<li><i class="glyphicon glyphicon-arrow-right"></i><a href="#">Pellentesque egestas dolor vel sapien</a></li>
+						<li><i class="glyphicon glyphicon-arrow-right"></i><a href="#">Cras a ipsum id nisl dignissim pharetra</a></li>
+						<li><i class="glyphicon glyphicon-arrow-right"></i><a href="#">Nulla sodales neque et risus imperdiet</a></li>
+						<li><i class="glyphicon glyphicon-arrow-right"></i><a href="#">Suspendisse ac nunc nec dui imperdiet</a></li>
+						<li><i class="glyphicon glyphicon-arrow-right"></i><a href="#">Fusce consectetur tellus sed commodo</a></li>
 					</ul>
 				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-		<div class="w3layouts_newsletter">
-			<div class="container">
-				<div class="w3layouts_newsletter_left">
-					<h3>Subscribe to our newsletter</h3>
+				<div class="col-md-8 product-right heading">
+				<h3 class="tittle new">New<span>Products</span></h3>
+					
+					<div class="prdt">
+						<div class="col-md-6 prdt-left">
+							<div class="btm-right1">
+									<a href="single.html">
+										<img src="images/p-2.jpg" alt="" class="img-responsive">
+										<div class="captn1">
+											<h5>Inventive Product</h5>
+															
+										</div>
+									</a>	
+							</div>
+							<a href="single.html"><h4>Residential Design</h4></a>
+							<p>Fusce lacinia metus eget sapien ullamcorper accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+						</div>
+						<div class="col-md-6 prdt-left">
+							<div class="btm-right1">
+									<a href="single.html">
+										<img src="images/p-1.jpg" alt="" class="img-responsive">
+										<div class="captn1">
+											<h5>Inventive Product</h5>
+															
+										</div>
+									</a>	
+							</div>
+							<a href="single.html"><h4>Office Design</h4></a>
+							<p>Fusce lacinia metus eget sapien ullamcorper accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
 				</div>
-				<div class="w3layouts_newsletter_right">
-					<form action="#" method="post">
-						<input type="email" name="Email" placeholder="Email..." required="">
-						<input type="submit" value="Subscribe">
-					</form>
-				</div>
-				<div class="clearfix"> </div>
+				<div class="clearfix"></div>
 			</div>
 		</div>
 	</div>
-<!-- //stats -->
-<!-- stats -->
-	<script src="js/waypoints.min.js"></script> 
-	<script src="js/counterup.min.js"></script> 
-	<script>
-		jQuery(document).ready(function( $ ) {
-			$('.counter').counterUp({
-				delay: 20,
-				time: 1000
-			});
-		});
-	</script>
-<!-- stats -->
-<!-- footer -->
-	<div class="footer">
+	<!--client-->
+	<div class="client" id="client">
 		<div class="container">
-			<div class="w3_footer_grids">
-				<div class="col-md-4 w3_footer_grid">
-					<h2><a href="index.html"><span>L</span>ucrative</a></h2>
-					<p>Aliquam lacus tur <a href="#">http:///lucrative.com</a> lobortis quis dolor sed, 
-						nec convallis velit vestibulum ac dignissim rhoncus neque.</p>
-				</div>
-				<div class="col-md-3 w3_footer_grid">
-					<div class="w3l_footer_grid">
-						<i class="fa fa-home" aria-hidden="true"></i>
+		  
+				<div class="customer-say">
+				  <h3 class="tittle two">Customer <span>Says</span></h3>
+				   <div class="col-md-6 customer-grid">
+						<div class="de_testi">
+								<div class="quotes"><img src="images/t1.jpg" alt=""></div>
+                                    
+									 <div class="de_testi_by">
+										<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                                         <a href="#">Michael </a>, Customer
+                                    </div>
+									<div class="clearfix"></div>
+                                   
+                            </div>
+				   
+			       </div>
+				   <div class="col-md-6 customer-grid">
+				   
+				   <div class="de_testi">
+								<div class="quotes"><img src="images/t2.jpg" alt=""></div>
+                                    
+									 <div class="de_testi_by">
+										<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                                         <a href="#">John </a>, Customer
+                                    </div>
+									<div class="clearfix"></div>
+                                   
+                            </div>
+				   
+			       </div>
+			    </div>
+		</div>
+	</div>	
+	<!--//client-->
+<div class="projects">
+   <div class="container">
+    <h3 class="tittle">Recent <span>Projects</span></h3>
+	  <div class="projects-inner">
+	    <div class="col-md-7 banner-slider">
+							<div class="callbacks_container">
+								<ul class="rslides" id="slider3">
+									<li>
+									  <div class="blog-img">
+										 <img src="images/pro1.jpg" class="img-responsive" alt="" />
+									  </div>
+								
+									</li>
+									<li>
+									  <div class="blog-img">
+										<img src="images/pro2.jpg" class="img-responsive" alt="" />
+									  </div>
+								
+								  </li>
+								  <li>
+									  <div class="blog-img">
+										<img src="images/pro3.jpg" class="img-responsive" alt="" />
+									  </div>
+									   
+								  </li>
+								  <li>
+									  <div class="blog-img">
+										<img src="images/pro4.jpg" class="img-responsive" alt="" />
+									  </div>
+							
+								  </li>
+								</ul>
+						  </div>
 					</div>
-					<h4>Address</h4>
-					<p>234 main street west Building, NewYork City,F34 834.</p>
-				</div>
-				<div class="col-md-2 w3_footer_grid">
-					<div class="w3l_footer_grid">
-						<i class="fa fa-phone" aria-hidden="true"></i>
+					<div class="col-md-5 ban-text">
+					   <div class="choose">
+							<div class="choose_img">
+								 <h3>Why choose us ?</h3>
+								   <!-- choose icon -->
+								   <div class="choose_icon">
+										<div class="choose_left">
+											<span class="glyphicon glyphicon-home"></span>
+										</div>
+											<div class="choose_right">
+												<p>Lorem Ipsum is simply dummy text of the printing and
+												typesetting industry. Lorem Ipsum </p>
+											</div>
+										<div class="clearfix"></div>
+									 </div>
+								 
+								  <!-- choose icon -->
+								  <div class="choose_icon">
+									<div class="choose_left">
+										<span class="glyphicon glyphicon-pencil"></span>
+									</div>
+									<div class="choose_right">
+										<p>Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum </p>
+									</div>
+									<div class="clearfix"></div>
+								 </div>
+								 
+								  <!-- choose icon -->
+								  <div class="choose_icon">
+									<div class="choose_left">
+										<span class="glyphicon glyphicon-heart-empty"></span>
+									</div>
+									<div class="choose_right">
+										<p>Lorem Ipsum is simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum </p>
+									</div>
+									<div class="clearfix"></div>
+								 </div> 
+							</div>
+						</div>
 					</div>
-					<h4>Call Us</h4>
-					<p>+(123) 456 789 344 <span>+(123) 456 780 344</span></p>
+					<div class="clearfix"></div>
 				</div>
-				<div class="col-md-3 w3_footer_grid">
-					<div class="w3l_footer_grid">
-						<i class="fa fa-envelope" aria-hidden="true"></i>
-					</div>
-					<h4>Mail Us</h4>
-					<p><a href="mailto:info@example.com">info@example1.com</a>
-						<span><a href="mailto:info@example.com">info@example2.com</a></span></p>
+					<!--banner Slider starts Here-->
+					<script src="js/responsiveslides.min.js"></script>
+						 <script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							  // Slideshow 3
+							  $("#slider3").responsiveSlides({
+								auto: true,
+								pager:false,
+								nav: true,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+								  $('.events').append("<li>before event fired.</li>");
+								},
+								after: function () {
+								  $('.events').append("<li>after event fired.</li>");
+								}
+							  });
+						
+							});
+						  </script>
+		 </div>
+		 </div>
+	<!--/timer-->
+	<div class="time-bg">
+			   <h4>WE PROVIDE <span>BEST </span> INTERIOR DESIGN</h4>
+			<p id="demo">11:20:09 AM</p>
+			
+				<script>
+				var myVar=setInterval(function(){myTimer()},1000);
+
+				function myTimer() {
+					var d = new Date();
+					document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+				}
+				</script>
+		   </div>
+		  	<!--//timer-->
+<!--footer-->
+<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-4 amet-sed">
+				<h4>Inventive Design </h4>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+				<ul class="social">
+					<li><i class="glyphicon glyphicon-home"> </i>Sector 21 , main road </li>
+					<li class="tele-phone"><i class="glyphicon glyphicon-earphone"> </i> +71999-56985</li>
+					<li class="mail"><a href="mailto:contact@example.com"><i class="glyphicon glyphicon-envelope"> </i> contact@example.com</a></li>
+				</ul>
+				</div>
+				<div class="col-md-4 amet-sed amet-medium">
+				<h4>Twitter Feed</h4>
+					<p><a href="single.html">@ Inventive Design</a> Lorem ipsum is simply dummy text hid Lorem ipsum is simply dummy text hidden variab 3 hours ago</p>
+					<p><a href="single.html">@ Inventive Design</a> Lorem ipsum is simply dummy text hid Lorem ipsum is simply dummy text hidden variab 3 hours ago</p>				
+				</div>
+				<div class="col-md-4 amet-sed ">
+				<h4>Follow Us</h4>
+						<ul class="social-icons2 wow slideInDown" data-wow-duration="1s" data-wow-delay=".3s">
+										<li><a href="#" class="tw"></a></li>
+										<li><a href="#" class="fb"> </a></li>
+										<li><a href="#" class="in"></a></li>
+										 <div class="clearfix"></div>
+									</ul>
+									<div class="support">
+									<form action="#" method="post">
+										<input type="text" placeholder="Enter email...." required="">
+
+
+										<input type="submit" value="SUBMIT" class="botton">
+									<form>
+
+							</div>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
+				<p class="footer-class">Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
 		</div>
 	</div>
-	<div class="copyright">
-		<div class="container">
-			<div class="w3ls_copyright_left">
-				<ul>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-				<p>Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
-			</div>
-			<div class="w3ls_copyright_right">
-				<ul>
-					<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-					<li><a href="#" class="w3_agile_vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-				</ul>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-<!-- //footer -->
-<!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
-<!-- start-smoth-scrolling -->
-<!-- for bootstrap working -->
+		<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+		<a href="#house" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 	<script src="js/bootstrap.js"></script>
-<!-- //for bootstrap working -->
-<!-- here stars scrolling icon -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-								
-			$().UItoTop({ easingType: 'easeOutQuart' });
-								
-			});
-	</script>
-<!-- //here ends scrolling icon -->
 </body>
 </html>
