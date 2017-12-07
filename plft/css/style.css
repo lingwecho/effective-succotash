@@ -8,7 +8,7 @@ body a {
 html, body{
 	font-family: 'OpenSans-Regular';
 	font-size: 100%;
-	background: #ffffff;
+	background: #fff;
 }
 @font-face {
    font-family: 'OpenSans-Regular';
@@ -26,7 +26,7 @@ html, body{
 .banner{
     background: url(../images/2.jpg) no-repeat 0px 0px;
     background-size: cover;
-    padding-bottom: 5em;
+    padding-bottom: 2em;
 }
 .header {
 	padding: 1em 0;
@@ -264,7 +264,7 @@ ul.dropdown-menu {
 }
 /*-- welcome --*/
 .welcome{
-    padding: 7em 0;
+    padding: 13em 0;
     text-align: center;
     background: url(../images/2.png) no-repeat 0px 37px;
 }
@@ -375,7 +375,7 @@ ul.dropdown-menu {
     margin: .5em 0;
 }
 .news-grid-info p.text{
-    color: #777;
+    color: #fff;
     font-size: .9em;
     margin: 0;
     line-height: 1.8em;
