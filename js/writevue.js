@@ -1866,13 +1866,13 @@ var item_1=new Vue({
 			data:{
 				img:[{href:"https://icegeeker.github.io/effective-succotash/18/index.html",src:"images/18.png",str:"个人网站列表-PC"},
 				{href:"https://icegeeker.github.io/effective-succotash/19",src:"images/19.png",str:"PC-3"},
-				{href:"https://icegeeker.github.io/effective-succotash/250",src:"images/20.png",str:"PC-3"},
-				{href:"https://icegeeker.github.io/effective-succotash/251",src:"images/21.png",str:"PC-3"},
-				{href:"https://icegeeker.github.io/effective-succotash/2525",src:"images/25.png",str:"PC-3"},
-				{href:"https://icegeeker.github.io/effective-succotash/253",src:"images/20.png",str:"V25-PC-3"},
-				{href:"https://icegeeker.github.io/effective-succotash/254",src:"images/24.png",str:"PC-3"},
-				{href:"https://icegeeker.github.io/effective-succotash/255",src:"images/25.png",str:"PC-3"},
-				{href:"https://icegeeker.github.io/effective-succotash/256",src:"images/26.png",str:"PC-3"},
+				{href:"https://icegeeker.github.io/effective-succotash/20",src:"images/20.png",str:"PC-3"},
+				{href:"https://icegeeker.github.io/effective-succotash/21",src:"images/21.png",str:"PC-3"},
+				{href:"https://icegeeker.github.io/effective-succotash/22",src:"images/22.png",str:"PC-3"},
+				{href:"https://icegeeker.github.io/effective-succotash/23",src:"images/23.png",str:"V25-PC-3"},
+				{href:"https://icegeeker.github.io/effective-succotash/24",src:"images/24.png",str:"PC-3"},
+				{href:"https://icegeeker.github.io/effective-succotash/25",src:"images/25.png",str:"PC-3"},
+				{href:"https://icegeeker.github.io/effective-succotash/26",src:"images/26.png",str:"PC-3"},
 				]
 						}
 		})
