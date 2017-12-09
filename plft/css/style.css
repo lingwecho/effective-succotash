@@ -6,7 +6,7 @@ body a {
   -ms-transition: 0.5s all;
 }
 html, body{
-	font-family: 'OpenSans-Regular';
+	font-family: '黑体';
 	font-size: 100%;
 	background: #fff;
 }
@@ -21,6 +21,9 @@ html, body{
 @font-face {
    font-family: 'CinzelDecorative-Regular';
    src: url(../fonts/CinzelDecorative-Regular.ttf)format('truetype');
+}
+a:hover{
+  text-decoration: none;
 }
 /*-- banner --*/
 .banner{
@@ -266,7 +269,7 @@ ul.dropdown-menu {
 .welcome{
     padding: 13em 0;
     text-align: center;
-    background: url(../images/2.png) no-repeat 0px 37px;
+    background: url(../images/2.png) no-repeat 16% 37px;
 }
 .welcome-info {
     width: 50%;
