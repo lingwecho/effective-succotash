@@ -1687,4 +1687,8 @@ button.btn1.btn-1.btn-1b:hover {
 		font-size: .8em;
 	}
 }
-.des{text-align: center;}
+.des{
+  text-align: center;width:80%;
+  margin: 0 auto;line-height: 1.5em;
+  margin-top: 10px;
+}
