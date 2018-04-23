@@ -1,0 +1,23 @@
+[ 2018-04-11T00:42:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000723s ]
+[ info ] [ LOG ] INIT File
+[ 2018-04-11T00:42:47+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-04-11T00:42:47+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005499s ]
+[ 2018-04-11T00:42:47+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-04-11T00:42:47+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002045s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ 2018-04-11T00:42:47+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'test' [ RunTime:0.001986s ]
+[ 2018-04-11T00:42:47+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'kill_test' [ RunTime:0.001284s ]
+[ 2018-04-11T00:43:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000262s ]
+[ info ] [ LOG ] INIT File
+[ 2018-04-11T00:43:30+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-04-11T00:43:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004374s ]
+[ 2018-04-11T00:43:30+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-04-11T00:43:30+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.001944s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ 2018-04-11T00:43:30+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_rule` [ RunTime:0.053906s ]
+[ 2018-04-11T00:43:30+08:00 ][ sql ] [ SQL ] SELECT * FROM `kill_auth_rule` WHERE  (  `name` LIKE 'test%' ) [ RunTime:0.000691s ]
+[ 2018-04-11T00:43:33+08:00 ][ sql ] [ SQL ] SELECT * FROM `kill_auth_rule` WHERE  `id` IN (132,134,136,135,133,137) [ RunTime:0.000726s ]
+[ 2018-04-11T00:43:33+08:00 ][ sql ] [ SQL ] DELETE FROM `kill_auth_rule`    WHERE  `id` = 132 [ RunTime:0.031810s ]
+[ 2018-04-11T00:43:33+08:00 ][ sql ] [ SQL ] DELETE FROM `kill_auth_rule`    WHERE  `id` = 133 [ RunTime:0.022871s ]
+[ 2018-04-11T00:43:33+08:00 ][ sql ] [ SQL ] DELETE FROM `kill_auth_rule`    WHERE  `id` = 134 [ RunTime:0.023825s ]
+[ 2018-04-11T00:43:33+08:00 ][ sql ] [ SQL ] DELETE FROM `kill_auth_rule`    WHERE  `id` = 135 [ RunTime:0.023043s ]
+[ 2018-04-11T00:43:33+08:00 ][ sql ] [ SQL ] DELETE FROM `kill_auth_rule`    WHERE  `id` = 136 [ RunTime:0.024155s ]
+[ 2018-04-11T00:43:33+08:00 ][ sql ] [ SQL ] DELETE FROM `kill_auth_rule`    WHERE  `id` = 137 [ RunTime:0.022906s ]

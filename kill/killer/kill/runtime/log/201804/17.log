@@ -1,0 +1,1226 @@
+---------------------------------------------------------------
+[ 2018-04-17T10:48:07+08:00 ] 127.0.0.1 GET /
+[ info ] www.kill.com/ [运行时间：0.394222s][吞吐率：2.54req/s] [内存消耗：2,081.58kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.027398s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007806s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523492202,1523522391,1523547543,1523611289',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002614s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpStudy\PHPTutorial\WWW\kill\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-17T10:48:08+08:00 ] 127.0.0.1 GET /favicon.ico
+[ info ] www.kill.com/favicon.ico [运行时间：0.044218s][吞吐率：22.62req/s] [内存消耗：1,409.30kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000050s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003941s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-17T10:48:08+08:00 ] 127.0.0.1 GET /admin/index/login.html
+[ info ] www.kill.com/admin/index/login.html [运行时间：0.133322s][吞吐率：7.50req/s] [内存消耗：2,251.38kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003182s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000863s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000710s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-17T10:48:09+08:00 ] 127.0.0.1 GET /captcha
+[ info ] www.kill.com/captcha [运行时间：0.110986s][吞吐率：9.01req/s] [内存消耗：1,425.09kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000067s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003527s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/index/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\phpStudy\PHPTutorial\WWW\kill\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-17T10:48:09+08:00 ] 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1523933288
+[ info ] www.kill.com/admin/ajax/lang?callback=define&controllername=index&v=1523933288 [运行时间：0.084162s][吞吐率：11.88req/s] [内存消耗：2,221.06kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003712s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/index/login.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1523933288',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000444s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000657s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-17T10:48:23+08:00 ] 127.0.0.1 POST /admin/index/login.html
+[ info ] www.kill.com/admin/index/login.html [运行时间：0.467209s][吞吐率：2.14req/s] [内存消耗：2,901.52kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004676s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/index/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.kill.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '86',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '52a9b0d35828ef82b3831d2e32cbd009',
+  'username' => 'admin',
+  'password' => '654321',
+  'captcha' => 'pfw3',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000541s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.111957s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031915s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_admin` [ RunTime:0.180697s ]
+[ sql ] [ SQL ] SELECT * FROM `kill_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001587s ]
+[ sql ] [ SQL ] UPDATE `kill_admin`  SET `loginfailure`=1,`updatetime`=1523933303  WHERE  `id` = 1 [ RunTime:0.028217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_admin_log` [ RunTime:0.065553s ]
+[ sql ] [ SQL ] INSERT INTO `kill_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"52a9b0d35828ef82b3831d2e32cbd009\",\"username\":\"admin\",\"captcha\":\"pfw3\"}' , '/admin/index/login.html' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36' , '127.0.0.1' , 1523933303) [ RunTime:0.044714s ]
+---------------------------------------------------------------
+[ 2018-04-17T10:48:32+08:00 ] 127.0.0.1 GET /captcha?r=0.9238301152935431
+[ info ] www.kill.com/captcha?r=0.9238301152935431 [运行时间：0.054892s][吞吐率：18.22req/s] [内存消耗：1,425.38kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003400s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/index/login.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'r' => '0.9238301152935431',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\phpStudy\PHPTutorial\WWW\kill\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-17T10:48:38+08:00 ] 127.0.0.1 POST /admin/index/login.html
+[ info ] www.kill.com/admin/index/login.html [运行时间：0.219880s][吞吐率：4.55req/s] [内存消耗：2,920.99kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003002s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/index/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.kill.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '86',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '24a7b45f4e167bc5f317d210d5b1af1b',
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'mpp8',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000453s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.057109s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000997s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_admin` [ RunTime:0.039535s ]
+[ sql ] [ SQL ] SELECT * FROM `kill_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] UPDATE `kill_admin`  SET `loginfailure`=0,`logintime`=1523933318,`token`='a55ed6cf-5c02-4286-ab45-8ce0f7fc0de0',`updatetime`=1523933318  WHERE  `id` = 1 [ RunTime:0.028632s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_admin_log` [ RunTime:0.026444s ]
+[ sql ] [ SQL ] INSERT INTO `kill_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"24a7b45f4e167bc5f317d210d5b1af1b\",\"username\":\"admin\",\"captcha\":\"mpp8\"}' , '/admin/index/login.html' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36' , '127.0.0.1' , 1523933318) [ RunTime:0.028876s ]
+---------------------------------------------------------------
+[ 2018-04-17T10:48:39+08:00 ] 127.0.0.1 GET /admin/index/index
+[ info ] www.kill.com/admin/index/index [运行时间：1.526741s][吞吐率：0.65req/s] [内存消耗：3,322.22kb] [文件加载：95]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003048s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/index/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000639s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001787s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002341s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_group_access` [ RunTime:0.073254s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `kill_auth_group_access` `aga` LEFT JOIN `kill_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.005270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_rule` [ RunTime:0.016123s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `kill_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001513s ]
+---------------------------------------------------------------
+[ 2018-04-17T10:48:40+08:00 ] 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=index&v=1523933318
+[ info ] www.kill.com/admin/ajax/lang?callback=define&controllername=index&v=1523933318 [运行时间：0.064726s][吞吐率：15.45req/s] [内存消耗：2,221.91kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004406s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1523933318',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000453s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000518s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-17T10:48:41+08:00 ] 127.0.0.1 GET /admin/dashboard?addtabs=1
+[ info ] www.kill.com/admin/dashboard?addtabs=1 [运行时间：0.223402s][吞吐率：4.48req/s] [内存消耗：3,126.77kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003206s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/dashboard?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000463s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.002074s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002049s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_group_access` [ RunTime:0.035580s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `kill_auth_group_access` `aga` LEFT JOIN `kill_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_rule` [ RunTime:0.028140s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `kill_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001439s ]
+---------------------------------------------------------------
+[ 2018-04-17T10:48:41+08:00 ] 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=dashboard&v=1523933320
+[ info ] www.kill.com/admin/ajax/lang?callback=define&controllername=dashboard&v=1523933320 [运行时间：0.054017s][吞吐率：18.51req/s] [内存消耗：2,221.27kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003179s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1523933320',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000456s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000526s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-17T10:48:44+08:00 ] 127.0.0.1 GET /admin/collect?addtabs=1
+[ info ] www.kill.com/admin/collect?addtabs=1 [运行时间：0.307964s][吞吐率：3.25req/s] [内存消耗：3,042.82kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003582s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'collect',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/collect?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000456s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/collect.php
+[ info ] [ RUN ] app\admin\controller\Collect->index[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Collect.php ]
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\view\collect\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001009s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001732s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_group_access` [ RunTime:0.048889s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `kill_auth_group_access` `aga` LEFT JOIN `kill_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_rule` [ RunTime:0.137416s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `kill_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002546s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `kill_auth_rule` WHERE  `name` = 'collect' LIMIT 1 [ RunTime:0.000613s ]
+---------------------------------------------------------------
+[ 2018-04-17T10:48:44+08:00 ] 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=collect&v=1523933324
+[ info ] www.kill.com/admin/ajax/lang?callback=define&controllername=collect&v=1523933324 [运行时间：0.050963s][吞吐率：19.62req/s] [内存消耗：2,218.63kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000045s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003061s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/collect?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'collect',
+  'v' => '1523933324',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000473s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/collect.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000557s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-17T10:48:45+08:00 ] 127.0.0.1 GET /admin/collect/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1523933324818
+[ info ] www.kill.com/admin/collect/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1523933324818 [运行时间：0.266913s][吞吐率：3.75req/s] [内存消耗：3,210.54kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003250s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'collect',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/collect?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1523933324818',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000444s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/collect.php
+[ info ] [ RUN ] app\admin\controller\Collect->index[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Collect.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000533s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000925s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_group_access` [ RunTime:0.031554s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `kill_auth_group_access` `aga` LEFT JOIN `kill_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_rule` [ RunTime:0.035497s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `kill_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_collect` [ RunTime:0.049685s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_user` [ RunTime:0.036431s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `kill_collect` `collect` LEFT JOIN `kill_user` `user` ON `collect`.`user_id`=`user`.`id` ORDER BY `collect`.`id`  desc LIMIT 1 [ RunTime:0.009467s ]
+[ sql ] [ SQL ] SELECT `collect`.`id`,`collect`.`user_id`,`collect`.`name`,`collect`.`city`,`collect`.`address`,`collect`.`description`,`collect`.`image`,user.id AS user__id,user.group_id AS user__group_id,user.username AS user__username,user.nickname AS user__nickname,user.password AS user__password,user.salt AS user__salt,user.email AS user__email,user.mobile AS user__mobile,user.avatar AS user__avatar,user.level AS user__level,user.gender AS user__gender,user.birthday AS user__birthday,user.bio AS user__bio,user.score AS user__score,user.successions AS user__successions,user.maxsuccessions AS user__maxsuccessions,user.prevtime AS user__prevtime,user.logintime AS user__logintime,user.loginip AS user__loginip,user.loginfailure AS user__loginfailure,user.joinip AS user__joinip,user.jointime AS user__jointime,user.createtime AS user__createtime,user.updatetime AS user__updatetime,user.token AS user__token,user.status AS user__status,user.verification AS user__verification FROM `kill_collect` `collect` LEFT JOIN `kill_user` `user` ON `collect`.`user_id`=`user`.`id` ORDER BY `collect`.`id`  desc LIMIT 0,10 [ RunTime:0.000673s ]
+---------------------------------------------------------------
+[ 2018-04-17T10:48:47+08:00 ] 127.0.0.1 GET /admin/collectplay?addtabs=1
+[ info ] www.kill.com/admin/collectplay?addtabs=1 [运行时间：0.200727s][吞吐率：4.98req/s] [内存消耗：3,043.33kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003222s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'collectplay',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/collectplay?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000422s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/collectplay.php
+[ info ] [ RUN ] app\admin\controller\Collectplay->index[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Collectplay.php ]
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\view\collectplay\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000545s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000872s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_group_access` [ RunTime:0.039660s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `kill_auth_group_access` `aga` LEFT JOIN `kill_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_rule` [ RunTime:0.023039s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `kill_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002463s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `kill_auth_rule` WHERE  `name` = 'collectplay' LIMIT 1 [ RunTime:0.000602s ]
+---------------------------------------------------------------
+[ 2018-04-17T10:48:48+08:00 ] 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=collectplay&v=1523933327
+[ info ] www.kill.com/admin/ajax/lang?callback=define&controllername=collectplay&v=1523933327 [运行时间：0.055849s][吞吐率：17.91req/s] [内存消耗：2,218.73kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000046s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003280s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/collectplay?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'collectplay',
+  'v' => '1523933327',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000453s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/collectplay.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000525s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-17T10:48:48+08:00 ] 127.0.0.1 GET /admin/collectplay/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1523933328092
+[ info ] www.kill.com/admin/collectplay/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1523933328092 [运行时间：0.235335s][吞吐率：4.25req/s] [内存消耗：3,213.20kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002982s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'collectplay',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/collectplay?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1523933328092',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000444s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/collectplay.php
+[ info ] [ RUN ] app\admin\controller\Collectplay->index[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Collectplay.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000520s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000896s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_group_access` [ RunTime:0.036109s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `kill_auth_group_access` `aga` LEFT JOIN `kill_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_rule` [ RunTime:0.044328s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `kill_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_collectplay` [ RunTime:0.052847s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_user` [ RunTime:0.025404s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `kill_collectplay` `collectplay` LEFT JOIN `kill_user` `user` ON `collectplay`.`user_id`=`user`.`id` ORDER BY `collectplay`.`id`  desc LIMIT 1 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT `collectplay`.`id`,`collectplay`.`user_id`,`collectplay`.`name`,`collectplay`.`content`,`collectplay`.`images`,`collectplay`.`numb`,`collectplay`.`numbs`,`collectplay`.`description`,`collectplay`.`keywords`,user.id AS user__id,user.group_id AS user__group_id,user.username AS user__username,user.nickname AS user__nickname,user.password AS user__password,user.salt AS user__salt,user.email AS user__email,user.mobile AS user__mobile,user.avatar AS user__avatar,user.level AS user__level,user.gender AS user__gender,user.birthday AS user__birthday,user.bio AS user__bio,user.score AS user__score,user.successions AS user__successions,user.maxsuccessions AS user__maxsuccessions,user.prevtime AS user__prevtime,user.logintime AS user__logintime,user.loginip AS user__loginip,user.loginfailure AS user__loginfailure,user.joinip AS user__joinip,user.jointime AS user__jointime,user.createtime AS user__createtime,user.updatetime AS user__updatetime,user.token AS user__token,user.status AS user__status,user.verification AS user__verification FROM `kill_collectplay` `collectplay` LEFT JOIN `kill_user` `user` ON `collectplay`.`user_id`=`user`.`id` ORDER BY `collectplay`.`id`  desc LIMIT 0,10 [ RunTime:0.000659s ]
+---------------------------------------------------------------
+[ 2018-04-17T10:48:50+08:00 ] 127.0.0.1 GET /admin/activity?addtabs=1
+[ info ] www.kill.com/admin/activity?addtabs=1 [运行时间：0.182838s][吞吐率：5.47req/s] [内存消耗：3,046.41kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003315s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'activity',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/activity?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000463s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/activity.php
+[ info ] [ RUN ] app\admin\controller\Activity->index[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Activity.php ]
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\view\activity\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000547s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001077s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_group_access` [ RunTime:0.041901s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `kill_auth_group_access` `aga` LEFT JOIN `kill_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_rule` [ RunTime:0.026871s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `kill_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001399s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `kill_auth_rule` WHERE  `name` = 'activity' LIMIT 1 [ RunTime:0.000708s ]
+---------------------------------------------------------------
+[ 2018-04-17T10:48:50+08:00 ] 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=activity&v=1523933330
+[ info ] www.kill.com/admin/ajax/lang?callback=define&controllername=activity&v=1523933330 [运行时间：0.054329s][吞吐率：18.41req/s] [内存消耗：2,219.11kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003885s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/activity?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'activity',
+  'v' => '1523933330',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000436s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/activity.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000519s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-17T10:48:51+08:00 ] 127.0.0.1 GET /admin/activity/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1523933330531
+[ info ] www.kill.com/admin/activity/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1523933330531 [运行时间：0.300383s][吞吐率：3.33req/s] [内存消耗：3,291.94kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002887s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'activity',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/activity?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1523933330531',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000441s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/activity.php
+[ info ] [ RUN ] app\admin\controller\Activity->index[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Activity.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000525s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000770s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_group_access` [ RunTime:0.035508s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `kill_auth_group_access` `aga` LEFT JOIN `kill_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_rule` [ RunTime:0.048796s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `kill_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_activity` [ RunTime:0.031186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_cafecube` [ RunTime:0.032964s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_play` [ RunTime:0.034425s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_user` [ RunTime:0.024318s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `kill_activity` `activity` LEFT JOIN `kill_cafecube` `cafecube` ON `activity`.`cafecube_id`=`cafecube`.`id` LEFT JOIN `kill_play` `play` ON `activity`.`play_id`=`play`.`id` LEFT JOIN `kill_user` `user` ON `activity`.`user_ids`=`user`.`id` ORDER BY `activity`.`id`  desc LIMIT 1 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT `activity`.`id`,`activity`.`cafecube_id`,`activity`.`play_id`,`activity`.`user_ids`,`activity`.`starttime`,`activity`.`description`,`activity`.`num`,cafecube.id AS cafecube__id,cafecube.name AS cafecube__name,cafecube.city AS cafecube__city,cafecube.address AS cafecube__address,cafecube.description AS cafecube__description,cafecube.image AS cafecube__image,play.id AS play__id,play.name AS play__name,play.content AS play__content,play.images AS play__images,play.numb AS play__numb,play.numbs AS play__numbs,play.description AS play__description,play.keywords AS play__keywords,user.id AS user__id,user.group_id AS user__group_id,user.username AS user__username,user.nickname AS user__nickname,user.password AS user__password,user.salt AS user__salt,user.email AS user__email,user.mobile AS user__mobile,user.avatar AS user__avatar,user.level AS user__level,user.gender AS user__gender,user.birthday AS user__birthday,user.bio AS user__bio,user.score AS user__score,user.successions AS user__successions,user.maxsuccessions AS user__maxsuccessions,user.prevtime AS user__prevtime,user.logintime AS user__logintime,user.loginip AS user__loginip,user.loginfailure AS user__loginfailure,user.joinip AS user__joinip,user.jointime AS user__jointime,user.createtime AS user__createtime,user.updatetime AS user__updatetime,user.token AS user__token,user.status AS user__status,user.verification AS user__verification FROM `kill_activity` `activity` LEFT JOIN `kill_cafecube` `cafecube` ON `activity`.`cafecube_id`=`cafecube`.`id` LEFT JOIN `kill_play` `play` ON `activity`.`play_id`=`play`.`id` LEFT JOIN `kill_user` `user` ON `activity`.`user_ids`=`user`.`id` ORDER BY `activity`.`id`  desc LIMIT 0,10 [ RunTime:0.010389s ]
+---------------------------------------------------------------
+[ 2018-04-17T10:48:52+08:00 ] 127.0.0.1 GET /admin/banner?addtabs=1
+[ info ] www.kill.com/admin/banner?addtabs=1 [运行时间：0.150668s][吞吐率：6.64req/s] [内存消耗：3,042.23kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004937s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/banner?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000460s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/banner.php
+[ info ] [ RUN ] app\admin\controller\Banner->index[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Banner.php ]
+[ info ] [ VIEW ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\view\banner\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000523s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000746s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_group_access` [ RunTime:0.031175s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `kill_auth_group_access` `aga` LEFT JOIN `kill_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_rule` [ RunTime:0.025088s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `kill_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001429s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `kill_auth_rule` WHERE  `name` = 'banner' LIMIT 1 [ RunTime:0.000475s ]
+---------------------------------------------------------------
+[ 2018-04-17T10:48:52+08:00 ] 127.0.0.1 GET /admin/ajax/lang?callback=define&controllername=banner&v=1523933332
+[ info ] www.kill.com/admin/ajax/lang?callback=define&controllername=banner&v=1523933332 [运行时间：0.051937s][吞吐率：19.25req/s] [内存消耗：2,218.16kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000062s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003163s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/banner?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'banner',
+  'v' => '1523933332',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000498s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/banner.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000514s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-17T10:48:53+08:00 ] 127.0.0.1 GET /admin/banner/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1523933332496
+[ info ] www.kill.com/admin/banner/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1523933332496 [运行时间：0.184471s][吞吐率：5.42req/s] [内存消耗：3,178.45kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003019s ]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1523522391,1523547543,1523611289,1523933288; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1523933288; PHPSESSID=sgucn2h6u57i11mb1tokoa8533',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.kill.com/admin/banner?addtabs=1',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.kill.com',
+)
+[ info ] [ PARAM ] array (
+  'sort' => 'id',
+  'order' => 'desc',
+  'offset' => '0',
+  'limit' => '10',
+  'filter' => '{}',
+  'op' => '{}',
+  '_' => '1523933332496',
+)
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000465s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\kill\public/../application/admin/lang/zh-cn/banner.php
+[ info ] [ RUN ] app\admin\controller\Banner->index[ F:\phpStudy\PHPTutorial\WWW\kill\application\admin\controller\Banner.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000535s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000846s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_group_access` [ RunTime:0.033646s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `kill_auth_group_access` `aga` LEFT JOIN `kill_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_rule` [ RunTime:0.026465s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `kill_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_banner` [ RunTime:0.024243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `kill_play` [ RunTime:0.025502s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `kill_banner` `banner` LEFT JOIN `kill_play` `play` ON `banner`.`play_id`=`play`.`id` ORDER BY `banner`.`id`  desc LIMIT 1 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT `banner`.`id`,`banner`.`image`,`banner`.`title`,`banner`.`play_id`,play.id AS play__id,play.name AS play__name,play.content AS play__content,play.images AS play__images,play.numb AS play__numb,play.numbs AS play__numbs,play.description AS play__description,play.keywords AS play__keywords FROM `kill_banner` `banner` LEFT JOIN `kill_play` `play` ON `banner`.`play_id`=`play`.`id` ORDER BY `banner`.`id`  desc LIMIT 0,10 [ RunTime:0.000461s ]

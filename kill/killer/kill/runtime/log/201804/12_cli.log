@@ -1,0 +1,43 @@
+[ 2018-04-12T08:33:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000250s ]
+[ info ] [ LOG ] INIT File
+[ 2018-04-12T08:33:21+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-04-12T08:33:21+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005474s ]
+[ 2018-04-12T08:33:21+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-04-12T08:33:21+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002114s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ 2018-04-12T08:33:21+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'collect_play' [ RunTime:0.001881s ]
+[ 2018-04-12T08:33:21+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'kill_collect_play' [ RunTime:0.001090s ]
+[ 2018-04-12T08:33:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000249s ]
+[ info ] [ LOG ] INIT File
+[ 2018-04-12T08:33:50+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-04-12T08:33:50+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005016s ]
+[ 2018-04-12T08:33:50+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-04-12T08:33:50+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002039s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ 2018-04-12T08:33:50+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'collect' [ RunTime:0.001785s ]
+[ 2018-04-12T08:33:50+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'kill_collect' [ RunTime:0.001260s ]
+[ 2018-04-12T08:34:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000272s ]
+[ info ] [ LOG ] INIT File
+[ 2018-04-12T08:34:26+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-04-12T08:34:26+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006710s ]
+[ 2018-04-12T08:34:26+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-04-12T08:34:26+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.002407s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ 2018-04-12T08:34:26+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `kill_auth_rule` [ RunTime:0.023089s ]
+[ 2018-04-12T08:34:26+08:00 ][ sql ] [ SQL ] SELECT * FROM `kill_auth_rule` WHERE  (  `name` LIKE 'collect%' ) [ RunTime:0.000659s ]
+[ 2018-04-12T08:34:28+08:00 ][ sql ] [ SQL ] SELECT * FROM `kill_auth_rule` WHERE  `id` IN (150,152,154,153,151,155) [ RunTime:0.000651s ]
+[ 2018-04-12T08:34:28+08:00 ][ sql ] [ SQL ] DELETE FROM `kill_auth_rule`    WHERE  `id` = 150 [ RunTime:0.046225s ]
+[ 2018-04-12T08:34:28+08:00 ][ sql ] [ SQL ] DELETE FROM `kill_auth_rule`    WHERE  `id` = 151 [ RunTime:0.021674s ]
+[ 2018-04-12T08:34:28+08:00 ][ sql ] [ SQL ] DELETE FROM `kill_auth_rule`    WHERE  `id` = 152 [ RunTime:0.018949s ]
+[ 2018-04-12T08:34:28+08:00 ][ sql ] [ SQL ] DELETE FROM `kill_auth_rule`    WHERE  `id` = 153 [ RunTime:0.021899s ]
+[ 2018-04-12T08:34:28+08:00 ][ sql ] [ SQL ] DELETE FROM `kill_auth_rule`    WHERE  `id` = 154 [ RunTime:0.020019s ]
+[ 2018-04-12T08:34:28+08:00 ][ sql ] [ SQL ] DELETE FROM `kill_auth_rule`    WHERE  `id` = 155 [ RunTime:0.022172s ]
+[ 2018-04-12T09:51:32+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000262s ]
+[ info ] [ LOG ] INIT File
+[ 2018-04-12T09:51:32+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-04-12T09:51:32+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004455s ]
+[ 2018-04-12T09:53:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000264s ]
+[ info ] [ LOG ] INIT File
+[ 2018-04-12T09:53:28+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-04-12T09:53:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005092s ]
+[ 2018-04-12T09:53:28+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-04-12T09:53:28+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.003423s ] mysql:host=127.0.0.1;dbname=killer;charset=utf8
+[ 2018-04-12T09:53:28+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'activity' [ RunTime:0.001970s ]
+[ 2018-04-12T09:53:28+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'kill_activity' [ RunTime:0.001110s ]
