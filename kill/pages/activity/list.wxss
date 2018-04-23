@@ -1,0 +1,159 @@
+/* pages/activity/list.wxss */
+
+
+/* 一条活动的样式 */
+
+.a_record {
+    position: relative;
+    width: 94%;
+    margin: 20rpx auto;
+    background: #fff;
+}
+
+.a_record .a_record_con {
+    padding: 40rpx;
+    line-height: 50rpx;
+}
+
+.a_record .a_record_t {
+    display: block;
+}
+
+.a_record .a_record_leftt {
+    text-align: right;
+}
+
+.a_record .a_record_rightt {
+    margin-left: 20rpx;
+}
+
+.a_record .activity_num {
+    position: absolute;
+    top: 40rpx;
+    right: 40rpx;
+    padding: 0 10rpx;
+    font-size: 12px;
+    border: 2rpx solid #8DB7DA;
+    color: #8DB7DA;
+    border-radius: 50rpx;
+}
+
+.a_record .num {
+    position: absolute;
+    bottom: 40rpx;
+    right: 40rpx;
+}
+
+
+/* 活动列表样式 城市 */
+
+.activity_list_top {
+    padding: 10rpx 20rpx;
+    padding-bottom: 0;
+}
+
+.top_con {
+    height: 70rpx;
+}
+
+.top_left {
+    width: 160rpx;
+}
+
+.top_middle {
+    width: 420rpx;
+}
+
+.top_con .city {
+    height: 100%;
+    background: #fff;
+    border-radius: 50rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20rpx;
+}
+
+.x_jiantou {
+    width: 30rpx;
+    height: 30rpx;
+}
+
+
+/* 活动列表样式  搜索框 */
+
+.screen {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 50rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20rpx;
+    margin-left: 10rpx;
+}
+
+.screen_img {
+    width: 30rpx;
+    height: 30rpx;
+}
+
+.screen_con {
+    width: 100%;
+}
+
+
+/* 活动列表样式   加号 */
+
+.add {
+    height: 100%;
+    background: #fff;
+    border-radius: 50rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20rpx;
+    margin-left: 10rpx;
+}
+
+.add_img {
+    width: 30rpx;
+    height: 30rpx;
+}
+
+
+/* 底部分类 */
+
+.activity_list_bottom {
+    width: 100%;
+    height: 120rpx;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activity_list_bottom .picker {
+    margin: 0 10rpx;
+    padding: 10rpx 30rpx 10rpx 10rpx;
+    border: 2rpx solid #BBBBBB;
+    color: #BBBBBB;
+    border-radius: 10rpx;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbklEQVQ4je2QQQ2AMBAEK6ESkFIJSKgUHCCnudsmKwEJlYAE+BEevfb+MMk+b3K7Ifw8qGoGcHiiqrkrAUAA1yQkGbsCkrHW2gbHZyllGVYBkCyBiKyuPURk6wh217Gxh93b4rXHvPfgi+Tu/WFuYberJJIXHB0AAAAASUVORK5CYII=");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 50%;
+}
+
+.bottom_sximg {
+    width: 20rpx;
+    height: 20rpx;
+}
+
+.kong {
+    width: 100%;
+    height: 120rpx;
+}

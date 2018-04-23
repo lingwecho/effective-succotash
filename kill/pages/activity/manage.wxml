@@ -1,0 +1,71 @@
+<!--pages/activity/manage.wxml 活动管理-->
+<view class="record">
+    <view class="activity_manage_top">
+        <view class="top_con">
+            <view class="screen">
+                <input class="screen_con" type="text"></input>
+                <image class="screen_img" src="/imgs/jiahao.png"></image>
+            </view>
+        </view>
+    </view>
+    <view class="a_record">
+        <view class="a_record_con clearfix">
+            <view class="fl a_record_leftt">
+                <text decode class="a_record_t">主题剧本:</text>
+                <text decode class="a_record_t g_color">已审核</text>
+                <text decode class="a_record_t">时间:</text>
+            </view>
+            <view class="fl a_record_rightt">
+                <text decode class="a_record_t">率土之滨</text>
+                <view class="icon"><icon type="success"/></view>
+                <text decode class="a_record_t">3月14</text>
+            </view>
+            <view class="fr activity_num">
+                <text>活动编号</text>
+            </view>
+            <view class="fr num">
+                <text>人数:<text>3</text><text>/</text><text>7</text></text>
+            </view>
+        </view>
+    </view>
+    <view class="a_record">
+        <view class="a_record_con clearfix">
+            <view class="fl a_record_leftt">
+                <text decode class="a_record_t">主题剧本:</text>
+                <text decode class="a_record_t o_color">待审核</text>
+                <text decode class="a_record_t">时间:</text>
+            </view>
+            <view class="fl a_record_rightt">
+                <text decode class="a_record_t">率土之滨</text>
+                <view class="icon"><image class="icon_img" src="/imgs/exam.png"></image></view>
+                <text decode class="a_record_t">3月14</text>
+            </view>
+            <view class="fr activity_num">
+                <text>活动编号</text>
+            </view>
+            <view class="fr num">
+                <text>人数:<text>3</text><text>/</text><text>7</text></text>
+            </view>
+        </view>
+    </view>
+    <view class="a_record">
+        <view class="a_record_con clearfix">
+            <view class="fl a_record_leftt">
+                <text decode class="a_record_t">主题剧本:</text>
+                <text decode class="a_record_t g_color">已审核</text>
+                <text decode class="a_record_t">时间:</text>
+            </view>
+            <view class="fl a_record_rightt">
+                <text decode class="a_record_t">率土之滨</text>
+                <view class="icon"><icon type="success"/></view>
+                <text decode class="a_record_t">3月14</text>
+            </view>
+            <view class="fr activity_num">
+                <text>活动编号</text>
+            </view>
+            <view class="fr num">
+                <text>人数:<text>3</text><text>/</text><text>7</text></text>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,31 @@
+<!--pages/cafe/details.wxml 桌游吧详情-->
+<view class="record cafe_details">
+    <block wx:for="{{cafedata}}" wx:for-item="cafe">
+    <view class="a_record">
+        <view class="a_record_leftt">
+            <image class="drama_tou_img" src="{{cafe.cafe_img}}"></image>
+        </view>
+        <view class="a_record_con">
+            <view class="a_record_rightt">
+                <view class="a_record_t a_record_top">
+                    <text>门店名称:</text>{{cafe.cafe_name}}
+                </view>
+                <view class="a_record_t a_record_top">
+                    <text>地址:</text>{{cafe.cafe_add}}<veiw class="fr r_jiantou_con"><image class="r_jiantou" src="/imgs/r_jiantou.png"></image></veiw>
+                </view>
+                <view class="a_record_t drama_des">
+                    <text>门店描述:</text>{{cafe.cafe_des}}
+                </view>
+            </view>
+            <view class="drama_coll">
+                <block wx:if="{{cafe.cafe_coll}}">
+                    <image class="coll_img" src="/imgs/coll.png"></image>
+                </block>
+                <block wx:else>
+                    <image class="coll_img" src="/imgs/wei_coll.png"></image>
+                </block>
+            </view>
+        </view>
+    </view>
+    </block>
+</view>

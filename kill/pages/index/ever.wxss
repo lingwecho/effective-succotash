@@ -1,0 +1,84 @@
+/* pages/index/ever.wxss */
+
+.drama_search_top {
+    height: 75rpx;
+    padding: 10rpx 20rpx;
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 50rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_con {
+    width: 100%;
+    height: 100%;
+}
+
+.screen_img {
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+    width: 30rpx;
+    height: 30rpx;
+}
+
+.screen_con {
+    width: 95%;
+}
+
+.mycoll_name {
+    width: 100%;
+    height: 60rpx;
+    line-height: 80rpx;
+    margin-left: 20rpx;
+    font-size: 16px;
+}
+
+
+/* 一条记录的样式 */
+
+.a_record {
+    position: relative;
+    width: 94%;
+    margin: 20rpx auto;
+    background: #fff;
+}
+
+.a_record .a_record_con {
+    padding: 40rpx;
+    line-height: 50rpx;
+}
+
+.a_record .a_record_t {
+    display: block;
+}
+
+.a_record .a_record_leftt {
+    text-align: right;
+}
+
+.a_record .a_record_rightt {
+    margin-left: 20rpx;
+}
+
+.a_record .activity_num {
+    position: absolute;
+    top: 40rpx;
+    right: 40rpx;
+    padding: 0 10rpx;
+    font-size: 12px;
+    border: 2rpx solid #8DB7DA;
+    color: #8DB7DA;
+    border-radius: 50rpx;
+}
+
+.a_record .num {
+    position: absolute;
+    bottom: 40rpx;
+    right: 40rpx;
+}

@@ -1,0 +1,201 @@
+/*pages/home/home.wxss*/
+
+.home {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* TOP */
+
+.top {
+    width: 100%;
+    height: 75rpx;
+    padding-top: 10rpx;
+}
+
+.top .top_con {
+    width: 90%;
+    height: 60rpx;
+    line-height: 60rpx;
+    background-color: #fff;
+    border-radius: 60rpx;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top .top_con .top_bm {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 15%;
+}
+
+.top .top_con .top_jb {
+    font-size: 16px;
+    margin-left: 5%;
+    max-width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.top .top_con .top_num {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 5%;
+}
+
+.top .top_con .top_xie {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.top .top_con .top_tnum {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.top .top_con .r_arrow {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 24px;
+}
+
+.top .top_con_two {
+    width: 45%;
+    height: 60rpx;
+    line-height: 60rpx;
+    background-color: #fff;
+    border-radius: 60rpx;
+    text-align: center;
+}
+
+.top .top_con_two .top_bm_l {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 15%;
+}
+
+.top .top_con_two .top_bm_r {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 15%;
+}
+
+.top .top_con_two .top_num_l {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 5%;
+}
+
+.top .top_con_two .top_num_r {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-right: 5%;
+}
+
+.top .top_con_two .l_arrow {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 24px;
+}
+
+.top .top_con_two .r_arrow {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 24px;
+}
+
+.top_left {
+    margin-left: 20rpx;
+}
+
+.top_right {
+    margin-right: 20rpx;
+}
+
+
+/* 轮播图 */
+
+.carousel {
+    width: 100%;
+}
+
+.carousel .car {
+    width: 100%;
+    height: 400rpx;
+    display: block;
+}
+
+.carousel .car_img {
+    width: 100%;
+    display: block;
+}
+
+
+/* 列表 */
+
+.list_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-center;
+}
+
+.page_section {
+    width: 100%;
+    padding: 10px 5px 0;
+    font-size: 16px;
+}
+
+.flex_item {
+    width: 45%;
+    margin-bottom: 20rpx;
+    margin-left: 3%;
+    height: 240rpx;
+    border: 1rpx solid #D2D2D2;
+    background-color: #fff;
+}
+
+.flex_item .flex_img {
+    width: 100%;
+    height: 140rpx;
+}
+
+.flex_item .flex_text {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.height {
+    width: 100%;
+    height: 80rpx;
+}
+
+
+/* bottom 按钮 */
+
+.bottom_btn {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80rpx;
+    background-color: #F0F0F2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20rpx;
+    z-index: 9999;
+}
+
+.bottom_btn .jv {
+    width: 40%;
+    height: 60rpx;
+    line-height: 60rpx;
+}

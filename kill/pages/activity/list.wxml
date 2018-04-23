@@ -1,0 +1,160 @@
+<!--pages/activity/list.wxml 活动列表-->
+<view class="record activity_list">
+    <view class="activity_list_top clearfix">
+        <view class="fl top_con top_left">
+            <view class="city">城市<image class="x_jiantou" src="/imgs/x_jiantou.png"></image></view>
+        </view>
+        <view class="fl top_con top_middle">
+            <view class="screen">
+                <image class="screen_img" src="/imgs/search.png"></image>
+                <input class="screen_con" type="text"></input>
+            </view>
+        </view>
+        <view class="fr top_con top_right">
+            <view class="add">
+                <image class="add_img" src="/imgs/jiahao.png"></image>
+            </view>
+        </view>
+    </view>
+    <view class="a_record">
+        <view class="a_record_con clearfix">
+            <view class="fl a_record_leftt">
+                <text decode class="a_record_t">主题剧本:</text>
+                <text decode class="a_record_t">地点:</text>
+                <text decode class="a_record_t">时间:</text>
+            </view>
+            <view class="fl a_record_rightt">
+                <text decode class="a_record_t">率土之滨</text>
+                <text decode class="a_record_t">北京XX桌游</text>
+                <text decode class="a_record_t">3月14</text>
+            </view>
+            <view class="fr activity_num">
+                <text>活动编号</text>
+            </view>
+            <view class="fr num">
+                <text>人数:<text>3</text><text>/</text><text>7</text></text>
+            </view>
+        </view>
+    </view>
+    <view class="a_record">
+        <view class="a_record_con clearfix">
+            <view class="fl a_record_leftt">
+                <text decode class="a_record_t">主题剧本:</text>
+                <text decode class="a_record_t">地点:</text>
+                <text decode class="a_record_t">时间:</text>
+            </view>
+            <view class="fl a_record_rightt">
+                <text decode class="a_record_t">率土之滨</text>
+                <text decode class="a_record_t">北京XX桌游</text>
+                <text decode class="a_record_t">3月14</text>
+            </view>
+            <view class="fr activity_num">
+                <text>活动编号</text>
+            </view>
+            <view class="fr num">
+                <text>人数:<text>3</text><text>/</text><text>7</text></text>
+            </view>
+        </view>
+    </view>
+    <view class="a_record">
+        <view class="a_record_con clearfix">
+            <view class="fl a_record_leftt">
+                <text decode class="a_record_t">主题剧本:</text>
+                <text decode class="a_record_t">地点:</text>
+                <text decode class="a_record_t">时间:</text>
+            </view>
+            <view class="fl a_record_rightt">
+                <text decode class="a_record_t">率土之滨</text>
+                <text decode class="a_record_t">北京XX桌游</text>
+                <text decode class="a_record_t">3月14</text>
+            </view>
+            <view class="fr activity_num">
+                <text>活动编号</text>
+            </view>
+            <view class="fr num">
+                <text>人数:<text>3</text><text>/</text><text>7</text></text>
+            </view>
+        </view>
+    </view>
+    <view class="a_record">
+        <view class="a_record_con clearfix">
+            <view class="fl a_record_leftt">
+                <text decode class="a_record_t">主题剧本:</text>
+                <text decode class="a_record_t">地点:</text>
+                <text decode class="a_record_t">时间:</text>
+            </view>
+            <view class="fl a_record_rightt">
+                <text decode class="a_record_t">率土之滨</text>
+                <text decode class="a_record_t">北京XX桌游</text>
+                <text decode class="a_record_t">3月14</text>
+            </view>
+            <view class="fr activity_num">
+                <text>活动编号</text>
+            </view>
+            <view class="fr num">
+                <text>人数:<text>3</text><text>/</text><text>7</text></text>
+            </view>
+        </view>
+    </view>
+    <view class="a_record">
+        <view class="a_record_con clearfix">
+            <view class="fl a_record_leftt">
+                <text decode class="a_record_t">主题剧本:</text>
+                <text decode class="a_record_t">地点:</text>
+                <text decode class="a_record_t">时间:</text>
+            </view>
+            <view class="fl a_record_rightt">
+                <text decode class="a_record_t">率土之滨</text>
+                <text decode class="a_record_t">北京XX桌游</text>
+                <text decode class="a_record_t">3月14</text>
+            </view>
+            <view class="fr activity_num">
+                <text>活动编号</text>
+            </view>
+            <view class="fr num">
+                <text>人数:<text>3</text><text>/</text><text>7</text></text>
+            </view>
+        </view>
+    </view>
+    <view class="a_record">
+        <view class="a_record_con clearfix">
+            <view class="fl a_record_leftt">
+                <text decode class="a_record_t">主题剧本:</text>
+                <text decode class="a_record_t">地点:</text>
+                <text decode class="a_record_t">时间:</text>
+            </view>
+            <view class="fl a_record_rightt">
+                <text decode class="a_record_t">率土之滨</text>
+                <text decode class="a_record_t">北京XX桌游</text>
+                <text decode class="a_record_t">3月14</text>
+            </view>
+            <view class="fr activity_num">
+                <text>活动编号</text>
+            </view>
+            <view class="fr num">
+                <text>人数:<text>3</text><text>/</text><text>7</text></text>
+            </view>
+        </view>
+    </view>
+    <view class="kong"></view>
+    <view class="activity_list_bottom">
+        <view class="fl bottom_left">
+            <picker bindchange="bindTimeChange" value="{{time_index}}" range="{{time_array}}">
+                <text>时间</text>
+                <text class="picker">{{time_array[time_index]}}</text>
+            </picker>
+        </view>
+        <view class="fl bottom_middle">
+            <picker bindchange="bindCafeChange" value="{{cafe_index}}" range="{{cafe_array}}">
+                <text>桌游吧</text>
+                <text class="picker">{{cafe_array[cafe_index]}}</text>
+            </picker>
+        </view>
+        <view class="fl bottom_right">
+            <picker bindchange="bindDramaChange" value="{{drama_index}}" range="{{drama_array}}">
+                <text>剧本</text>
+                <text class="picker">{{drama_array[drama_index]}}</text>
+            </picker>
+        </view>
+    </view>
+</view>

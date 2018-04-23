@@ -1,0 +1,33 @@
+/* pages/index/data.wxss */
+
+
+/* top 左右布局 */
+
+.act_top {
+    width: 100%;
+    height: 70rpx;
+    line-height: 90rpx;
+    font-size: 16px;
+    padding-left: 65rpx;
+}
+
+
+/* 首页图片 */
+
+.index_con_img {
+    width: 160rpx;
+    margin-left: 65rpx;
+}
+
+.index_con_text {
+    margin-left: 45rpx;
+}
+
+.index_con {
+    width: 100%;
+    height: 100rpx;
+    background: #fff;
+    margin-top: 20rpx;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,90 @@
+<!--pages/s_page/s_page.wxml 剧本页面-->
+<view class="s_page">
+    <!-- 剧本详情顶部 Start -->
+    <view class="top clearfix">
+        <view class="clearfix">
+            <view class="left fl">
+                <image class="left_img" src="/imgs/renwu.png"></image>
+            </view>
+            <view class="right fl">
+                <text class="s_page_text">剧本名称剧本名称剧本名称剧本名称剧本名称剧本名称</text>
+                <text class="s_page_con">
+                    这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介这是简介
+                </text>
+            </view>
+        </view>
+        <view class="top_button">
+            <button class="top_btn fl">加入游戏</button>
+            <button class="top_btn fl">新建一局</button>
+        </view>
+    </view>
+    <!-- 剧本详情顶部 End -->
+    <!-- 滑块 Start -->
+    <view class="scroll">
+        <scroll-view class="scroll_rw" scroll-x style="width: 100%">
+            <view class="scroll_arw">
+                <view class="arw_con">
+                    <image class="arw_img" src="/imgs/renwu.png"></image>
+                </view>
+                <text class="arw_text">角色名称角色名称角色名称角色名称</text>
+            </view>
+            <view class="scroll_arw">
+                <view class="arw_con">
+                    <image class="arw_img" src="/imgs/renwu.png"></image>
+                </view>
+                <text class="arw_text">角色名称</text>
+            </view>
+            <view class="scroll_arw">
+                <view class="arw_con">
+                    <image class="arw_img" src="/imgs/renwu.png"></image>
+                </view>
+                <text class="arw_text">角色名称</text>
+            </view>
+            <view class="scroll_arw">
+                <view class="arw_con">
+                    <image class="arw_img" src="/imgs/renwu.png"></image>
+                </view>
+                <text class="arw_text">角色名称</text>
+            </view>
+        </scroll-view>
+    </view>
+    <!-- 滑块 End -->
+    <!-- 详细介绍 Start -->
+    <view class="s_page_des {{s_page_style == 1?'s_page_hide':''}}">
+        <text class="hide_text">这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述</text>
+        <view class="s_page_xjian" bindtap="s_page_show">
+            <block wx:if="{{s_page_style == 1}}">
+                <image class="s_page_xjian_img" src="/imgs/x_jiantou.png"></image>
+            </block>
+            <block wx:else>
+                <image class="s_page_xjian_img" src="/imgs/s_jiantou.png"></image>
+            </block>
+        </view>
+    </view>
+    <!-- 详细介绍 End -->
+    <!-- 玩家剧照 Start -->
+    <view class="list_con">玩家剧照</view>
+    <view class="list_flex">
+		<view class='page_section'>
+			<view class='flex_item'>
+				<image class="flex_img" src="/imgs/home.jpg"/>
+			</view>
+			<view class='flex_item'>
+				<image class="flex_img" src="/imgs/home.jpg"/>
+			</view>
+			<view class='flex_item'>
+				<image class="flex_img" src="/imgs/home.jpg"/>
+			</view>
+			<view class='flex_item'>
+				<image class="flex_img" src="/imgs/home.jpg"/>
+			</view>
+			<view class='flex_item'>
+				<image class="flex_img" src="/imgs/home.jpg"/>
+			</view>
+			<view class='flex_item'>
+				<image class="flex_img" src="/imgs/home.jpg"/>
+			</view>
+		</view>
+	</view>
+    <!-- 玩家剧照 End -->
+</view>

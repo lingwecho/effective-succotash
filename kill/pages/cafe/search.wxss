@@ -1,0 +1,133 @@
+/* pages/cafe/search.wxss */
+
+
+/* 一条桌游吧的样式 */
+
+.a_record {
+    position: relative;
+    width: 100%;
+    margin: 20rpx auto;
+    background: #fff;
+}
+
+.a_record .a_record_con {
+    padding: 20rpx;
+    line-height: 50rpx;
+}
+
+.a_record .a_record_t {
+    display: block;
+}
+
+.a_record_top {
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.a_record .a_record_rightt {
+    margin-left: 20rpx;
+}
+
+.a_record .drama_coll {
+    position: absolute;
+    bottom: 0rpx;
+    right: 20rpx;
+    padding: 0 10rpx;
+}
+
+.coll_img {
+    width: 50rpx;
+    height: 50rpx;
+}
+
+.drama_tou_img {
+    width: 100%;
+    height: 160rpx;
+}
+
+.drama_des {
+    width: 440rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/* 活动列表样式 城市 */
+
+.drama_list_top {
+    padding: 10rpx 20rpx;
+    padding-bottom: 0;
+}
+
+.top_con {
+    height: 70rpx;
+}
+
+.top_left {
+    width: 160rpx;
+}
+
+.top_middle {
+    width: 420rpx;
+}
+
+.top_con .cafe {
+    height: 100%;
+    background: #fff;
+    border-radius: 50rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20rpx;
+}
+
+.x_jiantou {
+    width: 30rpx;
+    height: 30rpx;
+}
+
+
+/* 活动列表样式  搜索框 */
+
+.drama_search_top {
+    height: 75rpx;
+    padding: 10rpx 20rpx;
+    border-bottom: 1rpx solid #BBBBBB;
+}
+
+.screen {
+    width: 82%;
+    height: 100%;
+    background: #fff;
+    border-radius: 50rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancel {
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_con {
+    width: 100%;
+    height: 100%;
+}
+
+.screen_img {
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+    width: 30rpx;
+    height: 30rpx;
+}
+
+.screen_con {
+    width: 95%;
+}

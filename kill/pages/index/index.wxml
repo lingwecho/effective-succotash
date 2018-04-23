@@ -1,0 +1,47 @@
+<!--index.wxml-->
+<view class="index">
+  	<view class="act_top">
+        <view class="fl act_left" bindtap="bindViewTap" >
+            <view class="act_con">
+                <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录</button>
+                <block wx:else>
+                    <view class="fl user">
+                        <image class="fl act_avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+                    </view>
+                    <view class="fl actmotto">
+                        <text class="act_nickname">{{userInfo.nickName}}</text>
+                    </view>
+                </block>
+            </view>
+        </view>
+        <view class="fl act_right" bindtap="bindViewTap" ><image class="share" src="/imgs/r_jiantou.png"></image></view>
+	</view>
+	<block wx:if="{{false}}">
+		<view class="index_con" bindtap="t_coll">
+			<image class="index_con_img" src="/imgs/coll.png"></image>
+			<text class="index_con_text">我的收藏</text>
+		</view>
+		<view class="index_con" bindtap="t_take">
+			<image class="index_con_img" src="/imgs/take.png"></image>
+			<text class="index_con_text">即将参加的活动</text>
+		</view>
+		<view class="index_con" bindtap="t_ever">
+			<image class="index_con_img" src="/imgs/part.png"></image>
+			<text class="index_con_text">参加过的活动</text>
+		</view>
+	</block>
+	<block wx:else>
+		<view class="index_con" bindtap="t_exam">
+			<image class="index_con_img" src="/imgs/h_exam.png"></image>
+			<text class="index_con_text">待审核</text>
+		</view>
+		<view class="index_con" bindtap="t_begin">
+			<image class="index_con_img" src="/imgs/begin.png"></image>
+			<text class="index_con_text">即将开始</text>
+		</view>
+		<view class="index_con" bindtap="t_record">
+			<image class="index_con_img" src="/imgs/history.png"></image>
+			<text class="index_con_text">历史记录</text>
+		</view>
+	</block>
+</view>

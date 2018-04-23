@@ -1,0 +1,91 @@
+<!--pages/index/coll.wxml 我的收藏 -->
+<view class="record drama_search">
+    <view class="drama_search_top">
+        <view class="top_con clearfix">
+            <view class="fl screen">
+                <image class="screen_img" src="/imgs/search.png"></image>
+                <input class="screen_con" type="text"></input>
+            </view>
+        </view>
+    </view>
+    <!-- 我的收藏-剧本 -->
+    <view class="mycoll_name">我收藏的剧本</view>
+    <view class="a_record">
+        <navigator url="../drama/s_page?id=22">
+        <view class="a_record_con clearfix">
+            <view class="fl a_record_leftt">
+                <image class="drama_tou_img" src="/imgs/home.jpg"></image>
+            </view>
+            <view class="fl a_record_rightt">
+                <text decode class="a_record_t">率土之滨</text>
+                <text class="a_record_t">
+                    <text class="drama_label">标签1</text>
+                    <text class="drama_label">标签2</text>
+                    <text class="drama_label">标签3</text>
+                </text>
+                <text decode class="a_record_t drama_des">这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述</text>
+            </view>
+            <view class="fr drama_coll">
+                <image class="coll_img" src="/imgs/coll.png"></image>
+            </view>
+        </view>
+        </navigator>
+    </view>
+    <view class="a_record">
+        <navigator url="../drama/s_page?id=22">
+        <view class="a_record_con clearfix">
+            <view class="fl a_record_leftt">
+                <image class="drama_tou_img" src="/imgs/home.jpg"></image>
+            </view>
+            <view class="fl a_record_rightt">
+                <text decode class="a_record_t">率土之滨</text>
+                <text decode class="a_record_t">
+                    <text class="drama_label">标签3</text>
+                    <text class="drama_label">标签2</text>
+                    <text class="drama_label">标签1</text>
+                </text>
+                <text decode class="a_record_t drama_des">这是剧本描述这是剧本描述这是剧本描述这是剧本描述</text>
+            </view>
+            <view class="fr drama_coll">
+                <image class="coll_img" src="/imgs/coll.png"></image>
+            </view>
+        </view>
+        </navigator>
+    </view>
+    <!-- 我的收藏-桌游吧 -->
+    <view class="mycoll_name">我收藏的桌游吧</view>
+    <view class="a_coll">
+        <navigator url="../cafe/details?id=33">
+            <view class="a_coll_cafe">
+                <image class="a_coll_cafe_img" src="/imgs/home.jpg"></image>
+            </view>
+            <view class="a_coll_con">
+                <view class="a_coll_bottom">
+                    <view class="fl a_coll_text a_coll_top"><text>门店名称:</text>北京XX桌游</view>
+                    <view class="fl a_coll_text a_coll_top"><text>地址:</text>北京朝阳区北京朝阳区北京朝阳区</view>
+                    <view class="a_coll_text coll_drama_top"><text>门店描述:</text>这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述</view>
+                </view>
+                <view class="fr coll_drama_img">
+                    <image class="coll_img" src="/imgs/coll.png"></image>
+                </view>
+            </view>
+        </navigator>
+    </view>
+    <view class="a_coll">
+        <navigator url="../cafe/details?id=33">
+        <view class="a_coll_cafe">
+            <image class="a_coll_cafe_img" src="/imgs/home.jpg"></image>
+        </view>
+        <view class="a_coll_con">
+            <view class="a_coll_bottom">
+                <view class="fl a_coll_text a_coll_top"><text>门店名称:</text>北京XX桌游</view>
+                <view class="fl a_coll_text a_coll_top"><text>地址:</text>北京朝阳区北京朝阳区北京朝阳区</view>
+                <view class="a_coll_text coll_drama_top"><text>门店描述:</text>这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述</view>
+            </view>
+            <view class="fr coll_drama_img">
+                <image class="coll_img" src="/imgs/coll.png"></image>
+            </view>
+        </view>
+        </navigator>
+    </view>
+</view>

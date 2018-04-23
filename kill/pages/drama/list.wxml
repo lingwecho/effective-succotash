@@ -1,0 +1,47 @@
+<!--pages/drama/list.wxml 剧本列表-->
+<view class="record activity_list">
+    <view class="drama_list_top clearfix">
+        <view class="fl top_con top_left">
+            <view class="cafe">桌游吧<image class="x_jiantou" src="/imgs/x_jiantou.png"></image></view>
+        </view>
+        <view class="fl top_con top_middle">
+            <view class="screen">
+                <image class="screen_img" src="/imgs/search.png"></image>
+                <input class="screen_con" type="text"></input>
+            </view>
+        </view>
+        <view class="fr top_con top_right">
+            <view class="add">
+                <image class="add_img" src="/imgs/jiahao.png"></image>
+            </view>
+        </view>
+    </view>
+    <block wx:for="{{dramadata}}" wx:for-item="drama">
+        <view class="a_record">
+            <navigator url="../drama/s_page?id=22">
+            <view class="a_record_con clearfix">
+                <view class="fl a_record_leftt">
+                    <image class="drama_tou_img" src="{{drama.drama_img}}"></image>
+                </view>
+                <view class="fl a_record_rightt">
+                    <text decode class="a_record_t record_text">{{drama.drama_name}}</text>
+                    <text class="a_record_t">
+                        <block wx:for="{{drama.drama_label}}" wx:for-item="label">
+                            <text class="drama_label">{{label.label}}</text>
+                        </block>
+                    </text>
+                    <text decode class="a_record_t drama_des">{{drama.drama_des}}</text>
+                </view>
+                <view class="fr drama_coll">
+                    <block wx:if="{{drama.drama_coll}}">
+                        <image class="coll_img" src="/imgs/coll.png"></image>
+                    </block>
+                    <block wx:else>
+                        <image class="coll_img" src="/imgs/wei_coll.png"></image>
+                    </block>
+                </view>
+            </view>
+            </navigator>
+        </view>
+    </block>
+</view>

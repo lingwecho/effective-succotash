@@ -1,0 +1,109 @@
+<!--pages/activity/activity.wxml 活动详情-->
+<view class="activity">
+    <!-- act_top 头像及时间 -->
+    <view class="act_top">
+        <view class="fl act_left">
+            <view class="act_con">
+                <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录</button>
+                <block wx:else>
+                    <view class="fl user">
+                        <image bindtap="bindViewTap" class="fl act_avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+                    </view>
+                    <view class="fl actmotto">
+                        <text class="act_nickname">{{userInfo.nickName}}</text>
+                        <text class="act_motto">{{motto}}<text decode>&nbsp;&nbsp;</text><text>待店家确认</text>/<text>已认证</text></text>
+                    </view>
+                </block>
+            </view>
+        </view>
+        <view class="fl act_right"><image class="share" src="/imgs/cafe_btn.png"></image></view>
+    </view>
+    <!-- 发起者的描述 -->
+    <view class="act_describe">
+        <text>发起者的描述:</text><text>这是发起者的描述这是发起者的描述这是发起者的描述这是发起者的描述</text>
+    </view>
+    <!-- 剧本名称及描述 -->
+    <view class="drama clearfix">
+        <view class="fl drama_tx">
+            <image class="fl drama_avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        </view>
+        <view class="fl actmotto">
+            <text class="act_nickname">{{userInfo.nickName}}</text>
+            <view class="drama_lab">
+                <text class="drama_label">标签1</text>
+                <text class="drama_label">标签2</text>
+                <text class="drama_label">标签3</text>
+            </view>
+        </view>
+        <view></view>
+    </view>
+    <view class="drama_des {{drama_style == 1?'drama_hide':''}}">
+        <text class="hide_text">这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述</text>
+        <view class="drama_xjian" bindtap="drama_show">
+            <block wx:if="{{drama_style == 1}}">
+                <image class="drama_xjian_img" src="/imgs/x_jiantou.png"></image>
+            </block>
+            <block wx:else>
+                <image class="drama_xjian_img" src="/imgs/s_jiantou.png"></image>
+            </block>
+        </view>
+    </view>
+    <!-- 门店名称及描述 -->
+    <view class="store_des">
+        <image class="store_img" src="/imgs/home.jpg"></image>
+        <view class="store_text">
+            <view>
+                <text>门店名称:</text>
+            </view>
+            <view>
+                <text>门店描述:</text>
+            </view>
+            <view>
+                <text>地址<text class="fr" decode>&gt;</text></text>
+            </view>
+        </view>
+    </view>
+    <!-- 参加人数 -->
+    <view class="part_num clearfix">
+        <view class="part_con">
+            <view class="part_top">
+                <text>共有<text class="tcolor" decode> 7 </text>个名额，参加<text class="tcolor" decode> 4 </text>人</text>
+            </view>
+            <view class="part_middle clearfix">
+                <view class="fl part_peo">
+                    <image class="part_avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+                    <text class="act_nickname">{{userInfo.nickName}}</text>
+                </view>
+                <view class="fl part_peo">
+                    <image class="part_avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+                    <text class="act_nickname">{{userInfo.nickName}}</text>
+                </view>
+                <view class="fl part_peo">
+                    <image class="part_avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+                    <text class="act_nickname">{{userInfo.nickName}}</text>
+                </view>
+                <view class="fl part_peo">
+                    <image class="part_avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+                    <text class="act_nickname">{{userInfo.nickName}}</text>
+                </view>
+            </view>
+            <view class="part_bottom">
+                <view>
+                    <text>活动还差<text>3</text>人，赶紧报名吧~</text>
+                </view>
+                <view>
+                    <text>活动发布时间:<text decode>2018年3月14日 16:50</text></text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <!-- 按钮 -->
+    <view class="bottom_btn">
+        <block wx:if="{{true}}">
+            <button class="enter_btn">报名参加</button>
+        </block>
+        <block wx:else>
+            <button class="taken_btn">已参加</button>
+        </block>
+    </view>
+</view>

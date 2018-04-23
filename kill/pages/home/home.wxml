@@ -1,0 +1,62 @@
+<!--pages/home/home.wxml 主页-->
+<view class='home'>
+	<!-- TOP -->
+	<view class="top">
+        <block wx:if="{{false}}">
+            <view class="top_con" bindtap="t_index">
+                <view class="fl top_bm">已报名</view><view class="fl top_jb">剧本剧本剧本剧本剧本</view><view class="fl top_num tcolor">5</view><view class="fl top_xie tcolor">/</view><view class="fl top_tnum tcolor">7</view><view class="fr r_arrow"><text decode>&gt;</text></view>
+			</view>
+        </block>
+        <block wx:else>
+			<navigator url="../record/begin?id=11">
+				<view class="fl top_con_two top_left">
+					<view class="fl l_arrow"><text decode>&lt;</text></view><view class="fl top_bm_l">即将开始</view><view class="fl top_num_l tcolor">7</view>
+				</view>
+			</navigator>
+			<navigator url="../record/exam?id=11">
+				<view class="fr top_con_two top_right">
+					<view class="fr r_arrow"><text decode>&gt;</text></view><view class="fr top_bm_r">待审核<text decode>&nbsp;&nbsp;&nbsp;&nbsp;</text></view><view class="fr top_num_r tcolor">5</view>
+				</view>
+			</navigator>
+        </block>
+	</view>
+	<!--轮播图-->
+	<view class='carousel'>
+		<swiper class='car' indicator-dots="{{true}}" indicator-active-color="#E53935" autoplay interval="{{4000}}" duration="{{1000}}" circular="{{true}}">
+		<block wx:for="{{imgUrls}}">
+			<swiper-item>
+				<image class="car_img" src="{{item}}"/>
+			</swiper-item>
+		</block>
+		</swiper>
+	</view>
+	<!--列表-->
+	<view class="list_flex">
+		<view class='page_section'>
+			<view class='flex_item fl'>
+				<navigator url="../activity/activity?tid=1">
+					<image class="flex_img" src="/imgs/home.jpg"/>
+					<text class="flex_text">活动</text>
+				</navigator>
+			</view>
+			<view class='flex_item fl'>
+				<navigator url="../drama/s_page?tid=2">
+					<image class="flex_img" src="/imgs/home.jpg"/>
+					<text class="flex_text">剧本</text>
+				</navigator>
+			</view>
+			<view class='flex_item fl'>
+				<navigator url="../cafe/details?tid=3">
+					<image class="flex_img" src="/imgs/home.jpg"/>
+					<text class="flex_text">桌游吧</text>
+				</navigator>
+			</view>
+		</view>
+	</view>
+	<view class="height"></view>
+	<!-- bottom 按钮 -->
+	<view class="bottom_btn">
+		<button type="warn" class="jv join_jv" bindtap="join_jv">入局</button>
+		<button type="warn" class="jv group_jv" bindtap="group_jv">组局</button>
+	</view>
+</view>

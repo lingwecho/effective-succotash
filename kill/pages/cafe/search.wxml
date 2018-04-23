@@ -1,0 +1,34 @@
+<!--pages/cafe/search.wxml 搜索桌游吧-->
+<view class="record drama_search">
+    <view class="drama_search_top">
+        <view class="top_con clearfix">
+            <view class="fl screen">
+                <image class="screen_img" src="/imgs/search.png"></image>
+                <input class="screen_con" type="text" placeholder="找桌游吧"></input>
+            </view>
+            <view class="fl cancel">取消</view>
+        </view>
+    </view>
+    <view class="a_record">
+        <navigator url="../cafe/details?id=33">
+            <view class="a_record_leftt">
+                <image class="drama_tou_img" src="/imgs/home.jpg"></image>
+            </view>
+            <view class="a_record_con">
+                <view class="a_record_rightt">
+                    <view class="fl a_record_t a_record_top"><text>门店名称:</text>北京XX桌游</view>
+                    <view class="fl a_record_t a_record_top"><text>地址:</text>北京朝阳区北京朝阳区北京朝阳区</view>
+                    <view class="a_record_t drama_des"><text>门店描述:</text>这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述这是剧本描述</view>
+                </view>
+                <view class="fr drama_coll">
+                    <block wx:if="{{true}}">
+                        <image class="coll_img" src="/imgs/coll.png"></image>
+                    </block>
+                    <block wx:else>
+                        <image class="coll_img" src="/imgs/wei_coll.png"></image>
+                    </block>
+                </view>
+            </view>
+        </navigator>
+    </view>
+</view>

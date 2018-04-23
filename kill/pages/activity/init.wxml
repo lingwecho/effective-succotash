@@ -1,0 +1,28 @@
+<!--pages/activity/init.wxml 发起活动-->
+<view class="init">
+    <view class="init_con init_bottom clearfix">
+        <picker bindchange="bindDramaChange" value="{{drama_index}}" range="{{drama_array}}">
+            <text class="fl init_text">主题剧本</text>
+            <text class="fl picker">{{drama_array[drama_index]}}</text>
+        </picker>
+    </view>
+    <view class="init_con init_middle clearfix">
+        <picker bindchange="bindCafeChange" value="{{cafe_index}}" range="{{cafe_array}}">
+            <text class="fl init_text">桌游吧</text>
+            <text class="fl picker">{{cafe_array[cafe_index]}}</text>
+        </picker>
+    </view>
+    <view class="init_con init_top clearfix">
+        <picker bindchange="bindTimeChange" value="{{time_index}}" range="{{time_array}}">
+            <text class="fl init_text">时间</text>
+            <text class="fl picker">{{time_array[time_index]}}</text>
+        </picker>
+    </view>
+    <!-- 介绍 -->
+    <view class="introduce">介绍</view>
+    <textarea class="introduce_text" maxlength="-1" placeholder="来组局吧"></textarea>
+    <!-- 按钮 -->
+    <view class="bottom_btn">
+        <button class="enter_btn">发起</button>
+    </view>
+</view>

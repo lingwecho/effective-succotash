@@ -1,0 +1,189 @@
+/* pages/s_page/s_page.wxss */
+
+.s_page {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* top样式 */
+
+.top {
+    padding: 30rpx 40rpx;
+}
+
+.left {
+    width: 235rpx;
+    height: 320rpx;
+    border-radius: 15rpx;
+}
+
+.left .left_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15rpx;
+}
+
+.right {
+    margin-left: 50rpx;
+    width: 365rpx;
+}
+
+.s_page_text {
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 30rpx;
+    font-weight: bold;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.s_page_con {
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.top_button {
+    margin-top: 30rpx;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_btn {
+    width: 40%;
+    background-color: #E53935;
+    color: #FFFFFF;
+}
+
+
+/* 剧本详情滑块 */
+
+.scroll {
+    height: auto;
+    padding: 20rpx 0;
+}
+
+.scroll_rw {
+    white-space: nowrap;
+    height: 390rpx;
+}
+
+.scroll_arw {
+    display: inline-block;
+    width: 260rpx;
+    height: 386rpx;
+    border: 2rpx solid #BBBBBB;
+    margin-right: 50rpx;
+    border-radius: 15rpx;
+}
+
+.arw_con {
+    width: 240rpx;
+    height: 310rpx;
+    margin: 5rpx auto;
+    border: 2rpx solid #BBBBBB;
+    border-radius: 15rpx;
+}
+
+.arw_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15rpx;
+}
+
+.arw_text {
+    display: block;
+    width: 100%;
+    height: 65rpx;
+    line-height: 65rpx;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.scroll_rw .scroll_arw:last-child {
+    margin-right: 0;
+}
+
+
+/* 详细介绍 */
+
+.intro {
+    width: 96%;
+    padding: 0rpx 2% 40rpx;
+    background-color: #FFFFFF;
+}
+
+.s_page_hide .hide_text {
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.s_page_des {
+    font-size: 16px;
+    background: #fff;
+    margin-top: 10rpx;
+    padding: 30rpx 24rpx 0;
+    overflow: hidden;
+}
+
+.s_page_des .s_page_xjian {
+    width: 100%;
+}
+
+.s_page_des .s_page_xjian_img {
+    width: 30rpx;
+    height: 30rpx;
+    margin-left: 45%;
+}
+
+
+/* 玩家剧照 */
+
+.list_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-center;
+}
+
+.page_section {
+    width: 100%;
+    padding: 0px 5px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex_item {
+    width: 45%;
+    margin-bottom: 20rpx;
+    height: 260rpx;
+    border: 1rpx solid #D2D2D2;
+    background-color: #fff;
+}
+
+.flex_item .flex_img {
+    width: 100%;
+    height: 100%;
+}
+
+.list_con {
+    height: 60rpx;
+    line-height: 60rpx;
+    margin-left: 40rpx;
+}

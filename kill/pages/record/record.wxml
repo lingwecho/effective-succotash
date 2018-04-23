@@ -1,0 +1,63 @@
+<!--pages/record/record.wxml 历史记录-->
+<view class="record">
+    <view class="a_record">
+        <view class="a_record_con clearfix">
+            <view class="fl a_record_leftt">
+                <text decode class="a_record_t">主题剧本:</text>
+                <text decode class="a_record_t">地点:</text>
+                <text decode class="a_record_t">时间:</text>
+            </view>
+            <view class="fl a_record_rightt">
+                <text decode class="a_record_t">率土之滨</text>
+                <text decode class="a_record_t">北京XX桌游</text>
+                <text decode class="a_record_t">3月14</text>
+            </view>
+            <view class="fr activity_num">
+                <text>活动编号</text>
+            </view>
+            <view class="fr num">
+                <text>人数:<text>3</text><text>/</text><text>7</text></text>
+            </view>
+        </view>
+    </view>
+    <view class="a_record">
+        <view class="a_record_con clearfix">
+            <view class="fl a_record_leftt">
+                <text decode class="a_record_t">主题剧本:</text>
+                <text decode class="a_record_t">地点:</text>
+                <text decode class="a_record_t">时间:</text>
+            </view>
+            <view class="fl a_record_rightt">
+                <text decode class="a_record_t">率土之滨</text>
+                <text decode class="a_record_t">北京XX桌游</text>
+                <text decode class="a_record_t">3月14</text>
+            </view>
+            <view class="fr activity_num">
+                <text>活动编号</text>
+            </view>
+            <view class="fr num">
+                <text>人数:<text>3</text><text>/</text><text>7</text></text>
+            </view>
+        </view>
+    </view>
+    <view class="a_record">
+        <view class="a_record_con clearfix">
+            <view class="fl a_record_leftt">
+                <text decode class="a_record_t">主题剧本:</text>
+                <text decode class="a_record_t">地点:</text>
+                <text decode class="a_record_t">时间:</text>
+            </view>
+            <view class="fl a_record_rightt">
+                <text decode class="a_record_t">率土之滨</text>
+                <text decode class="a_record_t">北京XX桌游</text>
+                <text decode class="a_record_t">3月14</text>
+            </view>
+            <view class="fr activity_num">
+                <text>活动编号</text>
+            </view>
+            <view class="fr num">
+                <text>人数:<text>3</text><text>/</text><text>7</text></text>
+            </view>
+        </view>
+    </view>
+</view>

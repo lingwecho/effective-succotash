@@ -1,0 +1,62 @@
+/* pages/record/exam.wxss */
+
+
+/* pages/record/begin.wxss */
+
+
+/* 一条记录的样式 */
+
+.a_record {
+    position: relative;
+    width: 94%;
+    margin: 20rpx auto;
+    background: #fff;
+}
+
+.a_record .a_record_con {
+    padding: 40rpx;
+    line-height: 50rpx;
+}
+
+.a_record .a_record_t {
+    display: block;
+}
+
+.a_record .a_record_leftt {
+    text-align: right;
+}
+
+.a_record .a_record_rightt {
+    margin-left: 20rpx;
+}
+
+.a_record .activity_num {
+    position: absolute;
+    top: 40rpx;
+    right: 40rpx;
+    padding: 0 10rpx;
+    font-size: 12px;
+    border: 2rpx solid #8DB7DA;
+    color: #8DB7DA;
+    border-radius: 50rpx;
+}
+
+.a_record .num {
+    position: absolute;
+    bottom: 40rpx;
+    right: 40rpx;
+}
+
+.a_record .icon {
+    width: 50rpx;
+    height: 50rpx;
+}
+
+.a_record .icon_img {
+    width: 50rpx;
+    height: 50rpx;
+}
+
+.o_color {
+    color: #FF9902;
+}

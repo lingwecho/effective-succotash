@@ -1,0 +1,74 @@
+{
+    "pages": [
+        "pages/home/home",
+
+        "pages/index/ever",
+        "pages/index/index",
+        "pages/index/take",
+        "pages/index/coll",
+        "pages/index/data",
+
+        "pages/drama/list",
+        "pages/drama/search",
+        "pages/drama/s_page",
+
+        "pages/cafe/cafe",
+        "pages/cafe/details",
+        "pages/cafe/search",
+
+        "pages/activity/activity",
+        "pages/activity/list",
+        "pages/activity/manage",
+        "pages/activity/init",
+
+        "pages/record/record",
+        "pages/record/exam",
+        "pages/record/begin"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#9A0000",
+        "navigationBarTitleText": "剧本杀",
+        "navigationBarTextStyle": "white",
+        "enablePullDownRefresh": false,
+        "backgroundColor": "#9A0000"
+    },
+    "tabBar": {
+        "color": "#74777e",
+        "selectedColor": "#f06000",
+        "borderStyle": "white",
+        "backgroundColor": "#2F2F2F",
+        "list": [{
+                "pagePath": "pages/home/home",
+                "iconPath": "imgs/home_btn.png",
+                "selectedIconPath": "imgs/home_btnsel.png",
+                "text": "主页"
+            },
+            {
+                "pagePath": "pages/drama/list",
+                "iconPath": "imgs/drama_btn.png",
+                "selectedIconPath": "imgs/drama_btnsel.png",
+                "text": "剧本"
+            },
+            {
+                "pagePath": "pages/cafe/cafe",
+                "iconPath": "imgs/cafe_btn.png",
+                "selectedIconPath": "imgs/cafe_btnsel.png",
+                "text": "桌游吧"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "imgs/index_btn.png",
+                "selectedIconPath": "imgs/index_btnsel.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "connectSocket": 10000,
+        "uploadFile": 10000,
+        "downloadFile": 10000
+    },
+    "debug": true
+}
