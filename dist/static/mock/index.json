@@ -1,0 +1,119 @@
+{
+	"ret":true,
+	"data":{
+		"swiperList":[
+        	{
+        		"id":"0001",
+        		"swiperURL":"https://imgs.qunarzz.com/piao/fusion/1708/f1/ee65a13642c95c02.jpg_750x200_3440fec0.jpg"
+        	},	{
+        		"id":"0002",
+        		"swiperURL":"https://imgs.qunarzz.com/piao/fusion/1804/dd/269c3dafd51a2502.jpg_750x200_4fb86e3e.jpg"
+        	},  {
+        		"id":"0003",
+        		"swiperURL":"https://imgs.qunarzz.com/piao/fusion/1804/c4/1cdd28811593b802.jpg_750x200_5fbb7c91.jpg"
+        	},  {
+        		"id":"0004",
+        		"swiperURL":"https://imgs.qunarzz.com/piao/fusion/1804/5e/fe34170c403d1202.jpg_750x200_40d539e1.jpg"
+        	}
+        ],
+        "recommendList":[
+			{
+				"id":"001",
+				"imgURL":"http://img1.qunarzz.com/sight/p0/201305/31/059a23e51a5cab27c8d65eac.jpg_200x200_f7ba3796.jpg",
+				"title":"黄金海岸",
+				"desc":"浪漫的海洋世界唯美的世界"
+			},	{
+				"id":"002",
+				"imgURL":"http://img1.qunarzz.com/sight/p0/1707/68/6857311108984e5ea3.img.jpg_200x200_86426f1e.jpg",
+				"title":"渔岛",
+				"desc":"浪漫的海洋世界唯美的世界"
+			},	{
+				"id":"003",
+				"imgURL":"http://img1.qunarzz.com/sight/p0/1612/52/52395bcad168baa3.water.jpg_200x200_da526cd0.jpg",
+				"title":"黄金海岸",
+				"desc":"浪漫的海洋世界唯美的世界"
+			},	{
+				"id":"004",
+				"imgURL":"http://img1.qunarzz.com/sight/p0/201305/31/059a23e51a5cab27c8d65eac.jpg_200x200_f7ba3796.jpg",
+				"title":"了岛",
+				"desc":"浪漫的海洋世界唯美的世界"
+			},	{
+				"id":"005",
+				"imgURL":"http://img1.qunarzz.com/sight/p0/1408/18/7150b0eb744ab4fc2884583e8f1b81b1.jpg_200x200_c4c4dd49.jpg",
+				"title":"仙螺岛",
+				"desc":"浪漫的海洋世界唯美的世界"
+			}
+		],
+	    "iconList":[
+    		{
+    			"id":"001",
+    			"imgURL":"http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+    			"desc":"景点门票"
+    		},	{
+    			"id":"002",
+    			"imgURL":"http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+    			"desc":"一日游"
+    		},	{
+    			"id":"003",
+    			"imgURL":"http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png",
+    			"desc":"自然景光"
+    		},	{
+    			"id":"004",
+    			"imgURL":"http://img1.qunarzz.com/piao/fusion/1803/3e/86314b2af03b7502.png",
+    			"desc":"水上乐园"
+    		},	{
+    			"id":"005",
+    			"imgURL":"http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png",
+    			"desc":"亲子游"
+    		},	{
+    			"id":"006",
+    			"imgURL":"http://img1.qunarzz.com/piao/fusion/1803/27/dac2bcf9added702.png",
+    			"desc":"名胜古迹"
+    		},	{
+    			"id":"007",
+    			"imgURL":"http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+    			"desc":"海滨渔岛"
+    		},	{
+    			"id":"008",
+    			"imgURL":"http://img1.qunarzz.com/piao/fusion/1803/f5/a963333e1fa802.png",
+    			"desc":"本地游玩"
+    		},	{
+    			"id":"009",
+    			"imgURL":"http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+    			"desc":"必玩榜单"
+    		},	{
+    			"id":"010",
+    			"imgURL":"http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+    			"desc":"全部游乐"
+    		}
+    	],
+		"weekendList":[
+			{
+				"id":"001",
+				"imgURL":"http://img1.qunarzz.com/sight/source/1509/9a/5b27704a304e03.jpg_r_640x214_595073c3.jpg",
+				"title":"黄金海岸",
+				"desc":"浪漫的海洋世界唯美的世界"
+			},	{
+				"id":"002",
+				"imgURL":"http://img1.qunarzz.com/sight/source/1507/82/06e79c5f8d6e7.jpg_r_640x214_5e63707e.jpg",
+				"title":"渔岛",
+				"desc":"浪漫的海洋世界唯美的世界"
+			},	{
+				"id":"003",
+				"imgURL":"http://img1.qunarzz.com/sight/source/1703/e1/93571b553ed1aa.jpg_r_640x214_a7c8c3f6.jpg",
+				"title":"黄金海岸",
+				"desc":"浪漫的海洋世界唯美的世界"
+			},	{
+				"id":"004",
+				"imgURL":"http://img1.qunarzz.com/sight/source/1509/9a/5b27704a304e03.jpg_r_640x214_595073c3.jpg",
+				"title":"了岛",
+				"desc":"浪漫的海洋世界唯美的世界"
+			},	{
+				"id":"005",
+				"imgURL":"http://img1.qunarzz.com/sight/source/1509/9a/5b27704a304e03.jpg_r_640x214_595073c3.jpg",
+				"title":"仙螺岛",
+				"desc":"浪漫的海洋世界唯美的世界"
+			}
+		]
+	}
+}
